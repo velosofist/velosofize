@@ -22,4 +22,7 @@ The map is available by default in the following smartphone applications:
 
 -
 
-![test image](attachments/image.png)
+## Useful links
+
+[Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles)
+
