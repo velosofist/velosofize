@@ -22,4 +22,4 @@ The map is available by default in the following smartphone applications:
 
 -
 
-![image test](image.png)
+![test image](attachments/image.png)
