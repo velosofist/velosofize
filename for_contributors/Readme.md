@@ -1,13 +1,27 @@
 # For contributors
 
-In planning about how to organize this project beyond its central component - the [My maps map]() - I came across other ways to view and edit copies of the map and other projects that one can contribute to.
-The map can be presented in a tuple format (.kml) that can be modified with scripts.
+- [For contributors](#for-contributors)
+  - [Contributing through Github](#contributing-through-github)
+  - [Alternatives (How else can I help?)](#alternatives-how-else-can-i-help)
+    - [CyclOSM](#cyclosm)
+    - [NGOs in the field](#ngos-in-the-field)
+  - [Format conversion](#format-conversion)
+    - [KMZ -\> KML](#kmz---kml)
+    - [KML -\> geoJson](#kml---geojson)
+
+## Contributing through Github
+
+The work in Github aims to ensure that a relatively transparent and trustworthy process to suggest and make changes to the map is followed.
+The plan is to collect suggestions for new features on the map by users from Google Forms and attached maps and to document their approval process through pull requests, where an approver needs to prove that they visited the marked locations and routes. Though this will slow down updates to the map and may seem pedantic, it aims to ensure that certain standards are applied to all newly added routes.
+
+In planning about how to organize this project beyond its central component - the [Google My Maps map]() - I came across other ways to view and edit copies of the map and other projects that one can contribute to.
+The map can be presented in text format (.kml) that can be modified with scripts.
 
 ## Alternatives (How else can I help?)
 
 ### CyclOSM
 
-[CyclOSM](cyclosm.org) is based on an open-source project called OpenStreetMap and seems to have the best coverage of official bike lanes in Bulgaria and international routes. It is, however, **not** accessible thorugh Google's various services and is therefore not equivalent to the goals of this current project, which aims to be as widely available as possible on software that most Bulgarian mobile users already have and understand. Furthermore, it doesn't seem to support satellite imagery, Street and 3D view, which are very helpful when planning a route. It is still a great resource worth contributing to and is easier to find by foreigners. 
+[CyclOSM](cyclosm.org) is based on an open-source project called OpenStreetMap and seems to have the best coverage of official bike lanes in Bulgaria and international routes. It is, however, **not** accessible through Google's various services and is therefore not equivalent to the goals of this current project, which aims to be as widely available as possible on software that most Bulgarian mobile users already have and understand. Furthermore, it doesn't seem to support satellite imagery, Street and 3D view, which are very helpful when planning a route. It is still a great resource worth contributing to and is easier to find by foreigners. 
 CyclOSM focuses on a **more objective approach to cycling routes**, as it aims to document existing dedicated infrastructure and not reflect subjective opinions of contributors.
 Some excerpts from their about page:
 
@@ -21,13 +35,15 @@ The map is available by default in the following smartphone applications:
 
 ### NGOs in the field
 
-[Велоеволюция]() and [Sofenhagen]() are two NGOs which publish information and 
+[Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia) and [Sofenhagen](sofenhagen.com) are two NGOs that have published information, events and maps throughout the years, which the users of this project will surely find useful.
+Велоеволюция in particular was critical for the creation of velosofize, as the first draft of the map was largely based on their own map of official bike lanes in Sofia. They don't, however, seem to be actively maintaining their resources currently.
+Sofenhagen has a map with many routes in the west of Sofia, which is a good complement to the routes included in the "personal edition" of the velosofize map.
 
 ## Format conversion
 
 ### KMZ -> KML
 
-KMZ is simpy an archive containing the KML file, so:
+KMZ is simply an archive containing the KML file, so:
 
 ```bash
 sudo apt install unzip
@@ -38,11 +54,9 @@ unzip your_map.kmz
 
 [mapbox/togeojson](https://github.com/mapbox/togeojson)
 
-Installation on Linux:
+Installation and use on Linux:
 
 ```bash
 npm install -g @mapbox/togeojson
 togeojson your_map.kml > your_map.geojson
 ```
-
-A script is used to remove pins from the map because ` togeojson ` does not convert the map in its entirety, but displays all pins black and without formatting.
