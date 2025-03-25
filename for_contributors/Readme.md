@@ -2,6 +2,9 @@
 
 - [For contributors](#for-contributors)
   - [Contributing through Github](#contributing-through-github)
+    - [VSCode](#vscode)
+    - [Who is the map for?](#who-is-the-map-for)
+    - [Review process](#review-process)
   - [Alternatives (How else can I help?)](#alternatives-how-else-can-i-help)
     - [CyclOSM](#cyclosm)
     - [NGOs in the field](#ngos-in-the-field)
@@ -17,11 +20,44 @@ The plan is to collect suggestions for new features on the map by users from Goo
 In planning about how to organize this project beyond its central component - the [Google My Maps map]() - I came across other ways to view and edit copies of the map and other projects that one can contribute to.
 The map can be presented in text format (.kml) that can be modified with scripts.
 
+### VSCode
+
+- [Install Visual Studio Code.](https://code.visualstudio.com/) Other text editors could also be used, as the critical thing is to just use git for version control and traceablity. If you know what you're doing, feel free. Having a similar workspace between most contributors would make work easier and would help set some standards for the documentation.
+
+- Clone this repository. This means you'll have a local copy of the project and can start contributing:
+
+[Install Git bash (if on Windows)](https://git-scm.com/downloads/win)
+
+```bash
+cd your_desired_directory
+git clone https://github.com/velosofist/velosofize.git
+```
+
+- In VSCode go to **File -> Open folder** and choose a directory to clone the repository into.
+- Go to the extensions tab and search for " @recommended ".
+- Install all recommended extensions you're comfortable with. These will help visualize maps from .kml and .geojson files, help you write documentation and make everything more readable.
+- Take a second to look through the extensions to get a basic idea of what they're used for and how.
+- [Learn some basic Git.](https://daily.dev/blog/contributing-to-open-source-github-a-beginners-guide#:~:text=Learn%20how%20to%20contribute%20to%20open%20source%20GitHub,and%20GitHub%2C%20find%20projects%2C%20make%20contributions%2C%20and%20more.)
+- Start contributing by using the Source control tab in VSCode.
+
+### Who is the map for?
+
+Assuming a certain profile for a user of this project might be helpful in determining its goals and the criteria applied to accepting and categorizing routes in the city.
+Assume the following when reviewing a request - The cyclist whoĺl be using this is:
+
+- 18+ and of average ablility to be aware of and judge the situation on the road.
+- A casual cyclist
+  - Just trying to get to work or university in the city
+  - Just trying to enjoy some nature outside of the city (past the ring road or in the big parks)
+- Riding a fairly cheap mountain bike without much gear
+
+### Review process
+
 ## Alternatives (How else can I help?)
 
 ### CyclOSM
 
-[CyclOSM](cyclosm.org) is based on an open-source project called OpenStreetMap and seems to have the best coverage of official bike lanes in Bulgaria and international routes. It is, however, **not** accessible through Google's various services and is therefore not equivalent to the goals of this current project, which aims to be as widely available as possible on software that most Bulgarian mobile users already have and understand. Furthermore, it doesn't seem to support satellite imagery, Street and 3D view, which are very helpful when planning a route. It is still a great resource worth contributing to and is easier to find by foreigners. 
+[CyclOSM](cyclosm.org) is based on an open-source project called OpenStreetMap and seems to have the best coverage of official bike lanes in Bulgaria and international routes. It is, however, **not** accessible through Google's various services and is therefore not equivalent to the goals of this current project, which aims to be as widely available as possible on software that most Bulgarian mobile users already have and understand. Furthermore, it doesn't seem to support satellite imagery, Street and 3D view, which are very helpful when planning a route. It is still a great resource worth contributing to and is easier to find by foreigners.
 CyclOSM focuses on a **more objective approach to cycling routes**, as it aims to document existing dedicated infrastructure and not reflect subjective opinions of contributors.
 Some excerpts from their about page:
 

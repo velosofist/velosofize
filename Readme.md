@@ -1,11 +1,21 @@
-[За версия на български натиснете тук.](Readme_bg.md)
+[**За версия на български натиснете тук.**](Readme_bg.md)
 
+**Table of contents:**
+- [What's the point of this project?](#whats-the-point-of-this-project)
+- [Laws and rulebooks](#laws-and-rulebooks)
 - [Alternatives](#alternatives)
   - [CyclOSM](#cyclosm)
   - [Strava heatmap](#strava-heatmap)
   - [Komoot](#komoot)
 - [Useful links](#useful-links)
 
+## What's the point of this project?
+
+
+
+## Laws and rulebooks
+
+This section is only available in the Bulgarian version for now. [Click here](Readme_bg.md#закони-и-правилници).
 
 ## Alternatives
 
