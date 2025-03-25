@@ -22,7 +22,7 @@ The map can be presented in text format (.kml) that can be modified with scripts
 
 ### VSCode
 
-- [Install Visual Studio Code.](https://code.visualstudio.com/) Other text editors could also be used, as the critical thing is to just use git for version control and traceablity. If you know what you're doing, feel free. Having a similar workspace between most contributors would make work easier and would help set some standards for the documentation.
+- [Install Visual Studio Code.](https://code.visualstudio.com/) Other text editors could also be used, as the critical thing is to just use git for version control and traceablity. If you know what you're doing, feel free. However, having a similar workspace between most contributors would make work easier and would help set some standards for the documentation.
 
 - Clone this repository. This means you'll have a local copy of the project and can start contributing:
 
