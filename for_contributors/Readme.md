@@ -40,6 +40,8 @@ git clone https://github.com/velosofist/velosofize.git
 - [Learn some basic Git.](https://daily.dev/blog/contributing-to-open-source-github-a-beginners-guide#:~:text=Learn%20how%20to%20contribute%20to%20open%20source%20GitHub,and%20GitHub%2C%20find%20projects%2C%20make%20contributions%2C%20and%20more.)
 - Start contributing by using the Source control tab in VSCode.
 
+![alt text](../attachments/image.png)
+
 ### Who is the map for?
 
 Assuming a certain profile for a user of this project might be helpful in determining its goals and the criteria applied to accepting and categorizing routes in the city.

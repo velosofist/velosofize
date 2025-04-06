@@ -3,9 +3,13 @@
 [**За версия на български натиснете тук.**](Readme_bg.md)
 
 **Table of contents:**
+
 - [🛠 A work in progress 🛠](#-a-work-in-progress-)
   - [What's the point of this project?](#whats-the-point-of-this-project)
+    - [Concept](#concept)
+    - [Free, user-friendly and accountable](#free-user-friendly-and-accountable)
   - [Laws and rulebooks](#laws-and-rulebooks)
+  - [Limitations](#limitations)
   - [Alternatives](#alternatives)
     - [CyclOSM](#cyclosm)
     - [Strava heatmap](#strava-heatmap)
@@ -14,13 +18,31 @@
 
 ## What's the point of this project?
 
+### Concept
 
+While well-connected, bike-friendly public infrastructure is something built over many years, information infrastructure created and popularized by regular citizens about the safe and convenient paths in the existing infrastructure can be the extra help needed for somebody to decide to plan a route to work or into nature.
+
+It may also encourage somebody to just hang out with their bike and explore their town.
+
+Apart from the obvious and immediate quality-of-life improvement on an individual level stemming from cycling, the grassroots popularization of cycling is also crucial for the realization of the long-term wish and demand by many of us to finally enjoy safe dedicated infrastructure, without the needless tension created between cyclists, pedestrians and drivers, as we inevitably get in each other's way due to the current circumstances on the road in the bidgger cities.
+
+### Free, user-friendly and accountable
+
+This project is aimed at being easily usable on some of the most common software that most Bulgarians already have on their phones, so as to leave little barrier of entry - Google Maps, as well as to be available in other file formats for ease of use on other platforms as well.
 
 ## Laws and rulebooks
 
 This section is only available in the Bulgarian version for now. [Click here](Readme_bg.md#закони-и-правилници).
 
+[Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles)
+
+## Limitations
+
+
+
 ## Alternatives
+
+Considering the low coverage of bike infrastructure online and the [Readme.md#limitations] 
 
 ### CyclOSM
 
@@ -53,4 +75,4 @@ Also, many of its features are paid (heatmap is free to use, albeit with ever in
 
 ## Useful links
 
-[Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles)
+

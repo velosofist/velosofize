@@ -197,28 +197,6 @@
         <styleUrl>#icon-1877-AFB42B-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-3713-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>3.713</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-3713-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>5.5695</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-3713">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-3713-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-3713-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-0288D1-3713-nodesc-normal">
       <LineStyle>
         <color>ffd18802</color>
@@ -273,28 +251,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-1A237E-1000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-1A237E-4488-normal">
-      <LineStyle>
-        <color>ff7e231a</color>
-        <width>4.488</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-1A237E-4488-highlight">
-      <LineStyle>
-        <color>ff7e231a</color>
-        <width>6.732</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-1A237E-4488">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-1A237E-4488-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-1A237E-4488-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-1A237E-4488-nodesc-normal">
@@ -10243,8 +10199,7 @@
       <name>Велоалеи (неотделени от движението)</name>
       <Placemark>
         <name>[София]Противопосочна велолента - ул. Княз Борис I</name>
-        <description><![CDATA[Дължина: 600 м.<br>Ширина: 1 м.<br>Еднопосочна велолента на източната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10255,8 +10210,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Сливница - Орион - мост Оряхово - южна алея</name>
-        <description><![CDATA[Дължина: 1,2 км<br>Ширина: 1 м<br>Еднопосочна  велолента от южната страна<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10271,8 +10225,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Сливница - южна</name>
-        <description><![CDATA[Дължина: 1,5 км.<br>Ширина: 1,7-1,8 м.<br>Еднопосочна велолента на южната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10288,8 +10241,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Сливница - север</name>
-        <description><![CDATA[Дължина: 1,5 км.<br>Ширина: 1,7-1,8 м.<br>Еднопосочна велолента на северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10306,8 +10258,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. д-р Петър Дертлиев - изток</name>
-        <description><![CDATA[Длжина: 0.9 км<br>Ширина: 1,5-1,8 м<br>Еднопосочна велолента от източната част<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10324,8 +10275,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Сливница - север</name>
-        <description><![CDATA[Дължина: 1,45 км.<br>Ширина: 1 м.<br>Еднопосочна велолента на северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10336,8 +10286,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Сливница - север</name>
-        <description><![CDATA[Дължина: 400 м.<br>Ширина: 1 м.<br>Еднопосочна велолента на северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10348,8 +10297,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. д-р Петър Дертлиев - запад</name>
-        <description><![CDATA[Длжина: 0,9 км<br>Ширина: 1,5-1,8 м<br>Еднопосочна велолента от западната част<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10363,8 +10311,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - ул. Сребърна, ул. Люба Величкова, ул. Атанас Дуков - север</name>
-        <description><![CDATA[Дължина: 1.2 км.<br>Ширина: 1 м.<br>Еднопосочна велолента в северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10391,8 +10338,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - Студентски град</name>
-        <description><![CDATA[Двупосочна маркирана велоалея от 2те страни на булеварда.<br>Настилка: асфал]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10408,8 +10354,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - жк. Младост</name>
-        <description>Настилка: червен Асфалт</description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10467,8 +10412,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - Бул. Сливница </name>
-        <description><![CDATA[Дължина: 500 м.<br>Еднопосочна велолента на южната част]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10480,8 +10424,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - ул. Сребърна, ул. Люба Величкова, ул. Атанас Дуков - юг</name>
-        <description><![CDATA[Еднопосочна велолента от южната част<br>Настилка: асфалт<br>Дължина: 1,2 км<br>Ширина: 1 м]]></description>
-        <styleUrl>#line-0288D1-3713</styleUrl>
+        <styleUrl>#line-0288D1-3713-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10506,8 +10449,7 @@
       <name>Велоалеи</name>
       <Placemark>
         <name>[София]Велоалея бул. Евлоги Георгиев</name>
-        <description><![CDATA[Еднопосочна велоалея по бул. Евлоги Георгиев. <br>Настилка:тротоарни плочки.]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10521,8 +10463,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея бул. Евлоги Георгиев</name>
-        <description><![CDATA[Двупосочна велоалея по бул. Евлоги Георгиев. <br>Настилка: тротоарни плочки.]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10539,8 +10480,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея бул. Евлоги Георгиев</name>
-        <description><![CDATA[Двупосочна велоалея по бул. Евлоги Георгиев. <br>Настилка: тротоарни плочки.]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10556,8 +10496,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея бул. Цар Борис III</name>
-        <description><![CDATA[Двупосочна споделена велоалея/пешеходна алея. <br>Настилка: Асфалт.]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10571,8 +10510,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея бул. Гоце Делчев</name>
-        <description><![CDATA[Велоалея успоредна на бул. Гоце Делчев изградена по тротоара. <br>Настилка: асфалт.]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10585,8 +10523,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - жк. Младост</name>
-        <description>Настилка: червен Асфалт</description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10616,8 +10553,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - жк. Младост</name>
-        <description>Настилка: червен Асфалт</description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10635,8 +10571,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Ломско шосе</name>
-        <description>Настилка: Асфал</description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10661,8 +10596,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея по бул. Мария</name>
-        <description><![CDATA[Изградена 2012<br>Настилка: Армиран бетон]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10675,8 +10609,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея надлез Надежда</name>
-        <description><![CDATA[Изградена 2012<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10693,8 +10626,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея бул. Бъкстон</name>
-        <description><![CDATA[Изградена в края на 2012<br>Настилка: Армиран бетон]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10707,8 +10639,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. България - бул. Пенчо Славейков - север</name>
-        <description><![CDATA[Настилка: асфалт<br>Двупосочна велоалея по тротоара северна част]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10726,8 +10657,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея -  бул. Царица Йоанна</name>
-        <description><![CDATA[Двупосочна велоалея по бул. Царица Йоанна. <br>Настилка: асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10738,8 +10668,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Никола Мушанов - изток</name>
-        <description><![CDATA[Дължина: 1,45 км.<br>Ширина: 1м.<br>Еднопосочна велолента източна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10752,8 +10681,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Тодор Александров - южна</name>
-        <description><![CDATA[Еднопосочна велолента на южната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10766,8 +10694,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - ул. Ф. Нансен</name>
-        <description><![CDATA[Двупосочна велоалея от западната страна към пл. България<br>Настилка: плочки]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10782,8 +10709,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Копенхаген</name>
-        <description><![CDATA[Двупосочна велоалея<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10825,8 +10751,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. България - север</name>
-        <description><![CDATA[Двупосочна велоалея на северната част<br>Настилка: Уни-павета]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10842,8 +10767,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Дондуков</name>
-        <description><![CDATA[Двупосочна велоалея на южната част<br>Настилка: Павета]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10856,8 +10780,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея по бул. Прага</name>
-        <description><![CDATA[Двупосочна велоалея от едната страна на пътното платно. <br>Настилка: асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10868,8 +10791,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - ул. Г.С. Раковски</name>
-        <description><![CDATA[Двупосочна велоалея по ул. Г.С. Раковски<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10885,8 +10807,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея по ул. Монтевидео</name>
-        <description><![CDATA[Двупосочна от 2те страни на улицата<br>настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10897,8 +10818,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - ул. Обиколна</name>
-        <description>Двупосочна, на южното пътно платно, отделена с гумени разделители</description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10931,8 +10851,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Пейо К. Яворов</name>
-        <description>Двупосочна, на тротоара, отделена с жълта боя.</description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10944,8 +10863,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея бул. Монтевидео</name>
-        <description><![CDATA[Двупосочна велоалеея от 2те страни на пътното платно<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10956,8 +10874,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул Ботеевградско Шосе - юг</name>
-        <description><![CDATA[Двупосочна велоалея в южната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -10989,8 +10906,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - Руски паметник</name>
-        <description><![CDATA[Велоалея около руски паметник<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11006,8 +10922,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Т. Каблешков - юг</name>
-        <description><![CDATA[Еднопосочна велоалея на южната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11018,8 +10933,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Асен Йорданов - бул. Искарско Шосе</name>
-        <description>Настилка: Асфалт</description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11037,8 +10951,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - пл. Македония</name>
-        <description><![CDATA[Двупосочна велоалея на северната част<br>Настилка: Уни-павета]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11065,8 +10978,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Т. Каблешков - север</name>
-        <description><![CDATA[Еднопосочна велоалеяа на северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11081,8 +10993,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул България - запад</name>
-        <description><![CDATA[Еднопосочна велолента на западната част<br>Настилка: Уни-павета / Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11150,8 +11061,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея Западен парк - Запад</name>
-        <description><![CDATA[Двупосочна от западната страна на алеята<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11165,8 +11075,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - Западен Парк - изток</name>
-        <description><![CDATA[Двупосочна от източната страна на алеята<br>Настилка: асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11187,8 +11096,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Дондуков</name>
-        <description><![CDATA[Двупосочна велоалеяа на северната част<br>Настилка: Плочки]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11202,8 +11110,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Скобелев - изток</name>
-        <description><![CDATA[Двупосочна велоалея на източната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11214,8 +11121,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Витоша - изток</name>
-        <description><![CDATA[Двупосочна велоалея на източната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11231,8 +11137,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - срещпосочна - бул. П. Евтимий - юг</name>
-        <description><![CDATA[Еднопосочна велоалея на южната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11243,8 +11148,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бл. П. Евтимий - север</name>
-        <description><![CDATA[Еднопосочна велоалея на северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11255,8 +11159,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Витоша - запад</name>
-        <description><![CDATA[Еднопосочна велолента на западна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11268,8 +11171,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Витоша - запад</name>
-        <description><![CDATA[Дължина:<br>Ширина: 2 м.<br>Двупосочна велоалея на западната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11280,8 +11182,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Витоша - изток</name>
-        <description><![CDATA[Дължина: 1,1 км.<br>Ширина: 1,5-2 м.<br>Еднопосочна  велоалея на източна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11293,8 +11194,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул Ботеевградско Шосе - север</name>
-        <description><![CDATA[Дължина: 700 м.<br>Ширина: 2 м.<br>Двупосочна велоалея в северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11314,8 +11214,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Бул. България - изток</name>
-        <description><![CDATA[Дължина: 600 м.<br>Ширина: 1,5 м.<br>Еднопосочна велоалея от източна страна<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11326,8 +11225,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Бул. България - изток</name>
-        <description><![CDATA[Дължина: 1 км.<br>Ширина: 2 м.<br>Еднопосочна велоалея в източната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11344,8 +11242,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея Надежда</name>
-        <description><![CDATA[Дължина: 1 км.<br>Ширина: 2 м.<br>Двупосочна велоалея в северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11357,8 +11254,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велосипедна алея - Филип Кутев - юг</name>
-        <description><![CDATA[Дължина: 770 м.<br>Ширина: 2 м.<br>Еднопосочна велоалея в южната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11376,8 +11272,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велосипедна Алея - Филип Кутев - север</name>
-        <description><![CDATA[Дължина: 770 м.<br>Ширина: 2 м.<br>Двупосочна велоалея в северната част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11395,8 +11290,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Никола Мушанов - запад</name>
-        <description><![CDATA[Дължина: 1,45 км.<br>Ширина: 1м.<br>Еднопосочна велолента западна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11408,8 +11302,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велолента - бул. Овча Купел - запад</name>
-        <description><![CDATA[Дължина: 360 м.<br>Ширина: 1м.<br>Еднопосочна велолента западна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11420,8 +11313,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул Овча Купел - запад</name>
-        <description><![CDATA[Дължина: 640 м.<br>Ширина: 1м.<br>Еднопосочна велоалея западна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11435,8 +11327,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велосипедна лента - бул. Овча Купел - запад</name>
-        <description><![CDATA[Дължина: 300 м.<br>Ширина: 1,5 м.<br>Еднопосочна велосипедна лента западна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11447,8 +11338,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велосипедна лента - бул. Овча Купел - изток</name>
-        <description><![CDATA[Дължина: 340 м.<br>Ширина: 1,5 м.<br>Еднопосочна велосипедна лента източна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11459,8 +11349,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - бул. Овча Купел - изток</name>
-        <description><![CDATA[Дължина: 800 м.<br>Ширина: 1 м.<br>Еднопосочна велоалея източна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11473,8 +11362,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велосипедна лента - бул. Овча Купел - изток</name>
-        <description><![CDATA[Дължина: 510 м.<br>Ширина: 1,5 м.<br>Еднопосочна велосипедна лента източна част<br>Настилка: Асфалт]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -11497,8 +11385,7 @@
       </Placemark>
       <Placemark>
         <name>[София]Велоалея - Самоковско Шосе</name>
-        <description><![CDATA[Дължина: 2,5к м.<br>Ширина: 2 м.<br>Двупосочна велоалея на западната част<br>Настилка: Асфалт<br>Изградена: 2023 г.]]></description>
-        <styleUrl>#line-1A237E-4488</styleUrl>
+        <styleUrl>#line-1A237E-4488-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -15279,8 +15166,7 @@
           <coordinates>
             23.367098,42.704355,0
             23.3658,42.705987,0
-            23.365932,42.707747,0
-            23.365409,42.70824,0
+            23.3659333,42.7075952,0
           </coordinates>
         </LineString>
       </Placemark>
