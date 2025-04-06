@@ -26,7 +26,19 @@
 [Google Earth](https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ)
 
 Разгелдайте:
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
+<iframe 
+  src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" 
+  width="500" 
+  height="600"
+  style="border:1;"
+  allowfullscreen="" 
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+  <p>Your browser does not support iframes. 
+     You can view the map directly 
+     <a href="https://www.google.com/maps/d/u/0/viewer?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&hl=en">here</a>.
+  </p>
+</iframe>
 
 <img src="attachments/velosofize_personal.png" alt="Alt Text" width="500">
 <img src="attachments/save_to_maps.png" alt="Alt Text" width="500">
