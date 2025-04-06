@@ -1,6 +1,6 @@
 # 🛠 A work in progress 🛠
 
-[**За версия на български натиснете тук.**](Readme_bg.md)
+[**🇧🇬За версия на български натиснете тук.🇧🇬**](Readme_bg.md)
 
 **Table of contents:**
 
