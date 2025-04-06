@@ -77,10 +77,10 @@
 #### Теснолинейки (Септември-Добринище)
 
 [Превоз на велосипеди и ски](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata)\
-<img src="attachments/bdz-rodopska-tesnolineika-bg-3829-original.png" alt="Alt Text" width="500">
+<img src="attachments/outside-wagon-3996-1140x0.jpg" alt="Alt Text" width="500">
 
 [Маршрут](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
-<img src="https://github.com/user-attachments/assets/d18ce69c-42c9-44c6-95a1-05abc5d70a06" alt="Alt Text" width="500">
+<img src="attachments/bdz-rodopska-tesnolineika-bg-3829-original.png" alt="Alt Text" width="500">
 
 ### ЦГМ - Превоз в градски транспорт в София
 
@@ -106,7 +106,7 @@
 [CyclOSM](cyclosm.org) се основава на open-source проект, наречен OpenStreetMap, и изглежда има най-добро покритие на официалните велоалеи в България и международните маршрути. Той обаче **не** е достъпен чрез различните услуги на Google и следователно не съвпада с целите на този проект, които включват да е достъпен на възможно най-широко достъпен софтуер, който повечето български мобилни потребители вече имат и разбират. Освен това изглежда, че не поддържа сателитни изображения, Street и 3D изглед, които са полезни при планирането на маршрути. Все пак CyclOSM е добър ресурс, за който си струва да се допринесе, и със сигурност е по-лесно откриваем за чужденци.
 CyclOSM се фокусира върху **по-обективен подход към велосипедните маршрути**, тъй като има за цел да документира съществуващата инфраструктура за велосипеди, а не да отразява субективните мнения на допринасящите към картата.
 
-![alt text](image.png)
+![alt text](attachments/cyclosm.png)
 
 ### Strava heatmap
 
