@@ -8,6 +8,8 @@ title: 🛠 Разработва се - Velosofize
 
 - [Картата](#картата)
   - [Лична версия](#лична-версия)
+    - [Google My maps\\](#google-my-maps)
+    - [Google Earth](#google-earth)
   - [Колаборативна версия](#колаборативна-версия)
 - [Закони и правилници](#закони-и-правилници)
   - [ЗДвП - Закон за движение по пътищата](#здвп---закон-за-движение-по-пътищата)
@@ -23,13 +25,13 @@ title: 🛠 Разработва се - Velosofize
 
 ### Лична версия
 
-[Google My maps](https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing)\
-[Google Earth](https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ)
+#### [Google My maps](https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing)\
 
 **Интерактивна карта**:
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
 
-<img src="attachments/velosofize_personal.png" alt="Alt Text" width="500">
+#### [Google Earth](https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ)
+
 <img src="attachments/earth_view.png" alt="Alt Text" width="500">
 
 ### Колаборативна версия
@@ -95,6 +97,7 @@ title: 🛠 Разработва се - Velosofize
 <img src="attachments/outside-wagon-3996-1140x0.jpg" alt="Alt Text" width="500">
 
 [Маршрут](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
+[Маршрут (Google Maps)](https://maps.google.com/maps/?saddr=%D0%96%D0%9F%20%D0%B3%D0%B0%D1%80%D0%B0%20%D0%A1%D0%B5%D0%BF%D1%82%D0%B5%D0%BC%D0%B2%D1%80%D0%B8&daddr=%D0%96%D0%9F%20%D0%B3%D0%B0%D1%80%D0%B0%20%D0%94%D0%BE%D0%B1%D1%80%D0%B8%D0%BD%D0%B8%D1%89%D0%B5&sort=def&dirflg=rT&hl=bg&time=00:00&date=6.04.2025&ttype=dep)\
 <img src="attachments/bdz-rodopska-tesnolineika-bg-3829-original.png" alt="Alt Text" width="500">
 
 ### ЦГМ - Превоз в градски транспорт в София
