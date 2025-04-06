@@ -6,6 +6,7 @@ title: 🇧🇬BG
 
 [**🇬🇧 For the english version click here.**](Readme_en.md)
 
+
 **Съдържание на страницата**
 
 - [🛠 Разработва се - Velosofize](#-разработва-се---velosofize)

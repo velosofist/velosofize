@@ -12,7 +12,6 @@ title: 🇬🇧EN
   - [The maps](#the-maps)
       - [Google Maps (2D)](#google-maps-2d)
       - [Google Earth (3D)](#google-earth-3d)
-    - [Колаборативна версия (Как да допринеса?)](#колаборативна-версия-как-да-допринеса)
     - [Collaborative edition](#collaborative-edition)
   - [What's the point of this project?](#whats-the-point-of-this-project)
     - [Concept](#concept)
@@ -36,13 +35,10 @@ title: 🇬🇧EN
 
 <img src="attachments/earth_view.png" alt="Alt Text" width="500">
 
-### Колаборативна версия (Как да допринеса?)
+### Collaborative edition
 
 * Contribute in Github - Also see the [for contributors](for_contributors/Readme.md) page.
 * Also see [the alternatives](https://github.com/velosofist/velosofize/tree/main/for_contributors) - other projects worth contributing to.
-
-### Collaborative edition
-
 
 ## What's the point of this project?
 
@@ -100,4 +96,4 @@ Also, many of its features are paid (heatmap is free to use, albeit with ever in
 
 ## Useful links
 
-
+-
