@@ -30,7 +30,6 @@ title: 🛠 Разработва се 🛠 Velosofize
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
 
 <img src="attachments/velosofize_personal.png" alt="Alt Text" width="500">
-<img src="attachments/save_to_maps.png" alt="Alt Text" width="500">
 <img src="attachments/earth_view.png" alt="Alt Text" width="500">
 
 ### Колаборативна версия
