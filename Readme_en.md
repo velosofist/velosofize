@@ -1,16 +1,18 @@
 ---
-title: 🛠 A work in progress 🛠
+title: 🇬🇧EN
 ---
 
-# Velosofize
+# 🛠 A work in progress - Velosofize
 
 [**🇧🇬 За версия на български натиснете тук.**](Readme.md)
 
 **Table of contents:**
 
-- [Velosofize](#velosofize)
+- [🛠 A work in progress - Velosofize](#-a-work-in-progress---velosofize)
   - [The maps](#the-maps)
-    - [Personal edition](#personal-edition)
+      - [Google Maps (2D)](#google-maps-2d)
+      - [Google Earth (3D)](#google-earth-3d)
+    - [Колаборативна версия (Как да допринеса?)](#колаборативна-версия-как-да-допринеса)
     - [Collaborative edition](#collaborative-edition)
   - [What's the point of this project?](#whats-the-point-of-this-project)
     - [Concept](#concept)
@@ -25,16 +27,19 @@ title: 🛠 A work in progress 🛠
 
 ## The maps
 
-### Personal edition
-
-[Google My maps](https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing)\
-[Google Earth](https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ)
+#### [Google Maps (2D)](https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing)
 
 **Interactive map**:
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
 
-<img src="attachments/velosofize_personal.png" alt="Alt Text" width="500">
+#### [Google Earth (3D)](https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ)
+
 <img src="attachments/earth_view.png" alt="Alt Text" width="500">
+
+### Колаборативна версия (Как да допринеса?)
+
+* Contribute in Github - Also see the [for contributors](for_contributors/Readme.md) page.
+* Also see [the alternatives](https://github.com/velosofist/velosofize/tree/main/for_contributors) - other projects worth contributing to.
 
 ### Collaborative edition
 
