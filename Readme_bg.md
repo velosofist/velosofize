@@ -77,7 +77,7 @@
 #### Теснолинейки (Септември-Добринище)
 
 [Превоз на велосипеди и ски](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata)\
-<img src="https://github.com/user-attachments/assets/f3cf4d87-f62e-4984-805d-1eba16bce4b4" alt="Alt Text" width="500">
+<img src="attachments/bdz-rodopska-tesnolineika-bg-3829-original.png" alt="Alt Text" width="500">
 
 [Маршрут](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
 <img src="https://github.com/user-attachments/assets/d18ce69c-42c9-44c6-95a1-05abc5d70a06" alt="Alt Text" width="500">
