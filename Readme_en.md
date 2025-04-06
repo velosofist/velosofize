@@ -1,10 +1,14 @@
-# 🛠 A work in progress 🛠 Velosofize
+---
+title: 🛠 A work in progress 🛠
+---
 
-[**🇧🇬За версия на български натиснете тук.🇧🇬**](Readme.md)
+# Velosofize
+
+[**🇧🇬 За версия на български натиснете тук.**](Readme.md)
 
 **Table of contents:**
 
-- [🛠 A work in progress 🛠 Velosofize](#-a-work-in-progress--velosofize)
+- [Velosofize](#velosofize)
   - [The maps](#the-maps)
     - [Personal edition](#personal-edition)
     - [Collaborative edition](#collaborative-edition)

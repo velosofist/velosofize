@@ -1,5 +1,5 @@
 ---
-title: 🛠 Разработва се 🛠 Velosofize
+title: 🛠 Разработва се - Velosofize
 ---
 
 [**For the english version click here.**](Readme_en.md)
