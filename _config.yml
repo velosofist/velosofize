@@ -1,4 +1,4 @@
-remote_theme: jekyll/minima
+remote_theme: "mmistakes/so-simple-theme"  # Chirpy theme repo
 plugins:
   - jekyll-remote-theme
 minima:
