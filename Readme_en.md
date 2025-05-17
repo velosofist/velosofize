@@ -23,6 +23,7 @@ title: 🇬🇧 Home
     - [User-friendly](#user-friendly)
     - [Accountable](#accountable)
   - [Laws and rulebooks](#laws-and-rulebooks)
+    - [Road traffic act](#road-traffic-act)
   - [Other useful projects and apps](#other-useful-projects-and-apps)
     - [CyclOSM](#cyclosm)
     - [Strava heatmap](#strava-heatmap)
@@ -93,6 +94,9 @@ This section is only available in full in the Bulgarian version for now. [Click 
 
 [Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles)
 
+### Road traffic act
+
+[Source - Bulgarian Ministry of Foreign Affairs](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)
 
 > In the context of this Act (...) "Bicycle" is a vehicle on at least two wheels which is set in motion by the muscular force of the person driving it, with exception of wheelchairs.
 
@@ -126,8 +130,6 @@ This section is only available in full in the Bulgarian version for now. [Click 
 > Prohibited is the movement of cyclists in a group for training if in front and behind the group there is no automobile or motorcycle escort.
 
 ## Other useful projects and apps
-
-Considering the low coverage of bike infrastructure online and the [Readme_en.md#limitations], 
 
 ### CyclOSM
 
