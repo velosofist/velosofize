@@ -1,10 +1,10 @@
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: "jekyll/minima@1e8a445"
 plugins:
 - jekyll-remote-theme
 minima:
   skin: auto
 
-show_downloads: true
+show_downloads: false
 
 title: VELOSOFIZE
 
