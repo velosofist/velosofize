@@ -37,7 +37,7 @@ title: VELOSOFIZE
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
 
-#### Легенда 
+#### Легенда
 
 ##### Категории маршрути
 

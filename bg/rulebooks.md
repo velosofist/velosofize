@@ -11,7 +11,7 @@ title: Закони и правилници
 
 ## ЗДвП - Закон за движение по пътищата
 
-[Източник - АПИС](https://legislation.apis.bg/doc/11110/0)
+Източници: [МВнР](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf) и [АПИС](https://legislation.apis.bg/doc/11110/0)
 
 > По смисъла на този закон (...) **"Велосипед" е** пътно превозно средство най-малко с две колела, което се привежда в движение с мускулната сила на лицето, което го управлява, с изключение на инвалидните колички.
 
@@ -63,11 +63,11 @@ title: Закони и правилници
 ### Теснолинейки (Септември-Добринище)
 
 [Превоз на велосипеди и ски](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata)\
-<img src="attachments/tesnolineika_wagon.jpg" alt="Alt Text" width="500">
+<img src="../attachments/tesnolineika_wagon.jpg" alt="Alt Text" width="500">
 
 [Маршрут](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
 [Маршрут (Google Maps)](https://maps.google.com/maps/?saddr=%D0%96%D0%9F%20%D0%B3%D0%B0%D1%80%D0%B0%20%D0%A1%D0%B5%D0%BF%D1%82%D0%B5%D0%BC%D0%B2%D1%80%D0%B8&daddr=%D0%96%D0%9F%20%D0%B3%D0%B0%D1%80%D0%B0%20%D0%94%D0%BE%D0%B1%D1%80%D0%B8%D0%BD%D0%B8%D1%89%D0%B5&sort=def&dirflg=rT&hl=bg&time=00:00&date=6.04.2025&ttype=dep)\
-<img src="attachments/tesnolineika_route.png" alt="Alt Text" width="500">
+<img src="../attachments/tesnolineika_route.png" alt="Alt Text" width="500">
 
 ## ЦГМ - Превоз в градски транспорт в София
 

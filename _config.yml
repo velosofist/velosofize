@@ -5,3 +5,10 @@ minima:
   skin: auto
 
 show_downloads: true
+
+title: VELOSOFIZE
+
+header_pages:
+  - /en/index.md
+  - /bg/about.md
+  - /en/for_contributors.md
