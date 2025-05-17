@@ -7,7 +7,7 @@
     - [Review process](#review-process)
   - [Alternatives (How else can I help?)](#alternatives-how-else-can-i-help)
     - [CyclOSM](#cyclosm)
-    - [NGOs in the field](#ngos-in-the-field)
+    - [Bulgarian biking-oriented NGOs](#bulgarian-biking-oriented-ngos)
   - [Format conversion](#format-conversion)
     - [KMZ -\> KML](#kmz---kml)
     - [KML -\> geoJson](#kml---geojson)
@@ -71,7 +71,7 @@ CyclOSM is built on open-source and free software. The source code is available 
 The map is available by default in the following smartphone applications:
 [OSMAnd](https://osmand.net/), [All-In-One Offline Maps](https://play.google.com/store/apps/details?id=net.psyberia.offlinemaps) or [AlpineQuest Rando GPS](https://alpinequest.net/) and [OpenMultiMaps](https://framagit.org/tom79/openmaps)."
 
-### NGOs in the field
+### Bulgarian biking-oriented NGOs
 
 [Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia) and [Sofenhagen](sofenhagen.com) are two NGOs that have published information, events and maps throughout the years, which the users of this project will surely find useful.
 Велоеволюция in particular was critical for the creation of velosofize, as the first draft of the map was largely based on their own map of official bike lanes in Sofia. They don't, however, seem to be actively maintaining their resources currently.
