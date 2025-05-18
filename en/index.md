@@ -2,26 +2,23 @@
 title: 🇬🇧 Home
 ---
 
-# 🛠 A work in progress - Velosofize
-
 [**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/index.md)
 
 **Table of contents:**
 
-- [🛠 A work in progress - Velosofize](#-a-work-in-progress---velosofize)
-  - [The maps](#the-maps)
-      - [Google Maps (2D)](#google-maps-2d)
-      - [Legend](#legend)
-        - [Route Categories](#route-categories)
-        - [Location Categories](#location-categories)
-      - [Google Earth (3D)](#google-earth-3d)
-    - [Collaborative edition](#collaborative-edition)
-  - [What's the goal of this project?](#whats-the-goal-of-this-project)
-    - [Grass-roots](#grass-roots)
-    - [Free in the long-term and sustainable](#free-in-the-long-term-and-sustainable)
-    - [Platform-independent](#platform-independent)
-    - [User-friendly](#user-friendly)
-    - [Accountable](#accountable)
+- [The maps](#the-maps)
+    - [Google Maps (2D)](#google-maps-2d)
+    - [Legend](#legend)
+      - [Route Categories](#route-categories)
+      - [Location Categories](#location-categories)
+    - [Google Earth (3D)](#google-earth-3d)
+  - [Collaborative edition](#collaborative-edition)
+- [What's the goal of this project?](#whats-the-goal-of-this-project)
+  - [Grass-roots](#grass-roots)
+  - [Free in the long-term and sustainable](#free-in-the-long-term-and-sustainable)
+  - [Platform-independent](#platform-independent)
+  - [User-friendly](#user-friendly)
+  - [Accountable](#accountable)
 
 ## The maps
 

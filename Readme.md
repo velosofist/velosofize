@@ -3,6 +3,21 @@
 ## 🇧🇬
 
 - [За проекта](/velosofize/bg/index.html)
+  - [Картата](/velosofize/bg/index.html#картата)
+    - [Лична версия](/velosofize/bg/index.html#лична-версия)
+      - [Google Maps (2D)](/velosofize/bg/index.html#google-maps-2d)
+      - [Интерактивна карта](/velosofize/bg/index.html#интерактивна-карта)
+      - [Легенда](/velosofize/bg/index.html#легенда)
+        - [Категории маршрути](/velosofize/bg/index.html#категории-маршрути)
+        - [Категории локации](/velosofize/bg/index.html#категории-локации)
+      - [Google Earth (3D)](/velosofize/bg/index.html#google-earth-3d)
+    - [Колаборативна версия (Как да допринеса?)](/velosofize/bg/index.html#колаборативна-версия-как-да-допринеса)
+  - [Цели на проекта](/velosofize/bg/index.html#цели-на-проекта)
+    - [От граждани; за граждани.](/velosofize/bg/index.html#от-граждани-за-граждани)
+    - [Безплатно и дългосрочно достъпно](/velosofize/bg/index.html#безплатно-и-дългосрочно-достъпно)
+    - [Независимост от конкретна платформа](/velosofize/bg/index.html#независимост-от-конкретна-платформа)
+    - [Удобство](/velosofize/bg/index.html#удобство)
+    - [Отчетност](/velosofize/bg/index.html#отчетност)
 - [Закони и правилници](/velosofize/bg/rulebooks.html)
   - [ЗДвП - Закон за движение по пътищата](/velosofize/bg/rulebooks.html#здвп---закон-за-движение-по-пътищата)
   - [БДЖ - Превоз във влак](/velosofize/bg/rulebooks.html#бдж---превоз-във-влак)
@@ -17,7 +32,8 @@
 
 ## 🇬🇧
 
-- [VELOSOFIZE](/velosofize/en/index.html)
+- [About the project](/velosofize/en/index.html)
+
 - [Laws and rulebooks](/velosofize/en/rulebooks.html)
 - [For contributors](/velosofize/en/for_contributors.html)
 - [Alternatives](/velosofize/en/alternatives.html)

@@ -55,7 +55,7 @@ title: VELOSOFIZE
 ### Колаборативна версия (Как да допринеса?)
 
 * За контакт: <velosofize@gmail.com>
-* Допринесете в Github - вижте [for contributors](/velosofize/en/for_contributors.html) страницата.Тя няма да бъде поддържане на български заради спецификите на работата с Git.
+* Допринесете в Github - вижте [for contributors](/velosofize/en/for_contributors.html) страницата. Тя няма да бъде поддържана на български заради спецификите на работата с Git.
 * Вижте също [алтернативите](https://github.com/velosofist/velosofize/tree/main/for_contributors) - други проекти, за които може да допринесете.
 
 ## Цели на проекта
