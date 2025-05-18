@@ -4,10 +4,10 @@ title: VELOSOFIZE
 permalink: /Readme.html
 ---
 
-## 🇧🇬
+## 🇧🇬 Съдържание
 
 - [За проекта](/velosofize/bg/index.html)
-  - [Картата](/velosofize/bg/index.html#картата)
+  - [Карта](/velosofize/bg/index.html#карта)
     - [Лична версия](/velosofize/bg/index.html#лична-версия)
       - [Google Maps (2D)](/velosofize/bg/index.html#google-maps-2d)
       - [Интерактивна карта](/velosofize/bg/index.html#интерактивна-карта)
@@ -33,14 +33,15 @@ permalink: /Readme.html
 
 - [Алтернативи](/velosofize/bg/alternatives.html)
   - [CyclOSM](/velosofize/bg/alternatives.html#cyclosm)
-  - [Български НПО-та в сферата](/velosofize/bg/alternatives.html#български-нпо-та-в-сферата)
+  - [Български НПО-та в сферата](/velosofize/bg/alternatives.html#български-нпо-та-и-проекти-в-сферата)
   - [Strava heatmap](/velosofize/bg/alternatives.html#strava-heatmap)
   - [Komoot](/velosofize/bg/alternatives.html#komoot)
+  - [Копиране на картата за собствени промени](/velosofize/bg/alternatives.html#копиране-на-картата-за-собствени-промени)
 
-## 🇬🇧
+## 🇬🇧 Table of contents
 
 - [About the project](/velosofize/en/index.html)
-  - [Maps](/velosofize/en/index.html#the-maps)
+  - [Maps](/velosofize/en/index.html#maps)
     - [Google Maps (2D)](/velosofize/en/index.html#google-maps-2d)
     - [Legend](/velosofize/en/index.html#legend)
       - [Route Categories](/velosofize/en/index.html#route-categories)
@@ -57,11 +58,13 @@ permalink: /Readme.html
 - [Laws and rulebooks](/velosofize/en/rulebooks.html)
   - [Road traffic act](/velosofize/en/rulebooks.html#road-traffic-act)
   - [Subway](/velosofize/en/rulebooks.html#subway)
+  - [Railway service](/velosofize/en/rulebooks.html#railway-service)
 
 - [For contributors](/velosofize/en/for_contributors.html)
 
 - [Alternatives](/velosofize/en/alternatives.html)
   - [CyclOSM](/velosofize/bg/alternatives.html#cyclosm)
+  - [Bulgarian biking-oriented NGOs and projects](/velosofize/bg/alternatives.html#bulgarian-biking-oriented-ngos-and-projects)
   - [Strava heatmap](/velosofize/bg/alternatives.html#strava-heatmap)
   - [Komoot](/velosofize/bg/alternatives.html#komoot)
   - [Copy the map for personal edits](/velosofize/bg/alternatives.html#copy-the-map-for-personal-edits)

@@ -31,6 +31,8 @@ title: За проекта
 
 ### Интерактивна карта
 
+(⭐) Запази в Google Maps
+
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
 
 ### Легенда
@@ -57,7 +59,7 @@ title: За проекта
 
 - [Софияплан](https://sofiaplan.bg/portfolio/velosipednodvijenie/)
 - [Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia)
-- [CyclOSM](cyclosm.org)
+- [CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm)
 - [Strava heatmap](https://www.strava.com/maps/global-heatmap?sport=Ride&style=standard&terrain=false&labels=true&poi=true&cPhotos=true&gColor=mobileblue&gOpacity=100#7.64/42.856/25.244)
 
 ## Колаборативна версия (Как да допринеса?)
@@ -76,7 +78,7 @@ title: За проекта
 
 ## Безплатно и дългосрочно достъпно
 
-Open-source принципите, като т.нар. [community contributions, version control and forking](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) (сътрудничество, контрол на версиите и разклоняване), гарантират, че съвместната работа може да продължи дори ако създателят на проекта спре да допринася. За разлика от услуга, която може да бъде направена платена или недостъпна във всеки един момент (като напр. [Strava](/velosofize/bg/alternatives.html#Strava)), всеки може да създаде свое собствено копие на проекта (уебсайт в Github Pages, карта в Google My maps и т.н.) и да го остави достъпен и поддържан за други потребители или за лична употреба.
+Open-source принципите, като т.нар. [community contributions, version control and forking](https://opensource.guide/bg/starting-a-project/) (сътрудничество, контрол на версиите и разклоняване), гарантират, че съвместната работа може да продължи дори ако създателят на проекта спре да допринася. За разлика от услуга, която може да бъде направена платена или недостъпна във всеки един момент (като напр. [Strava](/velosofize/bg/alternatives.html#Strava)), всеки може да създаде свое собствено копие на проекта (уебсайт в Github Pages, карта в Google My maps и т.н.) и да го остави достъпен и поддържан за други потребители или за лична употреба.
 
 ## Независимост от конкретна платформа
 
@@ -88,4 +90,4 @@ Open-source принципите, като т.нар. [community contributions, 
 
 ## Отчетност
 
-Ако има достатъчно доброволци, ще бъдат създадени правила за добавяне и одобряване на нови маршрути в [колаборативната версия](/velosofize/en/for_contributors.html) на картата, за да се гарантира, че допринасящите са посещавалите съответните места.
+Ако има достатъчно доброволци, ще бъдат създадени правила за добавяне и одобряване на нови маршрути в [колаборативната версия](/velosofize/bg/index.html#колаборативна-версия-как-да-допринеса) на картата, за да се гарантира, че допринасящите са посещавалите съответните места.

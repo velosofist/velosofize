@@ -9,6 +9,7 @@ title: About the project
 - [Maps](#maps)
   - [Personal edition](#personal-edition)
     - [Google Maps (2D)](#google-maps-2d)
+    - [Interactive map](#interactive-map)
     - [Legend](#legend)
       - [Route Categories](#route-categories)
       - [Location Categories](#location-categories)
@@ -28,7 +29,10 @@ title: About the project
 
 ### [Google Maps (2D)](https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing)
 
-**Interactive map**:
+### Interactive map
+
+(⭐) Save in Google Maps
+
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
 
 ### Legend 
@@ -55,13 +59,13 @@ title: About the project
 
 - [Sofiaplan](https://sofiaplan.bg/portfolio/velosipednodvijenie/)
 - [Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia)
-- [CyclOSM](cyclosm.org)
+- [CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm)
 - [Strava heatmap](https://www.strava.com/maps/global-heatmap?sport=Ride&style=standard&terrain=false&labels=true&poi=true&cPhotos=true&gColor=mobileblue&gOpacity=100#7.64/42.856/25.244)
 
 ## Collaborative edition (How can I contribute)
 
 - Contact: <velosofize@gmail.com>
-- Contribute through Github - more details will be published once enough potential contributors have shown interest. If you're interested, reach out at the email above and see the [for contributors](for_contributors/Readme.md) page.
+- Contribute through Github - more details will be published once enough potential contributors have shown interest. If you're interested, reach out at the email above and see the [for contributors](/velosofize/en/for_contributors.html) page.
 - Also see [the alternatives](/velosofize/en/alternatives.html) - other projects worth contributing to.
 
 # What's the goal of this project?
@@ -76,7 +80,7 @@ Apart from the obvious and immediate quality-of-life improvement on an individua
 
 ## Free in the long-term and sustainable
 
-Principles used in open-source software, such as [community contributions, version control, and forking](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) ensure that collaborative work can continue even if the creator of the project stops contributing and maintaining it — unlike a service which may be put behind a paywall or deprecated at any point (such as [Strava](/velosofize/en/index.md#Strava), anybody or any group of contributors can create a "fork" - their own copy of the project (Github Pages website, Google My maps map, etc.) and keep it accessible and maintained for other users or for personal use.
+Principles used in open-source software, such as [community contributions, version control, and forking](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) ensure that collaborative work can continue even if the creator of the project stops contributing and maintaining it — unlike a service which may be put behind a paywall or deprecated at any point (such as [Strava](/velosofize/en/alternatives.md#Strava), anybody or any group of contributors can create a "fork" - their own copy of the project (Github Pages website, Google My maps map, etc.) and keep it accessible and maintained for other users or for personal use.
 
 ## Platform-independent
 

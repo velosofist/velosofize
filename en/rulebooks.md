@@ -2,15 +2,15 @@
 title: Laws and rulebooks
 ---
 
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/velosofize/bg/rulebooks.html) \
+A more exhaustive version of this page is available in Bulgarian.
+
 - [Laws and rulebooks](#laws-and-rulebooks)
   - [Road traffic act](#road-traffic-act)
   - [Subway](#subway)
+  - [Railway service](#railway-service)
 
 # Laws and rulebooks
-
-This section is available in full in the Bulgarian version. [Click here](/velosofize/bg/rulebooks.html).
-
-[Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles)
 
 ## Road traffic act
 
@@ -54,3 +54,7 @@ This section is available in full in the Bulgarian version. [Click here](/veloso
 > Article 13. (1) Any passenger holding a valid metro pass is entitled to bring: \
 > Free of charge – bicycle - at places in the passenger compartment of the vehicle which are designated and technically secured, when the bicycle does not contaminate the interior and does leave enough space for the passengers, under the conditions of item 2, and in the following cases: a) in the last carriage of a metro train on weekdays until 07.00 a.m. and after 8:00 p.m., and on weekends and holidays - all day.\
 > Free of charge - (...) an individual electric vehicle with no more than two wheels when folded or a child's bicycle with auxiliary wheels, provided that they do not cause inconvenience to other passengers.
+
+## Railway service
+
+[Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles).

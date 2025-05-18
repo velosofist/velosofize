@@ -6,14 +6,14 @@ title: Alternatives
 
 
 - [CyclOSM](#cyclosm)
-- [Bulgarian biking-oriented NGOs](#bulgarian-biking-oriented-ngos)
+- [Bulgarian biking-oriented NGOs and projects](#bulgarian-biking-oriented-ngos-and-projects)
 - [Strava heatmap](#strava-heatmap)
 - [Komoot](#komoot)
 - [Copy the map for personal edits](#copy-the-map-for-personal-edits)
 
 ## CyclOSM
 
-[CyclOSM](cyclosm.org) is based on the data of an open-source project called [OpenStreetMap](openstreetmap.org) and seems to have the best coverage of official bike lanes in Bulgaria and international routes. It is, however, **not** accessible thorugh Google's various services and is therefore not equivalent to the goals of this current project, which aims to be as widely available as possible on software that most Bulgarian mobile users already have and understand. Furthermore, it doesn't seem to support satellite imagery, Street and 3D view, which are very helpful when planning a route.
+[CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm) is based on the data of an open-source project called [OpenStreetMap](openstreetmap.org) and seems to have the best coverage of official bike lanes in Bulgaria and international routes. It is, however, **not** accessible thorugh Google's various services and is therefore not equivalent to the goals of this current project, which aims to be as widely available as possible on software that most Bulgarian mobile users already have and understand. Furthermore, it doesn't seem to support satellite imagery, Street and 3D view, which are very helpful when planning a route.
 
 CyclOSM focuses on a **more objective approach to cycling routes**, as it aims to document existing dedicated infrastructure and not reflect subjective opinions of contributors.
 
@@ -24,7 +24,7 @@ CyclOSM focuses on a **more objective approach to cycling routes**, as it aims t
 
 <img src="../attachments/cyclosm.png" alt="Image" width="500">
 
-## Bulgarian biking-oriented NGOs
+## Bulgarian biking-oriented NGOs and projects
 
 [Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia) and [Sofenhagen](sofenhagen.com) are two NGOs that have published information, events and maps throughout the years, which the users of this project will surely find useful.
 Велоеволюция in particular was critical for the creation of velosofize, as the first draft of the map was largely based on their own map of official bike lanes in Sofia. They don't, however, seem to be actively maintaining their resources currently.
