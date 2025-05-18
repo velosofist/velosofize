@@ -2,7 +2,7 @@
 title: 🇬🇧 Home
 ---
 
-[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/index.md)
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/velosofize/bg/index.html)
 
 **Table of contents:**
 
@@ -76,4 +76,4 @@ Usability on some of the most common apps that most Bulgarians already have on t
 
 ### Accountable
 
-Some rules will be established for the addition and approval of new routes in the [community edition]() of the map to ensure that contributors and approvers have visited them.
+Some rules will be established for the addition and approval of new routes in the [community edition](#collaborative-edition) of the map to ensure that contributors and approvers have visited them.

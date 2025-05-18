@@ -1,4 +1,8 @@
-# Home
+---
+layout: page
+title: VELOSOFIZE
+permalink: /Readme.html
+---
 
 ## 🇧🇬
 
@@ -33,7 +37,19 @@
 ## 🇬🇧
 
 - [About the project](/velosofize/en/index.html)
-
-- [Laws and rulebooks](/velosofize/en/rulebooks.html)
-- [For contributors](/velosofize/en/for_contributors.html)
-- [Alternatives](/velosofize/en/alternatives.html)
+  - [Maps](#the-maps)
+      - [Google Maps (2D)](#google-maps-2d)
+      - [Legend](#legend)
+        - [Route Categories](#route-categories)
+        - [Location Categories](#location-categories)
+      - [Google Earth (3D)](#google-earth-3d)
+    - [Collaborative edition](#collaborative-edition)
+  - [What's the goal of this project?](#whats-the-goal-of-this-project)
+    - [Grass-roots](#grass-roots)
+    - [Free in the long-term and sustainable](#free-in-the-long-term-and-sustainable)
+    - [Platform-independent](#platform-independent)
+    - [User-friendly](#user-friendly)
+    - [Accountable](#accountable)
+  - [Laws and rulebooks](/velosofize/en/rulebooks.html)
+  - [For contributors](/velosofize/en/for_contributors.html)
+  - [Alternatives](/velosofize/en/alternatives.html)
