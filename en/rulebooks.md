@@ -1,3 +1,6 @@
+---
+title: Laws and rulebooks
+---
 
 - [Laws and rulebooks](#laws-and-rulebooks)
   - [Road traffic act](#road-traffic-act)
@@ -5,7 +8,7 @@
 
 # Laws and rulebooks
 
-This section is only available in full in the Bulgarian version for now. [Click here](Readme.md#закони-и-правилници).
+This section is available in full in the Bulgarian version. [Click here](/velosofize/bg/rulebooks.html).
 
 [Railway transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles)
 

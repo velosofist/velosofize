@@ -1,11 +1,15 @@
-- [Alternatives](#alternatives)
-  - [CyclOSM](#cyclosm)
-  - [Strava heatmap](#strava-heatmap)
-  - [Komoot](#komoot)
-  - [Copy the map for personal edits](#copy-the-map-for-personal-edits)
+---
+title: Alternatives
+---
+
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/velosofize/bg/alternatives.html)
 
 
-# Alternatives
+- [CyclOSM](#cyclosm)
+- [Bulgarian biking-oriented NGOs](#bulgarian-biking-oriented-ngos)
+- [Strava heatmap](#strava-heatmap)
+- [Komoot](#komoot)
+- [Copy the map for personal edits](#copy-the-map-for-personal-edits)
 
 ## CyclOSM
 
@@ -19,6 +23,12 @@ CyclOSM focuses on a **more objective approach to cycling routes**, as it aims t
 > [OSMAnd](https://osmand.net/), [All-In-One Offline Maps](https://play.google.com/store/apps/details?id=net.psyberia.offlinemaps) or [AlpineQuest Rando GPS](https://alpinequest.net/) and [OpenMultiMaps](https://framagit.org/tom79/openmaps)"
 
 <img src="../attachments/cyclosm.png" alt="Image" width="500">
+
+## Bulgarian biking-oriented NGOs
+
+[Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia) and [Sofenhagen](sofenhagen.com) are two NGOs that have published information, events and maps throughout the years, which the users of this project will surely find useful.
+Велоеволюция in particular was critical for the creation of velosofize, as the first draft of the map was largely based on their own map of official bike lanes in Sofia. They don't, however, seem to be actively maintaining their resources currently.
+Sofenhagen has a map with many routes in the west of Sofia, which is a good complement to the routes included in the "personal edition" of the velosofize map.
 
 ## Strava heatmap
 
