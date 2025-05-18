@@ -5,6 +5,5 @@ minima:
   skin: auto
 
 show_downloads: false
-
 title: VELOSOFIZE
-description: "description test"
+header_pages:

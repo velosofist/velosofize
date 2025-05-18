@@ -1,3 +1,10 @@
+- [Alternatives](#alternatives)
+  - [CyclOSM](#cyclosm)
+  - [Strava heatmap](#strava-heatmap)
+  - [Komoot](#komoot)
+  - [Copy the map for personal edits](#copy-the-map-for-personal-edits)
+
+
 # Alternatives
 
 ## CyclOSM
