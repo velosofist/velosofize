@@ -6,4 +6,6 @@ minima:
 
 show_downloads: false
 title: VELOSOFIZE
-header_pages:
+header_pages: 
+  - title: "Map"
+    url: "https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
