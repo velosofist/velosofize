@@ -43,7 +43,7 @@ title: About the project
 1. 🔵 Bike lanes (not separated from traffic)
 1. 🟡 "Convenient" - Relatively comfortable and safe streets and shared areas
 1. 🟠 Unpaved or difficult to traverse
-1. 🟣 Wide or unused sidewalks
+1. 🟣 Wide or unused sidewalks (See Section III. Art. 15 of the [Road traffic act](/velosofize/en/rulebooks.html#road-traffic-act).)
 1. ⚪ Unexplored
 
 #### Location Categories
