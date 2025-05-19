@@ -14,7 +14,7 @@ A more exhaustive version of this page is available in Bulgarian.
 
 ## Road traffic act
 
-[Source: Bulgarian Ministry of Foreign Affairs
+Source: Bulgarian Ministry of Foreign Affairs
 
 - [Link 1](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)
 - [Link 2](https://www.mrrb.bg/en/road-traffic-act-rules-on-the-implementation-of-the-road-traffic-act/)
