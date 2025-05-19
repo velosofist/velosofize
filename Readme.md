@@ -17,7 +17,7 @@ permalink: /Readme.html
       - [Google Earth (3D)](/velosofize/bg/index.html#google-earth-3d)
     - [Колаборативна версия (Как да допринеса?)](/velosofize/bg/index.html#колаборативна-версия-как-да-допринеса)
   - [Цели на проекта](/velosofize/bg/index.html#цели-на-проекта)
-    - [От граждани; за граждани.](/velosofize/bg/index.html#от-граждани-за-граждани)
+    - [От и за велосипедисти](/velosofize/bg/index.html#от-и-за-велосипедисти)
     - [Безплатно и дългосрочно достъпно](/velosofize/bg/index.html#безплатно-и-дългосрочно-достъпно)
     - [Независимост от конкретна платформа](/velosofize/bg/index.html#независимост-от-конкретна-платформа)
     - [Удобство](/velosofize/bg/index.html#удобство)

@@ -14,7 +14,10 @@ A more exhaustive version of this page is available in Bulgarian.
 
 ## Road traffic act
 
-[Source - Bulgarian Ministry of Foreign Affairs](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)
+[Source: Bulgarian Ministry of Foreign Affairs
+
+- [Link 1](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)
+- [Link 2](https://www.mrrb.bg/en/road-traffic-act-rules-on-the-implementation-of-the-road-traffic-act/)
 
 > In the context of this Act (...) "Bicycle" is a vehicle on at least two wheels which is set in motion by the muscular force of the person driving it, with exception of wheelchairs.
 
