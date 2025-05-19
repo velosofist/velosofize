@@ -80,6 +80,8 @@ Apart from the obvious and immediate quality-of-life improvement on an individua
 
 ## Free in the long-term and sustainable
 
+[GitHub](https://github.com/velosofist/velosofize)
+
 Principles used in open-source software, such as [community contributions, version control, and forking](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) ensure that collaborative work can continue even if the creator of the project stops contributing and maintaining it — unlike a service which may be put behind a paywall or deprecated at any point (such as [Strava](/velosofize/en/alternatives.md#Strava), anybody or any group of contributors can create a "fork" - their own copy of the project (Github Pages website, Google My maps map, etc.) and keep it accessible and maintained for other users or for personal use.
 
 ## Platform-independent
