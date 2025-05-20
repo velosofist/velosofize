@@ -26,10 +26,6 @@ CyclOSM се фокусира върху **по-обективен подход 
 
 <img src="../attachments/cyclosm.png" alt="Image" width="500">
 
-
-[Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia) и [Sofenhagen](sofenhagen.com) са две неправителствени организации, които през годините са публикували информация, събития и карти, които със сигурност ще са полезни за потребителите на този проект.
-Конкретно 
-
 # Български проекти и НПО-та в сферата
 
 ## [Sofenhagen](https://sofenhagen.com) 
