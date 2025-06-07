@@ -11,7 +11,7 @@ title: Алтернативи
   - [Sofenhagen](#sofenhagen)
   - [Велоеволюция (velobg.org)](#велоеволюция-velobgorg)
     - [Интеркативна карта](#интеркативна-карта)
-  - [Zerowastesofia](#zerowastesofia)
+  - [Zerowastesofia watermap](#zerowastesofia-watermap)
     - [Интеркативна карта](#интеркативна-карта-1)
 - [Strava heatmap](#strava-heatmap)
 - [Komoot](#komoot)
@@ -43,10 +43,10 @@ Sofenhagen е проект разпространяващ информация, 
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1yKOlErvOsb1zR2fou8wKUXaN9tI&ehbc=2E312F" width="500" height="400"></iframe>
 
-## [Zerowastesofia](https://zerowastesofia.com/watermap/)
+## [Zerowastesofia watermap](https://zerowastesofia.com/watermap/)
 
 Колаборативен проект за документиране на чешмите и заведенията, които ще напълнят бутилката Ви безплатно.
-Имат приложения за [Android](https://play.google.com/store/apps/details?id=com.epicmillennium.cheshmap&pli=1) и [iOS](https://apps.apple.com/bg/app/%D1%87%D0%B5%D1%88%D0%BC%D0%B8%D1%82%D0%B5-%D0%B2-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/id6741713970), както и карти за София и цяла България с допълнителна информация.
+Има приложения за [Android](https://play.google.com/store/apps/details?id=com.epicmillennium.cheshmap&pli=1) и [iOS](https://apps.apple.com/bg/app/%D1%87%D0%B5%D1%88%D0%BC%D0%B8%D1%82%D0%B5-%D0%B2-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/id6741713970), както и карти за София и цяла България с допълнителна информация за всяка локация.
 
 ### Интеркативна карта
 
