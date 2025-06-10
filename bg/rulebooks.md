@@ -79,10 +79,12 @@ title: Закони и правилници
 
 ### Теснолинейки (Септември-Добринище)
 
-[Превоз на велосипеди и ски](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata)\
-<img src="../attachments/tesnolineika_wagon.jpg" alt="Alt Text" width="500">
-
+Извадка от [превоз на велосипеди и ски](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata):
 > Специализираните вагони ще могат да бъдат включвани и към всички влакове по маршрута на теснолинейката след предварително заявен превоз на минимум четири велосипеда или скиорски принадлежности и не по-късно от седем дни преди датата на пътуване. Заявки за превоз се приемат на e-mail: bdz_passengers@bdz.bg или на билетните каси в гарите в страната. [Заплаща се] на билетните каси при закупуване на документите за пътуване.
 
-[Маршрут](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
-<img src="../attachments/tesnolineika_route.png" alt="Alt Text" width="500">
+<!-- <img src="../attachments/tesnolineika_wagon.jpg" alt="Alt Text" width="500"> -->
+<img src="https://p.bdz.bg/www/o/u/outside-wagon-3996-1140x0.jpg" alt="Alt Text" width="500">
+
+Маршрут [(линк към сайта на БДЖ)](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
+<!-- <img src="../attachments/tesnolineika_route.png" alt="Alt Text" width="500"> -->
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F&ll=42.00216024216979%2C23.784364421199275&z=11" width="500" height="600"></iframe>
