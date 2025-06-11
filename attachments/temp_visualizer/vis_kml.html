@@ -151,8 +151,7 @@
   
     // Array of KML file URLs
     const kmlFiles = [
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
-      'https://www.google.com/maps/d/kml?forcekml=1&mid=1yVz_D_MwKqQNHL69RT6A8LcdRc6kDuU'
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml'
     ];
   
 
@@ -268,10 +267,10 @@
       const midpoint = L.latLng(midLat, midLng);
 
       const gicon = 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg';
+      const orsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cyclosm.org/'; // You can use another icon if preferred
 
       const urlAB = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[0].lat},${latlngs[0].lng}&destination=${latlngs[1].lat},${latlngs[1].lng}&travelmode=walking`;
       const urlBA = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[1].lat},${latlngs[1].lng}&destination=${latlngs[0].lat},${latlngs[0].lng}&travelmode=walking`;
-      const orsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cyclosm.org/'; // You can use another icon if preferred
 
       const orsAB = `https://maps.openrouteservice.org/directions?n1=${latlngs[0].lat}&n2=${latlngs[0].lng}&n3=14&a=${latlngs[0].lat},${latlngs[0].lng},${latlngs[1].lat},${latlngs[1].lng}&b=1&c=0&k1=en-US&k2=km`;
       const orsBA = `https://maps.openrouteservice.org/directions?n1=${latlngs[1].lat}&n2=${latlngs[1].lng}&n3=14&a=${latlngs[1].lat},${latlngs[1].lng},${latlngs[0].lat},${latlngs[0].lng}&b=1&c=0&k1=en-US&k2=km`;
