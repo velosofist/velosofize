@@ -9,6 +9,30 @@
   <style>
     body { margin: 0; padding: 0; font-family: sans-serif; }
     #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+    
+    #project-header {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    background: rgba(8, 12, 59, 0.9);
+    padding: 6px 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    }
+
+    #project-header img {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+    }
+    
     #layer-buttons {
       position: absolute;
       bottom: 10px;
@@ -68,6 +92,12 @@
 </head>
 <body>
   <div id="map"></div>
+
+  <div id="project-header">
+    <!-- <img src="https://velosofist.github.io/velosofize/attachments/favicon.ico" alt="Velosofize Icon"> -->
+    <span>VELOSOFIZE</span>
+  </div>
+
   <div id="layer-buttons">
     <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
     <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
@@ -94,7 +124,7 @@
 
   <script>
     const map = L.map('map').setView([42.7, 23.3], 9);
-
+  
     const layers = {
       cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
         attribution: '&copy; CyclOSM, OpenStreetMap contributors'
@@ -106,11 +136,11 @@
         attribution: '&copy; Esri, Earthstar Geographics'
       })
     };
-
+  
     // Default base layer
     layers.cyclosm.addTo(map);
     let currentBaseLayer = layers.cyclosm;
-
+  
     function setBaseLayer(layerName) {
       if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
         map.removeLayer(currentBaseLayer);
@@ -118,8 +148,16 @@
         currentBaseLayer = layers[layerName];
       }
     }
+  
+    // Array of KML file URLs
+    const kmlFiles = [
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
+      'https://www.google.com/maps/d/kml?forcekml=1&mid=1yVz_D_MwKqQNHL69RT6A8LcdRc6kDuU'
+    ];
+  
 
-    // Extract style from KML-styleUrl
+
+    // Function to extract style from KML-styleUrl
     function styleFromStyleUrl(styleUrl) {
       const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
       if (match) {
@@ -136,36 +174,142 @@
         };
       }
     }
-
-    omnivore.kml('https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml', null, L.geoJson(null, {
-      style: function(feature) {
-        const styleUrl = feature.properties?.styleUrl;
-        return styleFromStyleUrl(styleUrl);
-      },
-      onEachFeature: function(feature, layer) {
-        let popupContent = "";
-
-        if (feature.properties) {
-          if (feature.properties.name) {
-            popupContent += `<strong>${feature.properties.name}</strong><br>`;
-          }
-          if (feature.properties.description) {
-            popupContent += `${feature.properties.description}<br>`;
-          }
-
-          // Show other properties if available
-          for (let key in feature.properties) {
-            if (key !== "name" && key !== "description" && key !== "styleUrl" && key !== "styleHash" && key !== "Категория #") {
-              popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
+  
+    // Loop through the KML files and add them to the map
+    kmlFiles.forEach((kmlUrl) => {
+      omnivore.kml(kmlUrl, null, L.geoJson(null, {
+        style: function(feature) {
+          const styleUrl = feature.properties?.styleUrl;
+          return styleFromStyleUrl(styleUrl);
+        },
+        onEachFeature: function(feature, layer) {
+          let popupContent = "";
+  
+          if (feature.properties) {
+            if (feature.properties.name) {
+              popupContent += `<strong>${feature.properties.name}</strong><br>`;
+            }
+            if (feature.properties.description) {
+              popupContent += `${feature.properties.description}<br>`;
+            }
+  
+            // Show other properties if available
+            for (let key in feature.properties) {
+              if (key !== "name" && key !== "description" && key !== "styleUrl" && key !== "styleHash" && key !== "Категория #") {
+                popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
+              }
             }
           }
+  
+          if (popupContent) {
+            layer.bindPopup(popupContent);
+          }
         }
+      })).addTo(map);
+    });
 
-        if (popupContent) {
-          layer.bindPopup(popupContent);
-        }
+  const markers = [];
+  let line = null;
+  let popup = null;
+
+  function addLabeledMarker(latlng) {
+    if (markers.length >= 2) return;
+
+    const label = markers.length === 0 ? 'A' : 'B';
+
+    const marker = L.marker(latlng, {
+      draggable: true,
+      title: label,
+    }).addTo(map);
+
+    marker.bindTooltip(label, { permanent: true, direction: 'top' }).openTooltip();
+
+    // Remove marker on click
+    marker.on('click', () => {
+      map.removeLayer(marker);
+      const index = markers.indexOf(marker);
+      if (index !== -1) {
+        markers.splice(index, 1);
+        updateLabels();
+        updateLine();
       }
-    })).addTo(map);
+    });
+
+    marker.on('drag', updateLine); // update line if marker moves
+
+    markers.push(marker);
+    updateLine();
+  }
+
+  function updateLabels() {
+    markers.forEach((marker, idx) => {
+      const newLabel = idx === 0 ? 'A' : 'B';
+      marker.setTooltipContent(newLabel);
+    });
+  }
+
+  function updateLine() {
+    // Remove existing line and popup
+    if (line) {
+      map.removeLayer(line);
+      line = null;
+    }
+    if (popup) {
+      map.removeLayer(popup);
+      popup = null;
+    }
+
+    if (markers.length === 2) {
+      const latlngs = [markers[0].getLatLng(), markers[1].getLatLng()];
+      line = L.polyline(latlngs, { color: 'blue', weight: 3, dashArray: '5, 10' }).addTo(map);
+
+      const midLat = (latlngs[0].lat + latlngs[1].lat) / 2;
+      const midLng = (latlngs[0].lng + latlngs[1].lng) / 2;
+      const midpoint = L.latLng(midLat, midLng);
+
+      const gicon = 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg';
+
+      const urlAB = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[0].lat},${latlngs[0].lng}&destination=${latlngs[1].lat},${latlngs[1].lng}&travelmode=walking`;
+      const urlBA = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[1].lat},${latlngs[1].lng}&destination=${latlngs[0].lat},${latlngs[0].lng}&travelmode=walking`;
+      const orsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cyclosm.org/'; // You can use another icon if preferred
+
+      const orsAB = `https://maps.openrouteservice.org/directions?n1=${latlngs[0].lat}&n2=${latlngs[0].lng}&n3=14&a=${latlngs[0].lat},${latlngs[0].lng},${latlngs[1].lat},${latlngs[1].lng}&b=1&c=0&k1=en-US&k2=km`;
+      const orsBA = `https://maps.openrouteservice.org/directions?n1=${latlngs[1].lat}&n2=${latlngs[1].lng}&n3=14&a=${latlngs[1].lat},${latlngs[1].lng},${latlngs[0].lat},${latlngs[0].lng}&b=1&c=0&k1=en-US&k2=km`;
+
+      const popupHtml = `
+        <div style="text-align:center;">
+          <!-- Google Maps Links -->
+          <a href="${urlAB}" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:6px; margin:4px; justify-content:center;">
+            <img src="${gicon}" style="height:18px;">
+            A → B (Google)
+          </a>
+          <a href="${urlBA}" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:6px; margin:4px; justify-content:center;">
+            <img src="${gicon}" style="height:18px;">
+            B → A (Google)
+          </a>
+
+          <!-- OpenRouteService Links -->
+          <a href="${orsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:6px; margin:4px; justify-content:center;">
+            <img src="${orsIcon}" style="height:18px;">
+            A → B (ORS)
+          </a>
+          <a href="${orsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:6px; margin:4px; justify-content:center;">
+            <img src="${orsIcon}" style="height:18px;">
+            B → A (ORS)
+          </a>
+        </div>
+      `;
+
+
+
+      popup = L.popup({ closeButton: false, autoClose: false })
+        .setLatLng(midpoint)
+        .setContent(popupHtml)
+        .addTo(map);
+    }
+  }
+
+  map.on('contextmenu', e => addLabeledMarker(e.latlng));
   </script>
 </body>
 </html>
