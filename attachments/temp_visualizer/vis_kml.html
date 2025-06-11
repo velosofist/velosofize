@@ -5,7 +5,6 @@
   <title>Velosofize KML Visualizer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
     body { margin: 0; padding: 0; font-family: sans-serif; }
@@ -13,20 +12,52 @@
     #layer-buttons {
       position: absolute;
       bottom: 10px;
-      left: 50%;
+      right: 10px;
       transform: translateX(-50%);
-      background: rgba(255,255,255,0.9);
-      padding: 6px 10px;
+      background: rgba(8, 12, 59, 0.9);
+      padding: 6px 6px;
       border-radius: 8px;
       box-shadow: 0 0 5px rgba(0,0,0,0.2);
       z-index: 1000;
     }
     #layer-buttons button {
       margin: 0 4px;
-      padding: 5px 10px;
+      padding: 10px 10px;
       font-size: 14px;
       cursor: pointer;
     }
+
+    #top-left-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(8, 12, 59, 0.9);
+    padding: 6px 6px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    gap: 8px;
+  }
+  #top-left-buttons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgba(8, 12, 59, 0.9);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+  }
+  #top-left-buttons a:hover {
+    transform: scale(1.1);
+  }
+  #top-left-buttons a img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
   </style>
 </head>
 <body>
@@ -37,10 +68,23 @@
     <button onclick="setBaseLayer('esri')">Satellite</button>
   </div>
 
-  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <!-- Omnivore Plugin for KML -->
   <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+
+  <div id="top-left-buttons">
+    <a href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing" target="_blank" title="Google Maps">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg" alt="Google Maps">
+    </a>
+    <a href="https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ" target="_blank" title="Google Earth">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Google_Earth_icon.svg" alt="Google Earth">
+    </a>
+  </div>
+
+  <div id="layer-buttons">
+    <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
+    <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
+    <button onclick="setBaseLayer('esri')">Satellite</button>
+  </div>
 
   <script>
     const map = L.map('map').setView([42.7, 23.3], 9);
@@ -87,7 +131,6 @@
       }
     }
 
-    // Load KML file and apply styles + popups
     omnivore.kml('https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml', null, L.geoJson(null, {
       style: function(feature) {
         const styleUrl = feature.properties?.styleUrl;
