@@ -13,7 +13,6 @@ title: Alternatives
     - [Interactive map](#interactive-map-1)
 - [Strava heatmap](#strava-heatmap)
 - [Komoot](#komoot)
-- [Copy the map for personal edits](#copy-the-map-for-personal-edits)
 
 # CyclOSM
 
@@ -72,9 +71,3 @@ The downside is that, in my opinion, there is a certain bias in favor of major b
 Also, many of its features are paid (heatmap is free to use, albeit with ever increasing restrictions).
 
 # [Komoot](https://www.komoot.com/)
-
-# Copy the map for personal edits
-
-Copy the map to your Google Drive to make changes to a separate copy:
-
-<img src="../attachments/copy_map.png" alt="Alt Text" width="500">

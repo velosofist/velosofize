@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Velosofize GeoJSON Visualizer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body { margin: 0; padding: 0; font-family: sans-serif; }
+    #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+    #layer-buttons {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255,255,255,0.9);
+      padding: 6px 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    #layer-buttons button {
+      margin: 0 4px;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="layer-buttons">
+    <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
+    <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
+    <button onclick="setBaseLayer('esri')">Satellite</button>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Omnivore Plugin for KML -->
+  <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+
+  <script>
+    const map = L.map('map').setView([42.7, 23.3], 9);
+
+    const layers = {
+      cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+        attribution: '&copy; CyclOSM, OpenStreetMap contributors'
+      }),
+      osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      }),
+      esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: '&copy; Esri, Earthstar Geographics'
+      })
+    };
+
+    // Default base layer
+    layers.cyclosm.addTo(map);
+    let currentBaseLayer = layers.cyclosm;
+
+    function setBaseLayer(layerName) {
+      if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
+        map.removeLayer(currentBaseLayer);
+        map.addLayer(layers[layerName]);
+        currentBaseLayer = layers[layerName];
+      }
+    }
+
+    // Extract style from KML-styleUrl
+    function styleFromStyleUrl(styleUrl) {
+      const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
+      if (match) {
+        return {
+          color: `#${match[1]}`,
+          weight: 4,
+          opacity: 1
+        };
+      } else {
+        return {
+          color: "#0074D9",
+          weight: 3,
+          opacity: 0.8
+        };
+      }
+    }
+
+    // Load KML file and apply styles + popups
+    omnivore.kml('https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml', null, L.geoJson(null, {
+      style: function(feature) {
+        const styleUrl = feature.properties?.styleUrl;
+        return styleFromStyleUrl(styleUrl);
+      },
+      onEachFeature: function(feature, layer) {
+        let popupContent = "";
+
+        if (feature.properties) {
+          if (feature.properties.name) {
+            popupContent += `<strong>${feature.properties.name}</strong><br>`;
+          }
+          if (feature.properties.description) {
+            popupContent += `${feature.properties.description}<br>`;
+          }
+
+          // Show other properties if available
+          for (let key in feature.properties) {
+            if (key !== "name" && key !== "description" && key !== "styleUrl" && key !== "styleHash" && key !== "Категория #") {
+              popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
+            }
+          }
+        }
+
+        if (popupContent) {
+          layer.bindPopup(popupContent);
+        }
+      }
+    })).addTo(map);
+  </script>
+</body>
+</html>
