@@ -283,34 +283,40 @@
 
       const popupHtml = `
         <div style="text-align:center;">
-          <!-- Google Maps Links -->
+          <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
+            Google Maps
+          </a>
           <a href="${urlGmapsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
             <img src="${gmapsIcon}" style="width:16px;">
-            A → B (Google Maps)
+            A → B
           </a>
           <a href="${urlGmapsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
             <img src="${gmapsIcon}" style="width:16px;">
-            B → A (Google Maps)
+            B → A
           </a>
 
-          <!-- Moovit Links -->
+          <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
+            Moovit
+          </a>
           <a href="${urlMoovitAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
             <img src="${moovitIcon}" style="width:16px;">
-            A → B (Moovit)
+            A → B
           </a>
           <a href="${urlMoovitBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
             <img src="${moovitIcon}" style="width:16px;">
-            B → A (Moovit)
+            B → A
           </a>
           
-          <!-- OpenRouteService Links -->
+          <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
+            OpenRouteService
+          </a>
           <a href="${urlOrsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
             <img src="${orsIcon}" style="width:16px;">
-            A → B (OpenRouteService)
+            A → B
           </a>
           <a href="${urlOrsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
             <img src="${orsIcon}" style="width:16px;">
-            B → A (OpenRouteService)
+            B → A
           </a>
         </div>
       `;
