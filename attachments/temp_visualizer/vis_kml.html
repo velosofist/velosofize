@@ -95,8 +95,10 @@
   <div id="map"></div>
 
   <div id="project-header">
-    <img src="https://velosofist.github.io/velosofize/attachments/temp_icon.jpeg" alt="Velosofize Icon">
-    <span>VELOSOFIZE</span>
+    <a href="https://velosofist.github.io/velosofize/index.html" style="text-decoration:none; color:white; display:flex; align-items:center; gap:8px;">
+      <img src="https://velosofist.github.io/velosofize/attachments/temp_icon.jpeg" alt="Velosofize Icon">
+      <span>VELOSOFIZE</span>
+    </a>
   </div>
 
   <div id="layer-buttons">
@@ -152,12 +154,12 @@
   
     // Array of KML file URLs
     const kmlFiles = [
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml'
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml'
     ];
   
-
-
-    // Function to extract style from KML-styleUrl
     function styleFromStyleUrl(styleUrl) {
       const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
       if (match) {

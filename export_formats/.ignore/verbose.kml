@@ -46,26 +46,26 @@
         <styleUrl>#line-0BA9CC-3713-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-9C27B0-4100-normal">
+    <Style id="line-A52714-4100-normal">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff1427a5</color>
         <width>4.1</width>
       </LineStyle>
     </Style>
-    <Style id="line-9C27B0-4100-highlight">
+    <Style id="line-A52714-4100-highlight">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff1427a5</color>
         <width>6.15</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-9C27B0-4100">
+    <StyleMap id="line-A52714-4100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-9C27B0-4100-normal</styleUrl>
+        <styleUrl>#line-A52714-4100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-9C27B0-4100-highlight</styleUrl>
+        <styleUrl>#line-A52714-4100-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-CCCCCC-3713-normal">
@@ -4925,7 +4925,7 @@
     <Placemark>
       <name>ул. Стара Слатинска</name>
       <description><![CDATA[Категория: Удобни<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -7586,7 +7586,7 @@
     <Placemark>
       <name>Line 147</name>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -10926,7 +10926,7 @@
     <Placemark>
       <name>Line 252</name>
       <description><![CDATA[Категория: Удобни<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -12171,7 +12171,7 @@
     <Placemark>
       <name/>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -13506,7 +13506,7 @@
     <Placemark>
       <name>Line 4</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13535,7 +13535,7 @@
     <Placemark>
       <name>Line 5</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13568,7 +13568,7 @@
     <Placemark>
       <name>Line 1</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13605,7 +13605,7 @@
     <Placemark>
       <name>Line 2</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13660,7 +13660,7 @@
     <Placemark>
       <name>Line 3</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13689,7 +13689,7 @@
     <Placemark>
       <name>Line 10</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13722,7 +13722,7 @@
     <Placemark>
       <name>Line 273</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13766,7 +13766,7 @@
     <Placemark>
       <name>Line 68</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13798,7 +13798,7 @@
     <Placemark>
       <name>бул. Владимир Вазов</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13843,7 +13843,7 @@
     <Placemark>
       <name>Line 9</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -16985,7 +16985,7 @@
     <Placemark>
       <name>Line 507</name>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -17700,7 +17700,7 @@
     <Placemark>
       <name>Line 523</name>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br><br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>

@@ -46,26 +46,26 @@
         <styleUrl>#line-0BA9CC-3713-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-9C27B0-4100-normal">
+    <Style id="line-A52714-4100-normal">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff1427a5</color>
         <width>4.1</width>
       </LineStyle>
     </Style>
-    <Style id="line-9C27B0-4100-highlight">
+    <Style id="line-A52714-4100-highlight">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff1427a5</color>
         <width>6.15</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-9C27B0-4100">
+    <StyleMap id="line-A52714-4100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-9C27B0-4100-normal</styleUrl>
+        <styleUrl>#line-A52714-4100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-9C27B0-4100-highlight</styleUrl>
+        <styleUrl>#line-A52714-4100-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-CCCCCC-3713-normal">
@@ -4925,7 +4925,7 @@
     <Placemark>
       <name>ул. Стара Слатинска</name>
       <description><![CDATA[Категория: Удобни<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -7586,7 +7586,7 @@
     <Placemark>
       <name>Line 147</name>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -10926,7 +10926,7 @@
     <Placemark>
       <name>Line 252</name>
       <description><![CDATA[Категория: Удобни<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -11305,7 +11305,7 @@
         <tessellate>1</tessellate>
         <coordinates>
           23.397576,42.65099,0
-          23.396126,42.650355,0
+          23.3974027,42.6509093,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -12171,7 +12171,7 @@
     <Placemark>
       <name/>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -13506,7 +13506,7 @@
     <Placemark>
       <name>Line 4</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13535,7 +13535,7 @@
     <Placemark>
       <name>Line 5</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13568,7 +13568,7 @@
     <Placemark>
       <name>Line 1</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13605,7 +13605,7 @@
     <Placemark>
       <name>Line 2</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13660,7 +13660,7 @@
     <Placemark>
       <name>Line 3</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13689,7 +13689,7 @@
     <Placemark>
       <name>Line 10</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13722,7 +13722,7 @@
     <Placemark>
       <name>Line 273</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13766,7 +13766,7 @@
     <Placemark>
       <name>Line 68</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13798,7 +13798,7 @@
     <Placemark>
       <name>бул. Владимир Вазов</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -13843,7 +13843,7 @@
     <Placemark>
       <name>Line 9</name>
       <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -14978,74 +14978,6 @@
           23.319797,42.702604,0
           23.31896,42.701216,0
           23.317348,42.699935,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Line 63</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.266358,42.64942,0
-          23.265776,42.649718,0
-          23.265604,42.649749,0
-          23.26539,42.649587,0
-          23.263121,42.649485,0
-          23.262486,42.64956,0
-          23.261285,42.649836,0
-          23.256439,42.649049,0
-          23.252619,42.648907,0
-          23.251683,42.649074,0
-          23.24913,42.649962,0
-          23.248261,42.649942,0
-          23.24419,42.64929,0
-          23.243782,42.649282,0
-          23.242506,42.649791,0
-          23.242109,42.649696,0
-          23.241878,42.649455,0
-          23.241884,42.649187,0
-          23.242189,42.648903,0
-          23.245907,42.647719,0
-          23.245724,42.647554,0
-          23.245059,42.647412,0
-          23.243986,42.647262,0
-          23.242624,42.647214,0
-          23.242087,42.647001,0
-          23.241612,42.646471,0
-          23.241135,42.646258,0
-          23.24062,42.645804,0
-          23.239531,42.646199,0
-          23.239026,42.646215,0
-          23.238169,42.64581,0
-          23.237823,42.645429,0
-          23.23744,42.644905,0
-          23.236407,42.644282,0
-          23.235903,42.644187,0
-          23.234991,42.644085,0
-          23.233253,42.643564,0
-          23.232518,42.642498,0
-          23.231892,42.64258,0
-          23.230807,42.641722,0
-          23.230409,42.64159,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -17053,7 +16985,7 @@
     <Placemark>
       <name>Line 507</name>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -17768,7 +17700,7 @@
     <Placemark>
       <name>Line 523</name>
       <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br><br>name: <br>description: ]]></description>
-      <styleUrl>#line-9C27B0-4100</styleUrl>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -19685,6 +19617,163 @@
           25.38809,42.62785,0
           25.38811,42.62766,0
           25.38818,42.62734,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Казанлък - р. Тунджа</name>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Стара Загора<br>name: <br>description: ]]></description>
+      <styleUrl>#line-01579B-4294</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value>Велоалеи</value>
+        </Data>
+        <Data name="Категория #">
+          <value>1.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>Стара Загора</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          25.4195,42.57917,0
+          25.41934,42.57941,0
+          25.41925,42.57956,0
+          25.41875,42.5805,0
+          25.41867,42.58065,0
+          25.41825,42.58143,0
+          25.41824,42.58145,0
+          25.4177,42.58245,0
+          25.41747,42.58288,0
+          25.4173,42.58321,0
+          25.41711,42.58353,0
+          25.41691,42.58391,0
+          25.41671,42.58429,0
+          25.41662,42.58449,0
+          25.41643,42.58498,0
+          25.41631,42.58541,0
+          25.41622,42.58586,0
+          25.41604,42.58675,0
+          25.41573,42.58829,0
+          25.41535,42.59005,0
+          25.41518,42.59142,0
+          25.41518,42.59147,0
+          25.41515,42.59172,0
+          25.41513,42.59192,0
+          25.41511,42.5921,0
+          25.41508,42.59242,0
+          25.41503,42.59267,0
+          25.41495,42.59299,0
+          25.41491,42.59316,0
+          25.41471,42.59368,0
+          25.41448,42.59426,0
+          25.41445,42.59437,0
+          25.41437,42.59458,0
+          25.41397,42.59561,0
+          25.41392,42.59574,0
+          25.4139,42.59579,0
+          25.41385,42.59591,0
+          25.41325,42.59745,0
+          25.41316,42.59769,0
+          25.41303,42.59804,0
+          25.41273,42.59879,0
+          25.41271,42.59885,0
+          25.41267,42.59898,0
+          25.4119,42.60093,0
+          25.41188,42.60099,0
+          25.41173,42.60134,0
+          25.41158,42.60175,0
+          25.41143,42.6021,0
+          25.41127,42.60243,0
+          25.41123,42.60251,0
+          25.41083,42.60323,0
+          25.41072,42.60343,0
+          25.41045,42.60392,0
+          25.41006,42.6046,0
+          25.40986,42.60497,0
+          25.40947,42.6057,0
+          25.40899,42.60656,0
+          25.40893,42.60666,0
+          25.4087,42.6071,0
+          25.40839,42.6077,0
+          25.40823,42.60801,0
+          25.40802,42.60842,0
+          25.408,42.60844,0
+          25.4079,42.60863,0
+          25.40759,42.6092,0
+          25.40758,42.60921,0
+          25.40758,42.60922,0
+          25.40755,42.60928,0
+          25.40754,42.6093,0
+          25.40744,42.60946,0
+          25.40734,42.60963,0
+          25.40724,42.60979,0
+          25.40675,42.61062,0
+          25.4067,42.61069,0
+          25.40665,42.61078,0
+          25.40638,42.61128,0
+          25.40628,42.61145,0
+          25.40606,42.61183,0
+          25.40575,42.61234,0
+          25.4056,42.6126,0
+          25.40483,42.61394,0
+          25.40477,42.61404,0
+          25.40468,42.61418,0
+          25.40459,42.61431,0
+          25.40455,42.61436,0
+          25.40449,42.61444,0
+          25.40447,42.61448,0
+          25.40433,42.61464,0
+          25.40433,42.61465,0
+          25.40429,42.61471,0
+          25.40412,42.6149,0
+          25.40387,42.61519,0
+          25.40372,42.61535,0
+          25.40363,42.61544,0
+          25.40314,42.61599,0
+          25.40205,42.61726,0
+          25.4019,42.61742,0
+          25.4013,42.61807,0
+          25.40118,42.61824,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>бул. Освобождение</name>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: Стара Загора<br>name: <br>description: ]]></description>
+      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>2.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>Стара Загора</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          25.3888408,42.6237177,0
+          25.3881021,42.6270033,0
+          25.3885044,42.6270457,0
+          25.389248,42.6237688,0
         </coordinates>
       </LineString>
     </Placemark>
