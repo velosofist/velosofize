@@ -70,28 +70,6 @@
         <styleUrl>#icon-1877-F9A825-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0097A7-1200-normal">
-      <LineStyle>
-        <color>ffa79700</color>
-        <width>1.2</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0097A7-1200-highlight">
-      <LineStyle>
-        <color>ffa79700</color>
-        <width>1.8</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0097A7-1200">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0097A7-1200-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0097A7-1200-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Placemark>
       <name>Подлез със рампа</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
@@ -453,7 +431,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 37</name>
+      <name>Рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -463,7 +441,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 38</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -473,7 +451,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 39</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -483,7 +461,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 40</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -493,7 +471,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 41</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -503,7 +481,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 42</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -513,7 +491,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 43</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -523,7 +501,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 44</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -533,7 +511,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 45</name>
+      <name>Подлез със рампи</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -553,7 +531,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 47</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -563,7 +541,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 48</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -573,7 +551,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 49</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -583,7 +561,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 50</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -593,7 +571,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 51</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -603,7 +581,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 52</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -613,7 +591,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 53</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -623,7 +601,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 54</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -633,7 +611,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 56</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -643,7 +621,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 56</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -653,7 +631,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 57</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -663,7 +641,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 58</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -673,7 +651,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 59</name>
+      <name>Пешеходна пътека</name>
       <description>Пресичане без стълби (рампи и зебри)</description>
       <styleUrl>#icon-1833-0097A7</styleUrl>
       <Point>
@@ -983,7 +961,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 32</name>
+      <name>Надлез</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -993,7 +971,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 33</name>
+      <name>Надлез</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1003,7 +981,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 34</name>
+      <name>Подлез без рампи</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1013,7 +991,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 35</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1023,7 +1001,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 36</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1033,7 +1011,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 37</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1043,7 +1021,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 38</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1053,7 +1031,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 39</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1063,7 +1041,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 40</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1073,7 +1051,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 41</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1083,7 +1061,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 42</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1093,7 +1071,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 43</name>
+      <name>Подлез без рампа</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1103,7 +1081,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 43</name>
+      <name>Стълби</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1113,7 +1091,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 44</name>
+      <name>Стълби</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1123,7 +1101,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 45</name>
+      <name>Стълби</name>
       <description>Пресичане по стълби или труднопроходимо</description>
       <styleUrl>#icon-1877-F9A825</styleUrl>
       <Point>
@@ -1151,18 +1129,6 @@
           23.3126823,42.6812734,0
         </coordinates>
       </Point>
-    </Placemark>
-    <Placemark>
-      <name>Line 107</name>
-      <description>Пресичане без стълби (рампи и зебри)</description>
-      <styleUrl>#line-0097A7-1200</styleUrl>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.3281355,42.6748431,0
-          23.3288222,42.6737072,0
-        </coordinates>
-      </LineString>
     </Placemark>
   </Document>
 </kml>
