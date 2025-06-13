@@ -56,39 +56,40 @@
     }
 
     #link-buttons {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(8, 12, 59, 0.9);
-    padding: 6px 6px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    z-index: 1000;
-    display: flex;
-    gap: 8px;
-  }
-
-  #link-buttons a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: rgba(8, 12, 59, 0.9);
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    transition: transform 0.2s;
-  }
-  
-  #link-buttons a:hover {
-    transform: scale(1.1);
-  }
-
-  #link-buttons a img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-  }
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(8, 12, 59, 0.9);
+      padding: 6px 6px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column; /* Change layout to vertical */
+      gap: 8px; /* Add spacing between buttons */
+    }
+    
+    #link-buttons a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: rgba(8, 12, 59, 0.9);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    
+    #link-buttons a:hover {
+      transform: scale(1.1);
+    }
+    
+    #link-buttons a img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
@@ -116,6 +117,9 @@
     </a>
     <a href="https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ" target="_blank" title="Google Earth">
       <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Google_Earth_icon.svg" alt="Google Earth">
+    </a>
+    <a href="https://github.com/velosofist/velosofize/tree/main/export_formats" target="_blank" title="GitHub">
+      <img src="https://img.icons8.com/?size=256&id=AZOZNnY73haj&format=png" alt="GitHub">
     </a>
   </div>
 
