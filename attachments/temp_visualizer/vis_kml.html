@@ -126,7 +126,17 @@
   </div>
 
   <script>
-    const map = L.map('map').setView([42.685534, 23.319048], 13);
+    // const map = L.map('map').setView([42.685534, 23.319048], 13);
+    const map = L.map('map', {
+      center: [42.685534, 23.319048],
+      zoom: 13,
+      zoomControl: false
+    });
+
+    // Add zoom control manually in a different position
+    L.control.zoom({
+      position: 'bottomleft'
+    }).addTo(map);
   
     const layers = {
       cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
@@ -176,39 +186,62 @@
         };
       }
     }
-  
-    // Loop through the KML files and add them to the map
-    kmlFiles.forEach((kmlUrl) => {
-      omnivore.kml(kmlUrl, null, L.geoJson(null, {
-        style: function(feature) {
-          const styleUrl = feature.properties?.styleUrl;
-          return styleFromStyleUrl(styleUrl);
-        },
-        onEachFeature: function(feature, layer) {
-          let popupContent = "";
-  
-          if (feature.properties) {
-            if (feature.properties.name) {
-              popupContent += `<strong>${feature.properties.name}</strong><br>`;
-            }
-            if (feature.properties.description) {
-              popupContent += `${feature.properties.description}<br>`;
-            }
-  
-            // Show other properties if available
-            for (let key in feature.properties) {
-              if (key !== "name" && key !== "description" && key !== "styleUrl" && key !== "styleHash" && key !== "Категория #") {
-                popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
-              }
-            }
-          }
-  
-          if (popupContent) {
-            layer.bindPopup(popupContent);
-          }
+
+    function getIconForStyle(styleUrl) {
+      // Define a mapping between styleUrl keys and icon IDs
+      const styleToIconIdMap = {
+        '#icon-1833': '1833-moving-sidewalk_4x',
+        '#icon-1877': '1877-stairs_4x',
+        '#icon-1703': '1703-tap-flowing_4x',
+        '#icon-1589': '1589-gym_4x',
+        '#icon-1846': '1846-quotation_4x',
+        '#icon-1718': '1718-tram-overhead_4x'
+      };
+
+      // Extract the base key and highlight color from the styleUrl
+      const match = styleUrl?.match(/(#icon-\d+)-([0-9A-Fa-f]{6})/);
+      if (match) {
+        const baseKey = match[1]; // Extract the base key (e.g., #icon-1833)
+        const highlightColor = match[2]; // Extract the color code (e.g., 0097A7)
+
+        // Get the icon ID from the mapping
+        const iconId = styleToIconIdMap[baseKey];
+        if (iconId) {
+          // Dynamically construct the URL using the icon ID and highlight color
+          return `https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container_4x.png,icons/onion/${iconId}.png&highlight=${highlightColor}`;
         }
-      })).addTo(map);
-    });
+      }
+
+      // Default icon if no match is found
+      return 'https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=CCCCCC';
+    }
+
+    kmlFiles.forEach((kmlUrl) => {
+  omnivore.kml(kmlUrl, null, L.geoJson(null, {
+    style: function(feature) {
+      const styleUrl = feature.properties?.styleUrl;
+      return styleFromStyleUrl(styleUrl); // Existing function for line styles
+    },
+    pointToLayer: function(feature, latlng) {
+      const styleUrl = feature.properties?.styleUrl;
+      const iconUrl = getIconForStyle(styleUrl); // Get the icon based on styleUrl
+
+      // Create a marker with the custom icon
+      return L.marker(latlng, {
+        icon: L.icon({
+          iconUrl: iconUrl,
+          iconSize: [24, 24], // Adjust size as needed
+          iconAnchor: [12, 12] // Center the icon
+        })
+      });
+    },
+    onEachFeature: function(feature, layer) {
+      if (feature.properties?.name) {
+        layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
+      }
+    }
+  })).addTo(map);
+});
 
   const markers = [];
   let line = null;
