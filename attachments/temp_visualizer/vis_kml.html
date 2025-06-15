@@ -175,7 +175,7 @@
       'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
       'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml'
     ];
-  
+/*  
     function styleFromStyleUrl(styleUrl) {
       const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
       if (match) {
@@ -242,6 +242,56 @@
         })
       });
     },
+    onEachFeature: function(feature, layer) {
+      if (feature.properties?.name) {
+        layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
+      }
+    }
+  })).addTo(map);
+});
+*/
+
+function styleFromStyleUrl(styleUrl) {
+  const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
+  if (match) {
+    return {
+      color: `#${match[1]}`,
+      weight: 4,
+      opacity: 1
+    };
+  } else {
+    return {
+      color: "#0074D9",
+      weight: 3,
+      opacity: 0.8
+    };
+  }
+}
+
+function colorFromStyleUrl(styleUrl) {
+  const match = styleUrl?.match(/#(?:icon-\d+-)?([0-9A-Fa-f]{6})/);
+  return match ? `#${match[1]}` : "#CCCCCC";
+}
+
+kmlFiles.forEach((kmlUrl) => {
+  omnivore.kml(kmlUrl, null, L.geoJson(null, {
+    style: function(feature) {
+      const styleUrl = feature.properties?.styleUrl;
+      return styleFromStyleUrl(styleUrl); // Existing function for line styles
+    },
+    pointToLayer: function(feature, latlng) {
+  const styleUrl = feature.properties?.styleUrl;
+  const fillColor = colorFromStyleUrl(styleUrl);
+
+  return L.circleMarker(latlng, {
+    radius: 6, // Adjust size
+    fillColor: fillColor,
+    color: fillColor, // Match stroke to fill OR use 'transparent'
+    weight: 0,        // Removes the outer stroke entirely
+    opacity: 1,
+    fillOpacity: 0.9
+  });
+}
     onEachFeature: function(feature, layer) {
       if (feature.properties?.name) {
         layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
