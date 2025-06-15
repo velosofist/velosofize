@@ -291,7 +291,7 @@ kmlFiles.forEach((kmlUrl) => {
     opacity: 1,
     fillOpacity: 0.9
   });
-}
+    },
     onEachFeature: function(feature, layer) {
       if (feature.properties?.name) {
         layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
