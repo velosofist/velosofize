@@ -2,13 +2,13 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>Velosofize KML Visualizer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <title>Velosofize KML Visualizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
     body { margin: 0; padding: 0; font-family: sans-serif; }
     #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
     
@@ -84,347 +84,287 @@
     }
     
     #link-buttons a:hover {
-      transform: scale(1.1);
+      transform: scale(1.15);
     }
     
     #link-buttons a img {
-      width: 32px;
-      height: 32px;
+      width: 30px;
+      height: 30px;
       vertical-align: middle;
     }
   </style>
-</head>
-<body>
-  <div id="map"></div>
+  </head>
+  <body>
+    <div id="map"></div>
 
-  <div id="project-header">
-    <a href="https://velosofist.github.io/velosofize/index.html" style="text-decoration:none; color:white; display:flex; align-items:center; gap:8px;">
-      <img src="https://velosofist.github.io/velosofize/attachments/temp_icon.jpeg" alt="Velosofize Icon">
-      <span>VELOSOFIZE</span>
-    </a>
-  </div>
+    <div id="project-header">
+      <a href="https://velosofist.github.io/velosofize/index.html"
+        style="text-decoration:none; color:white; display:flex; align-items:center; gap:8px;">
+        <img
+          src="https://velosofist.github.io/velosofize/attachments/temp_icon.jpeg"
+          alt="Velosofize Icon">
+        <span>VELOSOFIZE</span>
+      </a>
+    </div>
 
-  <div id="layer-buttons">
-    <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
-    <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
-    <button onclick="setBaseLayer('esri')">Satellite</button>
-  </div>
+    <div id="layer-buttons">
+      <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
+      <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
+      <button onclick="setBaseLayer('esri')">Satellite</button>
+    </div>
 
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script
+      src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
 
-  <div id="link-buttons">
-    <a href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing" target="_blank" title="Google Maps">
-      <img src="https://www.gstatic.com/marketing-cms/assets/images/48/6b/6a951c294a47991a8229779b508e/maps.webp=s108-fcrop64=1,00000000ffffffff-rw" alt="Google Maps">
-    </a>
-    <a href="https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ" target="_blank" title="Google Earth">
-      <img src="https://www.gstatic.com/marketing-cms/assets/images/32/80/489eca5d4dfab22aa3901c6c882a/g-earth.webp=s108-fcrop64=1,00000000ffffffff-rw" alt="Google Earth">
-    </a>
-    <a href="https://github.com/velosofist/velosofize/tree/main/export_formats" target="_blank" title="GitHub">
-      <img src="https://fonts.google.com/icons?icon.query=download&selected=Material+Symbols+Outlined:download:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%231f1f1f" alt="GitHub">
-    </a>
-  </div>
+    <div id="link-buttons">
+      <a
+        href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
+        target="_blank" title="Google Maps">
+        <img
+          src="https://www.gstatic.com/marketing-cms/assets/images/48/6b/6a951c294a47991a8229779b508e/maps.webp=s108-fcrop64=1,00000000ffffffff-rw"
+          alt="Google Maps">
+      </a>
+      <a
+        href="https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ"
+        target="_blank" title="Google Earth">
+        <img
+          src="https://www.gstatic.com/marketing-cms/assets/images/32/80/489eca5d4dfab22aa3901c6c882a/g-earth.webp=s108-fcrop64=1,00000000ffffffff-rw"
+          alt="Google Earth">
+      </a>
+      <a
+        href="https://github.com/velosofist/velosofize/tree/main/export_formats"
+        target="_blank" title="GitHub">
+        <img
+          src="https://fonts.google.com/icons?icon.query=download&selected=Material+Symbols+Outlined:download:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%231f1f1f"
+          alt="GitHub">
+      </a>
+    </div>
 
-  <div id="layer-buttons">
-    <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
-    <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
-    <button onclick="setBaseLayer('esri')">Satellite</button>
-  </div>
+    <div id="layer-buttons">
+      <button onclick="setBaseLayer('cyclosm')">CyclOSM</button>
+      <button onclick="setBaseLayer('osm')">OpenStreetMap</button>
+      <button onclick="setBaseLayer('esri')">Satellite</button>
+    </div>
 
-  <script>
-    // const map = L.map('map').setView([42.685534, 23.319048], 13);
-    const map = L.map('map', {
-      center: [42.685534, 23.319048],
-      zoom: 13,
-      zoomControl: false
-    });
+    <script>
+      // const map = L.map('map').setView([42.685534, 23.319048], 13);
+      const map = L.map('map', {
+        center: [42.685534, 23.319048],
+        zoom: 13,
+        zoomControl: false
+      });
 
-    // Add zoom control manually in a different position
-    L.control.zoom({
-      position: 'bottomleft'
-    }).addTo(map);
-  
-    const layers = {
-      cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
-        attribution: '&copy; CyclOSM, OpenStreetMap contributors'
-      }),
-      osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors'
-      }),
-      esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        attribution: '&copy; Esri, Earthstar Geographics'
-      })
-    };
-  
-    // Default base layer
-    layers.cyclosm.addTo(map);
-    let currentBaseLayer = layers.cyclosm;
-  
-    function setBaseLayer(layerName) {
-      if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
-        map.removeLayer(currentBaseLayer);
-        map.addLayer(layers[layerName]);
-        currentBaseLayer = layers[layerName];
-      }
-    }
-  
-    // Array of KML file URLs
-    const kmlFiles = [
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml',
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/slow_zones.kml'
-    ];
-/*  
-    function styleFromStyleUrl(styleUrl) {
-      const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
-      if (match) {
-        return {
-          color: `#${match[1]}`,
-          weight: 4,
-          opacity: 1
-        };
-      } else {
-        return {
-          color: "#0074D9",
-          weight: 3,
-          opacity: 0.8
-        };
-      }
-    }
-
-    function getIconForStyle(styleUrl) {
-      // Define a mapping between styleUrl keys and icon IDs
-      const styleToIconIdMap = {
-        '#icon-1833': '1833-moving-sidewalk_4x',
-        '#icon-1877': '1877-stairs_4x',
-        '#icon-1703': '1703-tap-flowing_4x',
-        '#icon-1589': '1589-gym_4x',
-        '#icon-1846': '1846-quotation_4x',
-        '#icon-1718': '1718-tram-overhead_4x',
-        '#icon-1716': '1716-train_4x'
+      // Add zoom control manually in a different position
+      L.control.zoom({
+        position: 'bottomleft'
+      }).addTo(map);
+    
+      const layers = {
+        cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+          attribution: '&copy; CyclOSM, OpenStreetMap contributors'
+        }),
+        osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; OpenStreetMap contributors'
+        }),
+        esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+          attribution: '&copy; Esri, Earthstar Geographics'
+        })
       };
+    
+      // Default base layer
+      layers.cyclosm.addTo(map);
+      let currentBaseLayer = layers.cyclosm;
+    
+      function setBaseLayer(layerName) {
+        if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
+          map.removeLayer(currentBaseLayer);
+          map.addLayer(layers[layerName]);
+          currentBaseLayer = layers[layerName];
+        }
+      }
+    
+      const kmlFiles = [
+        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
+        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
+        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
+        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml',
+        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/slow_zones.kml'
+      ];
 
-      // Extract the base key and highlight color from the styleUrl
-      const match = styleUrl?.match(/(#icon-\d+)-([0-9A-Fa-f]{6})/);
-      if (match) {
-        const baseKey = match[1]; // Extract the base key (e.g., #icon-1833)
-        const highlightColor = match[2]; // Extract the color code (e.g., 0097A7)
-
-        // Get the icon ID from the mapping
-        const iconId = styleToIconIdMap[baseKey];
-        if (iconId) {
-          // Dynamically construct the URL using the icon ID and highlight color
-          return `https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container_4x.png,icons/onion/${iconId}.png&highlight=${highlightColor}`;
+      function styleFromStyleUrl(styleUrl) {
+        const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
+        if (match) {
+          return {
+            color: `#${match[1]}`,
+            weight: 4,
+            opacity: 1
+          };
+        } else {
+          return {
+            color: "#0074D9",
+            weight: 3,
+            opacity: 0.8
+          };
         }
       }
 
-      // Default icon if no match is found
-      return 'https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=CCCCCC';
-    }
+      function colorFromStyleUrl(styleUrl) {
+        const match = styleUrl?.match(/#(?:icon-\d+-)?([0-9A-Fa-f]{6})/);
+        return match ? `#${match[1]}` : "#CCCCCC";
+      }
 
-    kmlFiles.forEach((kmlUrl) => {
-  omnivore.kml(kmlUrl, null, L.geoJson(null, {
-    style: function(feature) {
-      const styleUrl = feature.properties?.styleUrl;
-      return styleFromStyleUrl(styleUrl); // Existing function for line styles
-    },
-    pointToLayer: function(feature, latlng) {
-      const styleUrl = feature.properties?.styleUrl;
-      const iconUrl = getIconForStyle(styleUrl); // Get the icon based on styleUrl
+      kmlFiles.forEach((kmlUrl) => {
+        omnivore.kml(kmlUrl, null, L.geoJson(null, {
+          style: function(feature) {
+            const styleUrl = feature.properties?.styleUrl;
+            return styleFromStyleUrl(styleUrl); // Existing function for line styles
+          },
+          pointToLayer: function(feature, latlng) {
+        const styleUrl = feature.properties?.styleUrl;
+        const fillColor = colorFromStyleUrl(styleUrl);
 
-      // Create a marker with the custom icon
-      return L.marker(latlng, {
-        icon: L.icon({
-          iconUrl: iconUrl,
-          iconSize: [18, 18], // Adjust size as needed
-          iconAnchor: [12, 12] // Center the icon
-        })
+        return L.circleMarker(latlng, {
+          radius: 8,
+          fillColor: fillColor,
+          color: 'transparent',
+          weight: 0,
+          opacity: 1,
+          fillOpacity: 0.8
+        });
+          },
+          onEachFeature: function(feature, layer) {
+            if (feature.properties?.name) {
+              layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
+            }
+          }
+        })).addTo(map);
       });
-    },
-    onEachFeature: function(feature, layer) {
-      if (feature.properties?.name) {
-        layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
-      }
-    }
-  })).addTo(map);
-});
-*/
 
-function styleFromStyleUrl(styleUrl) {
-  const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
-  if (match) {
-    return {
-      color: `#${match[1]}`,
-      weight: 4,
-      opacity: 1
-    };
-  } else {
-    return {
-      color: "#0074D9",
-      weight: 3,
-      opacity: 0.8
-    };
-  }
-}
+      const markers = [];
+      let line = null;
+      let popup = null;
 
-function colorFromStyleUrl(styleUrl) {
-  const match = styleUrl?.match(/#(?:icon-\d+-)?([0-9A-Fa-f]{6})/);
-  return match ? `#${match[1]}` : "#CCCCCC";
-}
+      function addLabeledMarker(latlng) {
+        if (markers.length >= 2) return;
 
-kmlFiles.forEach((kmlUrl) => {
-  omnivore.kml(kmlUrl, null, L.geoJson(null, {
-    style: function(feature) {
-      const styleUrl = feature.properties?.styleUrl;
-      return styleFromStyleUrl(styleUrl); // Existing function for line styles
-    },
-    pointToLayer: function(feature, latlng) {
-  const styleUrl = feature.properties?.styleUrl;
-  const fillColor = colorFromStyleUrl(styleUrl);
+        const label = markers.length === 0 ? 'A' : 'B';
 
-  return L.circleMarker(latlng, {
-    radius: 10, // Adjust size
-    fillColor: fillColor,
-    color: 'transparent', // Match stroke to fill OR use 'transparent'
-    weight: 0,        // Removes the outer stroke entirely
-    opacity: 1,
-    fillOpacity: 0.8
-  });
-    },
-    onEachFeature: function(feature, layer) {
-      if (feature.properties?.name) {
-        layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
-      }
-    }
-  })).addTo(map);
-});
+        const marker = L.marker(latlng, {
+          draggable: true,
+          title: label,
+        }).addTo(map);
 
-  const markers = [];
-  let line = null;
-  let popup = null;
+        marker.bindTooltip(label, { permanent: true, direction: 'top' }).openTooltip();
 
-  function addLabeledMarker(latlng) {
-    if (markers.length >= 2) return;
+        // Remove marker on click
+        marker.on('click', () => {
+          map.removeLayer(marker);
+          const index = markers.indexOf(marker);
+          if (index !== -1) {
+            markers.splice(index, 1);
+            updateLabels();
+            updateLine();
+          }
+        });
 
-    const label = markers.length === 0 ? 'A' : 'B';
+        marker.on('drag', updateLine); // update line if marker moves
 
-    const marker = L.marker(latlng, {
-      draggable: true,
-      title: label,
-    }).addTo(map);
-
-    marker.bindTooltip(label, { permanent: true, direction: 'top' }).openTooltip();
-
-    // Remove marker on click
-    marker.on('click', () => {
-      map.removeLayer(marker);
-      const index = markers.indexOf(marker);
-      if (index !== -1) {
-        markers.splice(index, 1);
-        updateLabels();
+        markers.push(marker);
         updateLine();
       }
-    });
 
-    marker.on('drag', updateLine); // update line if marker moves
+      function updateLabels() {
+        markers.forEach((marker, idx) => {
+          const newLabel = idx === 0 ? 'A' : 'B';
+          marker.setTooltipContent(newLabel);
+        });
+      }
 
-    markers.push(marker);
-    updateLine();
-  }
+      function updateLine() {
+        // Remove existing line and popup
+        if (line) {
+          map.removeLayer(line);
+          line = null;
+        }
+        if (popup) {
+          map.removeLayer(popup);
+          popup = null;
+        }
 
-  function updateLabels() {
-    markers.forEach((marker, idx) => {
-      const newLabel = idx === 0 ? 'A' : 'B';
-      marker.setTooltipContent(newLabel);
-    });
-  }
+        if (markers.length === 2) {
+          const latlngs = [markers[0].getLatLng(), markers[1].getLatLng()];
+          line = L.polyline(latlngs, { color: 'blue', weight: 3, dashArray: '5, 10' }).addTo(map);
 
-  function updateLine() {
-    // Remove existing line and popup
-    if (line) {
-      map.removeLayer(line);
-      line = null;
-    }
-    if (popup) {
-      map.removeLayer(popup);
-      popup = null;
-    }
+          const midLat = (latlngs[0].lat + latlngs[1].lat) / 2;
+          const midLng = (latlngs[0].lng + latlngs[1].lng) / 2;
+          const midpoint = L.latLng(midLat, midLng);
 
-    if (markers.length === 2) {
-      const latlngs = [markers[0].getLatLng(), markers[1].getLatLng()];
-      line = L.polyline(latlngs, { color: 'blue', weight: 3, dashArray: '5, 10' }).addTo(map);
-
-      const midLat = (latlngs[0].lat + latlngs[1].lat) / 2;
-      const midLng = (latlngs[0].lng + latlngs[1].lng) / 2;
-      const midpoint = L.latLng(midLat, midLng);
-
-      // const gmapsIcon = 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg';
-      const gmapsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://maps.google.com';
-      const urlGmapsAB = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[0].lat},${latlngs[0].lng}&destination=${latlngs[1].lat},${latlngs[1].lng}&travelmode=walking`;
-      const urlGmapsBA = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[1].lat},${latlngs[1].lng}&destination=${latlngs[0].lat},${latlngs[0].lng}&travelmode=walking`;
-      
-      // const moovitIcon = 'https://play-lh.googleusercontent.com/xsU7mWsfvM6ZFRWi6R3FSukXBRDRaOeKJH-_Y1uPyZvGPM6O2_azLBCh2Ymc4qV4MVg'; 
-      const moovitIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://moovitapp.com/'; 
-      const urlMoovitAB = `https://moovitapp.com/tripplan/sofia_%D1%81%D0%BE%D1%84%D0%B8%D1%8F-3501/en?ref=12&lang=en&fll=${latlngs[0].lat}_${latlngs[0].lng}&tll=${latlngs[1].lat}_${latlngs[1].lng}`;
-      const urlMoovitBA = `https://moovitapp.com/tripplan/sofia_%D1%81%D0%BE%D1%84%D0%B8%D1%8F-3501/en?ref=12&lang=en&fll=${latlngs[1].lat}_${latlngs[1].lng}&tll=${latlngs[0].lat}_${latlngs[0].lng}`;
-      
-      const orsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cyclosm.org/';
-      const urlOrsAB = `https://maps.openrouteservice.org/directions?n1=${latlngs[0].lat}&n2=${latlngs[0].lng}&n3=14&a=${latlngs[0].lat},${latlngs[0].lng},${latlngs[1].lat},${latlngs[1].lng}&b=1&c=0&k1=en-US&k2=km`;
-      const urlOrsBA = `https://maps.openrouteservice.org/directions?n1=${latlngs[1].lat}&n2=${latlngs[1].lng}&n3=14&a=${latlngs[1].lat},${latlngs[1].lng},${latlngs[0].lat},${latlngs[0].lng}&b=1&c=0&k1=en-US&k2=km`;
-
-      const popupHtml = `
-        <div style="text-align:center;">
+          // const gmapsIcon = 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg';
+          const gmapsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://maps.google.com';
+          const urlGmapsAB = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[0].lat},${latlngs[0].lng}&destination=${latlngs[1].lat},${latlngs[1].lng}&travelmode=walking`;
+          const urlGmapsBA = `https://www.google.com/maps/dir/?api=1&origin=${latlngs[1].lat},${latlngs[1].lng}&destination=${latlngs[0].lat},${latlngs[0].lng}&travelmode=walking`;
           
-          <!--
-          <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
-            Google Maps
-          </a>
-          <a href="${urlGmapsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-            <img src="${gmapsIcon}" style="width:16px;">
-            A → B
-          </a>
-          <a href="${urlGmapsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-            <img src="${gmapsIcon}" style="width:16px;">
-            B → A
-          </a>
-          -->
-
-          <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
-            Moovit
-          </a>
-          <a href="${urlMoovitAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-            <img src="${moovitIcon}" style="width:16px;">
-            A → B
-          </a>
-          <a href="${urlMoovitBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-            <img src="${moovitIcon}" style="width:16px;">
-            B → A
-          </a>
+          // const moovitIcon = 'https://play-lh.googleusercontent.com/xsU7mWsfvM6ZFRWi6R3FSukXBRDRaOeKJH-_Y1uPyZvGPM6O2_azLBCh2Ymc4qV4MVg'; 
+          const moovitIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://moovitapp.com/'; 
+          const urlMoovitAB = `https://moovitapp.com/tripplan/sofia_%D1%81%D0%BE%D1%84%D0%B8%D1%8F-3501/en?ref=12&lang=en&fll=${latlngs[0].lat}_${latlngs[0].lng}&tll=${latlngs[1].lat}_${latlngs[1].lng}`;
+          const urlMoovitBA = `https://moovitapp.com/tripplan/sofia_%D1%81%D0%BE%D1%84%D0%B8%D1%8F-3501/en?ref=12&lang=en&fll=${latlngs[1].lat}_${latlngs[1].lng}&tll=${latlngs[0].lat}_${latlngs[0].lng}`;
           
-          <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
-            OpenRouteService
-          </a>
-          <a href="${urlOrsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-            <img src="${orsIcon}" style="width:16px;">
-            A → B
-          </a>
-          <a href="${urlOrsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-            <img src="${orsIcon}" style="width:16px;">
-            B → A
-          </a>
-        </div>
-      `;
+          const orsIcon = 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cyclosm.org/';
+          const urlOrsAB = `https://maps.openrouteservice.org/directions?n1=${latlngs[0].lat}&n2=${latlngs[0].lng}&n3=14&a=${latlngs[0].lat},${latlngs[0].lng},${latlngs[1].lat},${latlngs[1].lng}&b=1&c=0&k1=en-US&k2=km`;
+          const urlOrsBA = `https://maps.openrouteservice.org/directions?n1=${latlngs[1].lat}&n2=${latlngs[1].lng}&n3=14&a=${latlngs[1].lat},${latlngs[1].lng},${latlngs[0].lat},${latlngs[0].lng}&b=1&c=0&k1=en-US&k2=km`;
 
-      popup = L.popup({ closeButton: false, autoClose: false })
-        .setLatLng(midpoint)
-        .setContent(popupHtml)
-        .addTo(map);
-    }
-  }
+          const popupHtml = `
+            <div style="text-align:center;">
+              
+              <!--
+              <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
+                Google Maps
+              </a>
+              <a href="${urlGmapsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
+                <img src="${gmapsIcon}" style="width:16px;">
+                A → B
+              </a>
+              <a href="${urlGmapsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
+                <img src="${gmapsIcon}" style="width:16px;">
+                B → A
+              </a>
+              -->
 
-  map.on('contextmenu', e => addLabeledMarker(e.latlng));
+              <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
+                Moovit
+              </a>
+              <a href="${urlMoovitAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
+                <img src="${moovitIcon}" style="width:16px;">
+                A → B
+              </a>
+              <a href="${urlMoovitBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
+                <img src="${moovitIcon}" style="width:16px;">
+                B → A
+              </a>
+              
+              <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
+                OpenRouteService
+              </a>
+              <a href="${urlOrsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
+                <img src="${orsIcon}" style="width:16px;">
+                A → B
+              </a>
+              <a href="${urlOrsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
+                <img src="${orsIcon}" style="width:16px;">
+                B → A
+              </a>
+            </div>
+          `;
+
+          popup = L.popup({ closeButton: false, autoClose: false })
+            .setLatLng(midpoint)
+            .setContent(popupHtml)
+            .addTo(map);
+        }
+      }
+
+      map.on('contextmenu', e => addLabeledMarker(e.latlng));
   </script>
-</body>
+  </body>
 </html>
