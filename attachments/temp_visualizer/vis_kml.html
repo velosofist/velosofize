@@ -73,8 +73,8 @@
     
     #link-buttons a {
       display: inline-block;
-      width: 40px;
-      height: 40px;
+      width: 32px;
+      height: 32px;
       background: rgba(8, 12, 59, 0.9);
       border-radius: 50%;
       text-align: center;
@@ -88,8 +88,8 @@
     }
     
     #link-buttons a img {
-      width: 24px;
-      height: 24px;
+      width: 32px;
+      height: 32px;
       vertical-align: middle;
     }
   </style>
@@ -173,7 +173,8 @@
       'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
       'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
       'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
-      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml'
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml',
+      'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/slow_zones.kml'
     ];
 /*  
     function styleFromStyleUrl(styleUrl) {
@@ -284,12 +285,12 @@ kmlFiles.forEach((kmlUrl) => {
   const fillColor = colorFromStyleUrl(styleUrl);
 
   return L.circleMarker(latlng, {
-    radius: 6, // Adjust size
+    radius: 10, // Adjust size
     fillColor: fillColor,
-    color: fillColor, // Match stroke to fill OR use 'transparent'
+    color: 'transparent', // Match stroke to fill OR use 'transparent'
     weight: 0,        // Removes the outer stroke entirely
     opacity: 1,
-    fillOpacity: 0.9
+    fillOpacity: 0.8
   });
     },
     onEachFeature: function(feature, layer) {
