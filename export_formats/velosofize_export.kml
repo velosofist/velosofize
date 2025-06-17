@@ -236,7 +236,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея бул. Цар Борис III</name>
+      <name>бул. Цар Борис III</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -259,11 +259,11 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.30955,42.692,0
+          23.309598,42.692033,0
           23.28472,42.67887,0
           23.272787,42.672174,0
-          23.263174,42.666573,0
-          23.260792,42.66561,0
+          23.2628932,42.666344,0
+          23.2605186,42.6653958,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -536,7 +536,6 @@
           23.276832,42.669515,0
           23.27284,42.660008,0
           23.27239,42.657728,0
-          23.27239,42.657697,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -606,15 +605,15 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велолента - бул. Никола Мушанов - изток</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <name>бул. Никола Мушанов</name>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
+      <styleUrl>#line-0BA9CC-3713</styleUrl>
       <ExtendedData>
         <Data name="Категория">
-          <value>Велоалеи</value>
+          <value/>
         </Data>
         <Data name="Категория #">
-          <value>1.0</value>
+          <value>2.0</value>
         </Data>
         <Data name="Град/район">
           <value>София</value>
@@ -629,10 +628,10 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.285008,42.695388,0
-          23.278034,42.690515,0
-          23.276123,42.687967,0
-          23.274191,42.685329,0
+          23.2849622,42.6954516,0
+          23.278038,42.6906179,0
+          23.2760772,42.6880306,0
+          23.2741452,42.6853926,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -660,15 +659,15 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.28505,42.705729,0
-          23.293248,42.703885,0
-          23.29621,42.702151,0
-          23.315795,42.698754,0
+          23.2851113,42.7058236,0
+          23.2933093,42.7039796,0
+          23.2962713,42.7022456,0
+          23.3158563,42.6988486,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - ул. Ф. Нансен</name>
+      <name>ул. Фритьоф Нансен</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -779,7 +778,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул. България - север</name>
+      <name>Бул. България</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -907,7 +906,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея по ул. Монтевидео</name>
+      <name>ул. Монтевидео</name>
       <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-0BA9CC-3713</styleUrl>
       <ExtendedData>
@@ -930,8 +929,8 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.2559,42.684936,0
-          23.254409,42.690409,0
+          23.256098,42.683974,0
+          23.2544734,42.6902815,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -1017,7 +1016,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея бул. Монтевидео</name>
+      <name>бул. Монтевидео</name>
       <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-0BA9CC-3713</styleUrl>
       <ExtendedData>
@@ -1040,7 +1039,7 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.252222,42.673448,0
+          23.2516412,42.6720135,0
           23.256085,42.68386,0
         </coordinates>
       </LineString>
@@ -1096,41 +1095,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - Руски паметник</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.309598,42.692033,0
-          23.309936,42.691822,0
-          23.310285,42.691757,0
-          23.310784,42.691812,0
-          23.311065,42.691979,0
-          23.311186,42.692272,0
-          23.311084,42.692621,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велоалея - бул. Т. Каблешков - юг</name>
+      <name>бул. Т. Каблешков</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1195,7 +1160,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - пл. Македония</name>
+      <name>пл. Македония</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1224,41 +1189,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - Западен парк</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.274594,42.712705,0
-          23.274812,42.712508,0
-          23.274911,42.712522,0
-          23.274988,42.712595,0
-          23.275127,42.712654,0
-          23.275544,42.712765,0
-          23.275714,42.712776,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велоалея - бул. Т. Каблешков - север</name>
+      <name>бул. Т. Каблешков</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1286,12 +1217,12 @@
           23.289851,42.664402,0
           23.289663,42.664557,0
           23.288807,42.665014,0
-          23.288477,42.665524,0
+          23.2883837,42.6658027,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул България - запад</name>
+      <name>бул. България</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1314,21 +1245,21 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.302128,42.679539,0
-          23.300099,42.679136,0
-          23.299249,42.678868,0
-          23.299231,42.67871,0
-          23.297969,42.677795,0
-          23.294544,42.67255,0
-          23.287022,42.664677,0
-          23.286477,42.663669,0
-          23.285798,42.661458,0
-          23.284425,42.65663,0
-          23.283712,42.655347,0
-          23.28336,42.655112,0
-          23.283415,42.654987,0
-          23.282858,42.654313,0
-          23.282376,42.653915,0
+          23.3023527,42.6794475,0
+          23.3003237,42.6790445,0
+          23.2994737,42.6787765,0
+          23.2994557,42.6786185,0
+          23.2981937,42.6777035,0
+          23.2947687,42.6724585,0
+          23.2872467,42.6645855,0
+          23.2867018,42.6635775,0
+          23.2860228,42.6613665,0
+          23.2846498,42.6565385,0
+          23.2839368,42.6552555,0
+          23.2835848,42.6550205,0
+          23.2836398,42.6548955,0
+          23.2830828,42.6542215,0
+          23.2826008,42.6538235,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -1377,114 +1308,6 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул. България</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.28474,42.658037,0
-          23.284396,42.6581,0
-          23.284064,42.657216,0
-          23.285201,42.656743,0
-          23.285523,42.657461,0
-          23.285609,42.657974,0
-          23.285266,42.65825,0
-          23.2868,42.66352,0
-          23.287268,42.664274,0
-          23.287634,42.664668,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велоалея Западен парк - Запад</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.277018,42.711911,0
-          23.278708,42.713933,0
-          23.27952,42.714408,0
-          23.280012,42.714566,0
-          23.280376,42.714646,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велоалея - Западен Парк - изток</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.276234,42.709772,0
-          23.277795,42.709709,0
-          23.279177,42.710174,0
-          23.280468,42.710746,0
-          23.281811,42.710866,0
-          23.2823,42.711045,0
-          23.282554,42.711318,0
-          23.282742,42.711924,0
-          23.283812,42.712851,0
-          23.28365,42.713945,0
-          23.283837,42.714499,0
-          23.283412,42.714857,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
       <name>Велоалея - бул. Дондуков</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
@@ -1517,7 +1340,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул. Скобелев - изток</name>
+      <name>бул. Скобелев</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1580,7 +1403,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - срещпосочна - бул. П. Евтимий - юг</name>
+      <name>бул. Патриарх Евтимий</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1603,42 +1426,13 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.31423,42.689384,0
-          23.328446,42.688098,0
+          23.3286522,42.688122,0
+          23.3140703,42.689443,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бл. П. Евтимий - север</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.328691,42.68822,0
-          23.314109,42.689541,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велоалея - бул. Витоша - запад</name>
+      <name>бул. Витоша</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1668,7 +1462,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул. Витоша - запад</name>
+      <name>бул. Витоша</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1697,7 +1491,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул. Витоша - изток</name>
+      <name>бул. Витоша</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1765,36 +1559,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Бул. България - изток</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.288477,42.665524,0
-          23.292754,42.669962,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Бул. България - изток</name>
+      <name>Бул. България</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1859,7 +1624,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велосипедна алея - Филип Кутев - юг</name>
+      <name>Филип Кутев</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1895,7 +1660,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велосипедна Алея - Филип Кутев - север</name>
+      <name>бул. Филип Кутев</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -1931,45 +1696,15 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велолента - бул. Никола Мушанов - запад</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <name>бул. Овча Купел</name>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
+      <styleUrl>#line-0BA9CC-3713</styleUrl>
       <ExtendedData>
         <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
           <value/>
         </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.284691,42.695542,0
-          23.277781,42.690684,0
-          23.274048,42.685542,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велолента - бул. Овча Купел - запад</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
         <Data name="Категория #">
-          <value>1.0</value>
+          <value>2.0</value>
         </Data>
         <Data name="Град/район">
           <value>София</value>
@@ -1990,76 +1725,15 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул Овча Купел - запад</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <name>бул. Овча Купел</name>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
+      <styleUrl>#line-0BA9CC-3713</styleUrl>
       <ExtendedData>
         <Data name="Категория">
-          <value>Велоалеи</value>
+          <value/>
         </Data>
         <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.268531,42.679095,0
-          23.267888,42.677099,0
-          23.268703,42.674496,0
-          23.269164,42.673849,0
-          23.269508,42.673644,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велосипедна лента - бул. Овча Купел - запад</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.269634,42.673724,0
-          23.272166,42.671906,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велосипедна лента - бул. Овча Купел - изток</name>
-      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-01579B-4294</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи</value>
-        </Data>
-        <Data name="Категория #">
-          <value>1.0</value>
+          <value>2.0</value>
         </Data>
         <Data name="Град/район">
           <value>София</value>
@@ -2080,7 +1754,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велоалея - бул. Овча Купел - изток</name>
+      <name>бул. Овча Купел</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -2103,15 +1777,15 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.26927,42.674208,0
-          23.269104,42.674578,0
-          23.268348,42.677016,0
-          23.269694,42.681113,0
+          23.2690184,42.674191,0
+          23.2688524,42.674561,0
+          23.2680964,42.676999,0
+          23.2694424,42.681096,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велосипедна лента - бул. Овча Купел - изток</name>
+      <name>бул. Овча Купел</name>
       <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
       <ExtendedData>
@@ -2134,7 +1808,8 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.270149,42.681657,0
+          23.2694676,42.6811174,0
+          23.2698652,42.6816367,0
           23.271372,42.682501,0
           23.274119,42.685238,0
         </coordinates>
@@ -3087,7 +2762,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Велолента - бул. Сливница - Орион - мост Оряхово - южна алея</name>
+      <name>бул. Сливница</name>
       <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-0BA9CC-3713</styleUrl>
       <ExtendedData>
@@ -3110,12 +2785,12 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.291396,42.711066,0
-          23.283022,42.715281,0
-          23.282753,42.715322,0
-          23.281218,42.716111,0
-          23.281159,42.71623,0
-          23.2790725,42.7173395,0
+          23.29134,42.7111836,0
+          23.282966,42.7153986,0
+          23.282697,42.7154396,0
+          23.2811619,42.7162286,0
+          23.2811029,42.7163476,0
+          23.2790164,42.7174571,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -3212,104 +2887,14 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.27127,42.711168,0
-          23.273502,42.71213,0
-          23.274242,42.712556,0
-          23.274853,42.713029,0
-          23.277289,42.715717,0
-          23.2787842,42.7173146,0
-          23.2789284,42.7173507,0
-          23.2790725,42.7173395,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велолента - бул. Сливница - север</name>
-      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи (неотделени от движението)</value>
-        </Data>
-        <Data name="Категория #">
-          <value>2.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.298978,42.707504,0
-          23.284258,42.714867,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велолента - бул. Сливница - север</name>
-      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи (неотделени от движението)</value>
-        </Data>
-        <Data name="Категория #">
-          <value>2.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.283562,42.715226,0
-          23.2788259,42.7177161,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Велолента - бул. д-р Петър Дертлиев - запад</name>
-      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи (неотделени от движението)</value>
-        </Data>
-        <Data name="Категория #">
-          <value>2.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.2788259,42.7177161,0
-          23.274775,42.713189,0
-          23.273767,42.712468,0
-          23.272817,42.71201,0
-          23.27161,42.71149,0
+          23.2712051,42.7113054,0
+          23.2734371,42.7122674,0
+          23.2741771,42.7126934,0
+          23.2747881,42.7131664,0
+          23.2772241,42.7158544,0
+          23.2787193,42.717452,0
+          23.2788635,42.7174881,0
+          23.2790076,42.7174769,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -3455,42 +3040,6 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Line 78</name>
-      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Велоалеи (неотделени от движението)</value>
-        </Data>
-        <Data name="Категория #">
-          <value>2.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.315557,42.698999,0
-          23.296607,42.702287,0
-          23.296218,42.702427,0
-          23.293815,42.703899,0
-          23.292849,42.704216,0
-          23.289603,42.704858,0
-          23.289327,42.704906,0
-          23.287819,42.705243,0
-          23.285007,42.706032,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
       <name>Line 80</name>
       <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: ]]></description>
       <styleUrl>#line-0BA9CC-3713</styleUrl>
@@ -3545,9 +3094,9 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.292946,42.710301,0
-          23.297908,42.707845,0
-          23.297978,42.707721,0
+          23.29134,42.7111836,0
+          23.2980587,42.707856,0
+          23.2990352,42.7072885,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -3819,7 +3368,7 @@
           23.372359,42.703172,0
           23.371638,42.704554,0
           23.370412,42.705899,0
-          23.36959,42.707075,0
+          23.3696388,42.70701,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -8479,9 +8028,7 @@
         <tessellate>1</tessellate>
         <coordinates>
           23.367098,42.704355,0
-          23.3658,42.705987,0
-          23.365932,42.707747,0
-          23.365409,42.70824,0
+          23.366132,42.705558,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -8511,7 +8058,7 @@
         <coordinates>
           23.366132,42.705558,0
           23.369147,42.706843,0
-          23.369662,42.706985,0
+          23.3696388,42.70701,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -9235,8 +8782,6 @@
         <coordinates>
           23.35961,42.667988,0
           23.360529,42.667824,0
-          23.361264,42.666652,0
-          23.361763,42.666629,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -11437,8 +10982,6 @@
           23.40105,42.655357,0
           23.3984,42.656296,0
           23.398239,42.656407,0
-          23.398046,42.656067,0
-          23.396644,42.656727,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -13210,6 +12753,7 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
+          23.3980743,42.656128,0
           23.398239,42.656407,0
           23.396918,42.657009,0
           23.396644,42.656727,0
@@ -13368,57 +12912,6 @@
           23.34225,42.570394,0
           23.341852,42.570718,0
           23.341611,42.571136,0
-          23.341788,42.571401,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>⬜🟦⬜</name>
-      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-F8971B-4100</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неасфалтирани/труднопроходими</value>
-        </Data>
-        <Data name="Категория #">
-          <value>4.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.327655,42.603864,0
-          23.334276,42.59937,0
-          23.338552,42.592273,0
-          23.33691,42.586171,0
-          23.338434,42.585776,0
-          23.338938,42.582616,0
-          23.339029,42.582175,0
-          23.339345,42.582009,0
-          23.33957,42.581636,0
-          23.339512,42.580927,0
-          23.339466,42.580496,0
-          23.339745,42.580271,0
-          23.339613,42.579786,0
-          23.338868,42.578879,0
-          23.339829,42.57872,0
-          23.34033,42.577355,0
-          23.339382,42.576043,0
-          23.338175,42.575444,0
-          23.337689,42.574208,0
-          23.337606,42.573991,0
-          23.337758,42.573841,0
-          23.339042,42.573962,0
-          23.340613,42.572566,0
           23.341788,42.571401,0
         </coordinates>
       </LineString>
@@ -13910,188 +13403,6 @@
           23.322072,42.675054,0
           23.322089,42.674898,0
           23.321575,42.674884,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Споделена зона - Западен парк - запад</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.27867,42.713959,0
-          23.277886,42.715236,0
-          23.279335,42.714342,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Споделена зона - Западен парк</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.280418,42.714708,0
-          23.282189,42.714645,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Споделена зона - Западен парк</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.280376,42.714646,0
-          23.283422,42.712635,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Споделена зона - Западен парк</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.277018,42.711911,0
-          23.276557,42.711462,0
-          23.274615,42.71087,0
-          23.274175,42.710366,0
-          23.273649,42.710058,0
-          23.273295,42.710113,0
-          23.273048,42.710555,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Споделена зона - Западен Парк</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.273295,42.710113,0
-          23.27349,42.709885,0
-          23.274326,42.709483,0
-          23.275356,42.70897,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Споделена зона - Западен Парк</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.275741,42.712774,0
-          23.279539,42.710358,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -14611,11 +13922,7 @@
           23.355191,42.663747,0
           23.353721,42.663116,0
           23.353432,42.662927,0
-          23.35042,42.661705,0
-          23.350748,42.66122,0
-          23.349414,42.660674,0
-          23.349555,42.660428,0
-          23.347485,42.659647,0
+          23.351173,42.662015,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -16004,7 +15311,7 @@
           23.405669,42.65156,0
           23.400965,42.654692,0
           23.399602,42.655341,0
-          23.398046,42.656067,0
+          23.3985878,42.6558344,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -17397,7 +16704,7 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.3605,42.66784,0
+          23.360529,42.667824,0
           23.36053,42.66777,0
           23.36063,42.66762,0
           23.36074,42.66749,0
@@ -18816,40 +18123,6 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Line 552</name>
-      <description><![CDATA[Категория: <br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value/>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.250009,42.495253,0
-          23.2517247,42.4925153,0
-          23.257604,42.494066,0
-          23.2634835,42.4946038,0
-          23.2692921,42.487579,0
-          23.2748564,42.4721025,0
-          23.278016,42.468654,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
       <name>ул. Марица</name>
       <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Шумен<br>name: <br>description: ]]></description>
       <styleUrl>#line-01579B-4294</styleUrl>
@@ -18943,71 +18216,6 @@
           27.5171998,42.555769,0
           27.517822,42.5560219,0
           27.5197294,42.5575922,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Line 554</name>
-      <description><![CDATA[Категория: <br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value/>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.243267,42.516771,0
-          23.2561668,42.5317959,0
-          23.2597999,42.5394832,0
-          23.2479953,42.5516387,0
-          23.2310357,42.5617691,0
-          23.2053161,42.5674704,0
-          23.179594,42.567856,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Line 555</name>
-      <description><![CDATA[Категория: <br>Категория #: <br>Град/район: София<br>name: <br>description: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value/>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.243095,42.516506,0
-          23.2290093,42.5139868,0
-          23.2310563,42.5359472,0
-          23.2597999,42.5394832,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -19774,6 +18982,69 @@
           25.3881021,42.6270033,0
           25.3885044,42.6270457,0
           25.389248,42.6237688,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Кръгово Руски паметник</name>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: ]]></description>
+      <styleUrl>#line-01579B-4294</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value>Велоалеи</value>
+        </Data>
+        <Data name="Категория #">
+          <value>1.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.309598,42.692033,0
+          23.309936,42.691822,0
+          23.310285,42.691757,0
+          23.310784,42.691812,0
+          23.311065,42.691979,0
+          23.311186,42.692272,0
+          23.311084,42.692621,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 539</name>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: ]]></description>
+      <styleUrl>#line-A52714-4100</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>5.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.396644,42.656727,0
+          23.3985878,42.6558344,0
         </coordinates>
       </LineString>
     </Placemark>
