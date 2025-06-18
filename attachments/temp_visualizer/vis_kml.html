@@ -113,7 +113,7 @@
 
     <div id="project-header">
       <a href="https://velosofist.github.io/velosofize/index.html"
-        style="text-decoration:none; color:white; display:flex; align-items:center; gap:8px;">
+        style="text-decoration:none; color:#e6e5e1; display:flex; align-items:center; gap:8px;">
         <img
           src="https://velosofist.github.io/velosofize/attachments/temp_icon.jpeg"
           alt="Velosofize Icon">
@@ -177,7 +177,7 @@
         background: rgba(8,12,59,0.9);
         padding: 10px 8px;
         ">
-      <span style="color: rgb(224,224,224); font-weight: bold; margin-bottom: 6px; font-size: 16px;">
+      <span style="color: #e6e5e1; font-weight: bold; margin-bottom: 6px; font-size: 16px;">
         Основа
       </span>
       <button id="layer-icon-btn"
@@ -186,17 +186,19 @@
       </button>
     </div>
 
-    <div id="layer-flash"
+    <div id="layer-name-flash"
       style="
         display: none;
         position: fixed;
         bottom: 16px;
+        width: 120px;
         left: 50%;
         transform: translateX(-50%);
         background: rgba(8,12,59,0.95);
         color: #fff;
-        font-size: 2rem;
-        font-weight: bold;
+        font-weight: bold; 
+        font-size: 16px;
+        text-align: center;
         padding: 12px 32px;
         border-radius: 12px;
         z-index: 3000;
@@ -276,10 +278,10 @@
       };
 
       function flashLayerName(layerKey) {
-        const flashDiv = document.getElementById('layer-flash');
+        const flashDiv = document.getElementById('layer-name-flash');
         flashDiv.textContent = layerFlashNames[layerKey] || '';
         flashDiv.style.display = 'block';
-        flashDiv.style.opacity = '1';
+        flashDiv.style.opacity = '0.8';
 
         // Force reflow to restart the transition if called rapidly
         void flashDiv.offsetWidth;
@@ -289,7 +291,7 @@
           setTimeout(() => {
             flashDiv.style.display = 'none';
           }, 500); // Hide after fade out
-        }, 200); // Show for 0.7s before starting fade out
+        }, 500); // Show for 0.7s before starting fade out
       }
 
       // Example: Call this in your setBaseLayer function
