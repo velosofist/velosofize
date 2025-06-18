@@ -17,6 +17,8 @@
 
     <title>CyclOSM - Legend</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <style type="text/css">
         @font-face {
             font-family: 'Roboto';
@@ -45,10 +47,103 @@
         table img {
             max-height: 16px;
         }
+
+        .material-symbols-outlined {
+          font-variation-settings:
+            'FILL' 0,
+            'wght' 600,
+            'GRAD' 0,
+            'opsz' 24;
+          font-size: 16px;
+          color: #e6e5e1; /* Customize icon color */
+        }
     </style>
 </head>
 <body>
-  <h2 class="i18n" data-i18n="legend">Легенда <br>(Legend)</h2>
+
+  <h2 class="i18n" data-i18n="legend">Легенда за VELOSOFIZE<br>(VELOSOFIZE Legend)</h2>
+  <table>
+    <tbody>
+        <tr>
+            <td>
+                <span id="category_1"></span>
+            </td>
+            <td class="i18n" data-i18n="cycle-trac">Велоалея - отделена от движението </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="category_2"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Велоалея от тази страна на платното </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="category_3"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">"Удобни" - Сравнително удобни и безопасни улици и споделени зони (*) </td>
+        </tr>
+        <tr>
+            <td>
+                <span id="category_4"></span>
+            </td>
+            <td class="i18n" data-i18n="cycle-trac">Неасфалтирани или труднопроходими (*) </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="category_5"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Широки и пусти тротоари (**) </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="directions_walk"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Пресичане без стълби </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="stairs_2"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Пресичане със стълби / труднопроходими </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="tram"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Метро </td>
+        </tr>
+        <tr>
+          <td>
+              <span id="train"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Влак </td>
+        </tr>
+        <tr>
+          <td>
+              <span id="water_bottle"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Чешма </td>
+        </tr>
+        <tr>
+          <td>
+              <span id="fitness_center"></span>
+          </td>
+          <td class="i18n" data-i18n="cycle-trac">Лостове </td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <tr>
+      <td><br>
+        (*) По субективни критерии <br>
+        (**) Вижте Разд. 3, чл. 15 и Разд. 18, Чл. 81 от 
+        <a href="/velosofize/bg/rulebooks.html#здвп---закон-за-движение-по-пътищата">ЗДвП</a>
+      </td>
+    </tr>
+
+    <hr style="height: 4px; background: #333; border: none; width: 100%; margin: 24px 0;">
+
+  <h2 class="i18n" data-i18n="legend">Легенда за CyclOSM<br>(CyclOSM Legend)</h2>
 
   <h3 class="i18n" data-i18n="bike-infra">Инфраструктура <br>(Bicycle infrastructure)</h3>
   <table>
@@ -378,5 +473,51 @@
           </tr>
       </tbody>
   </table>
+  <script>
+    function legendIconFromStyleUrl(styleUrl) {
+      const colorMatch = styleUrl?.match(/#(?:icon-\d+-|line-)?([0-9A-Fa-f]{6})/);
+      const color = colorMatch ? `#${colorMatch[1]}` : "#CCCCCC";
+      const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
+      const iconMapping = {
+        '1589': 'fitness_center',
+        '1877': 'stairs_2',
+        '1833': 'directions_walk',
+        '1718': 'tram',
+        '1716': 'train',
+        '1703': 'water_bottle',
+        '0000': 'timeline',
 
+      };
+      const iconName = iconMapping[relevantStyle] || 'timeline';
+      return `
+        <span style="display: inline-block; position: relative; width: 24px; height: 24px; vertical-align: middle;">
+          <span style="width: 22px; height: 22px; border-radius: 50%; background: ${color}; opacity: 0.8; border: 1px solid white; display: inline-block; position: absolute; left: 1px; top: 1px; box-shadow: 0 0 4px #000;"></span>
+          <span class="material-symbols-outlined" style="position: absolute; top: 4px; left: 4px; font-size: 18px; color: #e6e5e1; weight: 600;">${iconName}</span>
+        </span>
+      `;
+    }
+    // document.getElementById('water_bottle').innerHTML = legendIconFromStyleUrl('#icon-1703-BDBDBD');
+    // document.getElementById('fitness_center').innerHTML = legendIconFromStyleUrl('#icon-1589-757575');
+    // document.getElementById('directions_walk').innerHTML = legendIconFromStyleUrl('#icon-1833-0097A7');
+    // document.getElementById('tram').innerHTML = legendIconFromStyleUrl('#icon-1718-000000');
+    // document.getElementById('train').innerHTML = legendIconFromStyleUrl('#icon-1716-1A237E');
+    // document.getElementById('category_1').innerHTML = legendIconFromStyleUrl('#line-0000-01579B');
+    // document.getElementById('category_2').innerHTML = legendIconFromStyleUrl('#line-0000-0BA9CC');
+    // document.getElementById('category_3').innerHTML = legendIconFromStyleUrl('#line-0000-F4EB37');
+    // document.getElementById('category_4').innerHTML = legendIconFromStyleUrl('#line-0000-F8971B');
+    // document.getElementById('category_5').innerHTML = legendIconFromStyleUrl('#line-0000-A52714');
+    window.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('category_1').innerHTML = legendIconFromStyleUrl('#icon-0000-01579B');
+      document.getElementById('category_2').innerHTML = legendIconFromStyleUrl('#icon-0000-0BA9CC');
+      document.getElementById('category_3').innerHTML = legendIconFromStyleUrl('#icon-0000-F4EB37');
+      document.getElementById('category_4').innerHTML = legendIconFromStyleUrl('#icon-0000-F8971B');
+      document.getElementById('category_5').innerHTML = legendIconFromStyleUrl('#icon-0000-A52714');
+      document.getElementById('directions_walk').innerHTML = legendIconFromStyleUrl('#icon-1833-0097A7');
+      document.getElementById('stairs_2').innerHTML = legendIconFromStyleUrl('#icon-1877-F9A825');
+      document.getElementById('tram').innerHTML = legendIconFromStyleUrl('#icon-1718-000000');
+      document.getElementById('train').innerHTML = legendIconFromStyleUrl('#icon-1716-1A237E');
+      document.getElementById('fitness_center').innerHTML = legendIconFromStyleUrl('#icon-1589-757575');
+      document.getElementById('water_bottle').innerHTML = legendIconFromStyleUrl('#icon-1703-BDBDBD');
+    });
+  </script>
 </body></html>
