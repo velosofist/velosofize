@@ -13,7 +13,7 @@
       .material-symbols-outlined {
         font-variation-settings:
           'FILL' 0,
-          'wght' 400,
+          'wght' 600,
           'GRAD' 0,
           'opsz' 24;
         font-size: 16px;
@@ -43,26 +43,7 @@
         height: 24px;
         border-radius: 4px;
       }
-      #layer-buttons {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        background: rgba(8, 12, 59, 0.9);
-        padding: 6px 6px;
-        border-radius: 2px;
-        box-shadow: none; /* Remove the shadow */
-        z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-      }
-      #layer-buttons button {
-        margin: 0 4px;
-        padding: 4px 4px;
-        font-size: 14px;
-        cursor: pointer;
-        border: none; /* Remove the white outline */
-      }
+
       #link-buttons {
         position: absolute;
         top: 10px;
@@ -100,6 +81,36 @@
   <body>
     <div id="map"></div>
 
+    <button id="legend-btn" title="CyclOSM Legend"
+      style="
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 2000;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        background: #08103b;
+        color: #fff;
+        font-size: 22px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+      ?
+    </button>
+
+    <div id="legend-overlay" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.55); z-index:3000; align-items:center; justify-content:center;">
+      <div style="position:relative; width:90vw; max-width:600px; height:90vh; background:#fff; border-radius:12px; box-shadow:0 4px 32px rgba(0,0,0,0.3); overflow:hidden;">
+        <button id="close-legend" title="Затвори / Close"
+          style="position:absolute; top:12px; right:16px; z-index:10; background:#08103b; color:#fff; border:none; border-radius:50%; width:32px; height:32px; font-size:20px; cursor:pointer;">✕</button>
+        <iframe src="./cyclosm_legend.html" style="width:100%; height:100%; border:none;"></iframe>
+      </div>
+    </div>
+
     <div id="project-header">
       <a href="https://velosofist.github.io/velosofize/index.html"
         style="text-decoration:none; color:white; display:flex; align-items:center; gap:8px;">
@@ -130,24 +141,69 @@
       <a href="https://github.com/velosofist/velosofize/tree/main/export_formats"
         target="_blank" title="GitHub">
         <img
-          src="https://fonts.google.com/icons?icon.query=download&selected=Material+Symbols+Outlined:download:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%231f1f1f"
+          src="https://github.com/velosofist/velosofize/tree/main/attachments/github-mark/github-mark-white.svg"
           alt="GitHub">
-      </a>
+        </a>
     </div>
 
-    <div id="layer-buttons">
-      <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:center; font-weight:bold; color:rgb(224, 224, 224);">
-        Слоеве
-      </a>
-      <button onclick="setBaseLayer('cyclosm')" title="CyclOSM">
-        <img src="tile_icons/tile_cyclosm.png" alt="CyclOSM" style="width: 60px; height: 60px;">
+    <div id="overlay-toggle-buttons"
+      style="
+        position: absolute;
+        right: 16px;
+        bottom: 150px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        background: rgba(8,12,59,0.9);
+        border: 1px solid #e6e5e1;
+        border-radius: 12px;
+        padding: 8px;
+        box-sizing: border-box;
+        ">
+    </div>
+
+    <div id="layer-switcher"
+      style="
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #e6e5e1;
+        border-radius: 12px;
+        background: rgba(8,12,59,0.9);
+        padding: 10px 8px;
+        ">
+      <span style="color: rgb(224,224,224); font-weight: bold; margin-bottom: 6px; font-size: 16px;">
+        Основа
+      </span>
+      <button id="layer-icon-btn"
+        style="background: rgba(8,12,59,0.9); border: none; border-radius: 8px; padding: 0; cursor: pointer;">
+        <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" alt="CyclOSM" style="width: 60px; height: 60px;">
       </button>
-      <button onclick="setBaseLayer('osm')" title="OpenStreetMap">
-        <img src="tile_icons/tile_osm.png" alt="OpenStreetMap" style="width: 60px; height: 60px;">
-      </button>
-      <button onclick="setBaseLayer('esri')" title="Satellite">
-        <img src="tile_icons/tile_sat.png" alt="Satellite" style="width: 60px; height: 60px;">
-      </button>
+    </div>
+
+    <div id="layer-flash"
+      style="
+        display: none;
+        position: fixed;
+        bottom: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(8,12,59,0.95);
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 12px 32px;
+        border-radius: 12px;
+        z-index: 3000;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.5s;
+      ">
     </div>
 
     <script>
@@ -157,6 +213,17 @@
         zoom: 13,
         zoomControl: false
       });
+
+      document.getElementById('legend-btn').onclick = function() {
+        document.getElementById('legend-overlay').style.display = 'flex';
+      };
+      document.getElementById('close-legend').onclick = function() {
+        document.getElementById('legend-overlay').style.display = 'none';
+      };
+      // Optional: close overlay when clicking outside the modal
+      document.getElementById('legend-overlay').onclick = function(e) {
+        if (e.target === this) this.style.display = 'none';
+      };
 
       // Add zoom control manually in a different position
       L.control.zoom({
@@ -175,38 +242,151 @@
         })
       };
     
+      const layerOrder = [
+        { name: 'cyclosm', icon: 'tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
+        { name: 'osm',     icon: 'tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
+        { name: 'esri',    icon: 'tile_icons/tile_sat.png',     alt: 'Satellite' }
+      ];
+      let currentLayerIdx = 0;
+
+      function updateLayerIcon() {
+        const { icon, alt } = layerOrder[currentLayerIdx];
+        document.getElementById('layer-icon-img').src = icon;
+        document.getElementById('layer-icon-img').alt = alt;
+      }
+
+      document.getElementById('layer-icon-btn').onclick = function() {
+        // Cycle to next layer
+        currentLayerIdx = (currentLayerIdx + 1) % layerOrder.length;
+        setBaseLayer(layerOrder[currentLayerIdx].name);
+        updateLayerIcon();
+      };
+
+      // Ensure icon matches current layer on load
+      updateLayerIcon();
+
       // Default base layer
       layers.cyclosm.addTo(map);
       let currentBaseLayer = layers.cyclosm;
     
+      const layerFlashNames = {
+        cyclosm: "CyclOSM",
+        osm: "OpenStreetMap",
+        esri: "Satellite"
+      };
+
+      function flashLayerName(layerKey) {
+        const flashDiv = document.getElementById('layer-flash');
+        flashDiv.textContent = layerFlashNames[layerKey] || '';
+        flashDiv.style.display = 'block';
+        flashDiv.style.opacity = '1';
+
+        // Force reflow to restart the transition if called rapidly
+        void flashDiv.offsetWidth;
+
+        setTimeout(() => {
+          flashDiv.style.opacity = '0';
+          setTimeout(() => {
+            flashDiv.style.display = 'none';
+          }, 500); // Hide after fade out
+        }, 200); // Show for 0.7s before starting fade out
+      }
+
+      // Example: Call this in your setBaseLayer function
       function setBaseLayer(layerName) {
         if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
           map.removeLayer(currentBaseLayer);
           map.addLayer(layers[layerName]);
           currentBaseLayer = layers[layerName];
+          flashLayerName(layerName); // <-- Add this line
         }
       }
     
-      const kmlFiles = [
+      const mapOverlayFilesInit = [
         'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/velosofize_export.kml',
-        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
-        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
-        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml',
-        'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/slow_zones.kml'
+        // 'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
       ];
 
-      function styleFromStyleUrl(styleUrl) {
+      const mapOverlayFilesToggled = [
+        {
+          url: 'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/transport.kml',
+          label: 'Транспорт / Transport',
+          icon: 'train'
+        },
+        {
+          url: 'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/crossings.kml',
+          label: 'Кръстовища / Crossings',
+          icon: 'directions_walk'
+        },
+        {
+          url: 'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/slow_zones.kml',
+          label: 'Бавни зони / Slow zones',
+          icon: '30fps'
+        }
+        {
+          url: 'https://raw.githubusercontent.com/velosofist/velosofize/main/export_formats/.ignore/others.kml',
+          label: 'Други / Others',
+          icon: 'quiz'
+        },
+      ];
+
+      const overlayLayers = {};
+
+      const overlayToggleDiv = document.getElementById('overlay-toggle-buttons');
+      mapOverlayFilesToggled.forEach(({url, label, icon}) => {
+
+        // Create the overlay but don't add to map yet
+        const overlay = createStyledOverlay(url);
+        overlayLayers[url] = overlay;
+
+        // Create the toggle button
+        const btn = document.createElement('button');
+        btn.title = label; // Show label on hover
+        btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+
+        // Style the button
+        btn.style.margin = '0 4px';
+        btn.style.padding = '4px 4px';
+        btn.style.fontSize = '14px';
+        btn.style.cursor = 'pointer';
+        btn.style.border = 'none';
+        btn.style.background = '#08103b';
+        btn.style.color = '#08103b';
+        btn.style.borderRadius = '4px';
+        btn.dataset.active = 'false';
+
+        btn.onclick = function() {
+          if (btn.dataset.active === 'false') {
+            overlay.addTo(map);
+            btn.style.background = '#0074D9';
+            btn.style.color = '#fff';
+            btn.dataset.active = 'true';
+          } else {
+            map.removeLayer(overlay);
+            btn.style.background = '#08103b';
+            btn.style.color = '#08103b';
+            btn.dataset.active = 'false';
+          }
+        };
+
+        overlayToggleDiv.appendChild(btn);
+      });
+
+
+      
+
+      function styleFromStyleUrl(styleUrl, featureWeight) {
         const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
         if (match) {
           return {
             color: `#${match[1]}`,
-            weight: 3,
+            weight: featureWeight,
             opacity: 1
           };
         } else {
           return {
-            color: "#0074D9",
-            weight: 3,
+            color: "#0074D9", // grey by default
+            weight: featureWeight,
             opacity: 0.8
           };
         }
@@ -217,91 +397,118 @@
         return match ? `#${match[1]}` : "#CCCCCC";
       }
 
-      kmlFiles.forEach((kmlUrl) => {
-        omnivore.kml(kmlUrl, null, L.geoJson(null, {
-          filter: function(feature) {
-            const category = feature.properties?.["Категория #"];
-            // Include features with "Категория #" >= 3 or features without "Категория #"
-            return category === undefined || parseInt(category, 10) >= 3;
-          },
+      function pointToLayer(feature, latlng) {
+        const styleUrl = feature.properties?.styleUrl;
+        const fillColor = colorFromStyleUrl(styleUrl);
+        
+        // Extract the relevant style (ignoring everything after the second '-')
+        const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
+
+        // Mapping of relevant styles to Material Symbols icon names
+        const iconMapping = {
+          '1589': 'fitness_center',
+          '1877': 'stairs_2',
+          '1833': 'directions_walk',
+          '1718': 'tram',
+          '1716': 'train',
+          '1703': 'water_bottle',
+        };
+
+        // Default to 'question_mark' if no match is found
+        const iconName = iconMapping[relevantStyle] || 'question_mark';
+
+        // Create a combined divIcon with both the circle and the Material Symbols icon
+        const combinedIconHtml = `
+          <div style="position: relative; width: 24px; height: 24px;">
+            <div style="width: 22px; height: 22px; border-radius: 50%; background-color: ${fillColor}; opacity: 0.8; border: 1px solid white;"></div>
+            <span class="material-symbols-outlined" style="position: absolute; top: 4px; left: 4px; font-size: 16px; color: #e6e5e1;">${iconName}</span>
+          </div>
+        `;
+
+        const iconSizePx = 24
+        const combinedDivIcon = L.divIcon({
+          className: 'custom-combined-icon',
+          html: combinedIconHtml,
+          iconSize: [iconSizePx, iconSizePx], // Adjust size as needed
+          iconAnchor: [iconSizePx/2, iconSizePx/2] // Center the icon
+        });
+
+        // Create a marker with the combined icon
+        return L.marker(latlng, { icon: combinedDivIcon });
+      }
+
+      function createStyledOverlay(url) {
+        return omnivore.kml(url, null, L.geoJson(null, {
           style: function(feature) {
             const styleUrl = feature.properties?.styleUrl;
-            const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
-      
+
             // Determine weight based on feature type
-            let feature_weight;
+            let featureWeight;
             if (feature.geometry?.type === 'Point') {
-              feature_weight = 1; // Weight for points
+              featureWeight = 1;
             } else if (feature.geometry?.type === 'LineString') {
-              feature_weight = 4; // Weight for lines
+              featureWeight = 4;
             } else if (feature.geometry?.type === 'Polygon') {
-              feature_weight = 0; // Weight for polygons
+              featureWeight = 0;
             }
-      
-            // Return style based on match and feature type
-            if (match) {
-              return {
-                color: `#${match[1]}`,
-                weight: feature_weight,
-                opacity: 1
-              };
-            } else {
-              return {
-                color: "#0074D9",
-                weight: feature_weight,
-                opacity: 0.8
-              };
-            }
+
+            return styleFromStyleUrl(styleUrl, featureWeight);
           },
+          pointToLayer: pointToLayer,
+          onEachFeature: interactivePoints
+        }));
+      }
 
-          pointToLayer: function(feature, latlng) {
-            const styleUrl = feature.properties?.styleUrl;
-            const fillColor = colorFromStyleUrl(styleUrl); // Use colorFromStyleUrl to determine the circle color dynamically
-
-            // Extract the relevant style (ignoring everything after the second '-')
-            const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
-
-            // Define a mapping of relevant styles to Material Symbols icon names
-            const iconMapping = {
-              '1589': 'fitness_center',
-              '1877': 'stairs_2',
-              '1833': 'directions_walk',
-              '1718': 'tram',
-              '1716': 'train',
-              '1703': 'water_bottle',
-            };
-
-            const iconName = iconMapping[relevantStyle] || 'help'; // Default to 'help' if no match is found
-
-            // Create a combined divIcon with both the circle and the Material Symbols icon
-            const combinedIconHtml = `
-              <div style="position: relative; width: 24px; height: 24px;">
-                <div style="width: 22px; height: 22px; border-radius: 50%; background-color: ${fillColor}; opacity: 0.9; border: 1px solid white;"></div>
-                <span class="material-symbols-outlined" style="position: absolute; top: 4px; left: 4px; font-size: 16px; color: #e6e5e1;">${iconName}</span>
-              </div>
-            `;
-
-            const combinedDivIcon = L.divIcon({
-              className: 'custom-combined-icon',
-              html: combinedIconHtml,
-              iconSize: [24, 24], // Adjust size as needed
-              iconAnchor: [12, 12] // Center the icon
-            });
-
-            // Create a marker with the combined icon
-            return L.marker(latlng, { icon: combinedDivIcon });
-          },
-
-          onEachFeature: function(feature, layer) {
-            // Make only points interactive
-            if (feature.geometry?.type === 'Point') {
-              if (feature.properties?.name) {
-                layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
-              }
-            }
-          }
-        })).addTo(map);
+      mapOverlayFilesInit.forEach((url) => {
+        createStyledOverlay(url).addTo(map);
       });
+
+
+
+      
+
+      function interactivePoints(feature, layer) {
+        // Make only points interactive
+        if (feature.geometry?.type === 'Point') {
+          if (feature.properties?.description) {
+            layer.bindPopup(`
+              <div style="
+                position: relative;
+                background: #fff;
+                border-radius: 8px;
+                padding: 16px 24px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+                margin-bottom: 16px;
+                max-width: 320px;
+              ">
+                <strong>${feature.properties.name}</strong>
+              </div>
+
+              <button style="
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: none;
+                background: #e6e5e1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+              ">
+                <span class="material-symbols-outlined" style="font-size: 20px; color: #444;">link</span>
+              </button> 
+            `);
+          }
+          if (feature.properties?.name) {
+            layer.bindPopup(`
+              <strong>${feature.properties.name}</strong>
+            `)
+          }
+        }
+      }
+
+
 
       const markers = [];
       let line = null;
@@ -378,21 +585,7 @@
 
           const popupHtml = `
             <div style="text-align:center;">
-              
-              <!--
-              <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
-                Google Maps
-              </a>
-              <a href="${urlGmapsAB}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-                <img src="${gmapsIcon}" style="width:16px;">
-                A → B
-              </a>
-              <a href="${urlGmapsBA}" target="_blank" style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left;">
-                <img src="${gmapsIcon}" style="width:16px;">
-                B → A
-              </a>
-              -->
-
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
               <a style="text-decoration:none; display:flex; align-items:left; gap:6px; margin:4px; justify-content:left; font-weight:bold; color:black;">
                 Moovit
               </a>
