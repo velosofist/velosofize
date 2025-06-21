@@ -140,43 +140,63 @@ return omnivore.kml(url, null, L.geoJson(null, {
 }));
 }
 
-function interactivePoints(feature, layer) {
-// Make only points interactive
-if (feature.geometry?.type === 'Point') {
-    if (feature.properties?.description) {
-    layer.bindPopup(`
-        <div style="
-        position: relative;
-        background: #fff;
-        border-radius: 8px;
-        padding: 16px 24px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-        margin-bottom: 16px;
-        max-width: 320px;
-        ">
-        <strong>${feature.properties.name}</strong>
-        </div>
-
-        <button style="
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border: none;
-        background: #e6e5e1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-        ">
-        <span class="material-symbols-outlined" style="font-size: 20px; color: #444;">link</span>
-        </button> 
-    `);
-    }
-    if (feature.properties?.name) {
-    layer.bindPopup(`
-        <strong>${feature.properties.name}</strong>
-    `)
-    }
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
 }
+
+// Helper regex function to extract all URLs from a string
+function extractLinks(text) {
+    return [...(text.matchAll(/https?:\/\/[^\s"<]+/g))].map(match => match[0]);
+}
+
+const pointPopupHtml = (name, description) => {
+    const links = extractLinks(description || '');
+    let safeDescription = escapeHtml(description || '');
+    safeDescription = safeDescription.replace(/(https?:\/\/[^\s"<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">Link</a>');
+    let buttonsHtml = '';
+    if (links.length > 0) {
+        buttonsHtml = `
+            <div style="display: flex; gap: 8px; margin-top: 8px; justify-content: center;">
+                ${links.map((link, i) => `
+                    <button onclick="window.open('${link}', '_blank')" style="
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        border: none;
+                        background: #e6e5e1;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+                    " title="Open link ${i+1}">
+                        <span class="material-symbols-outlined" style="font-size: 20px; color: #444;">link</span>
+                    </button>
+                `).join('')}
+            </div>
+        `;
+    }
+    return `
+        <strong>${escapeHtml(name)}</strong>
+        <div>${safeDescription}</div>
+        ${buttonsHtml}
+    `;
+};
+
+function extractLinks(text) {
+    return [...(text.matchAll(/https?:\/\/[^\s"<]+/g))].map(match => match[0]);
+}
+
+function interactivePoints(feature, layer) {
+    if (feature.geometry?.type === 'Point') {
+        const name = feature.properties?.name || '';
+        const description = feature.properties?.description || '';
+        if (name && description) {
+            layer.bindPopup(pointPopupHtml(name, description));
+        } else if (name) {
+            layer.bindPopup(`<strong>${name}</strong>`);
+        }
+    }
 }
