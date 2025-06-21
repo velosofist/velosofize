@@ -1,0 +1,31 @@
+{
+    "primary": [
+        {
+            "url": "/export_formats/velosofize_export.kml",
+            "label": "",
+            "icon": ""
+        }
+    ],
+    "secondary": [
+        {
+            "url": "/export_formats/.ignore/transport.kml",
+            "label": "Транспорт / Transport",
+            "icon": "train"
+        },
+        {
+            "url": "/export_formats/.ignore/crossings.kml",
+            "label": "Кръстовища / Crossings",
+            "icon": "directions_walk"
+        },
+        {
+            "url": "/export_formats/.ignore/slow_zones.kml",
+            "label": "Бавни зони / Slow zones",
+            "icon": "30fps"
+        },
+        {
+            "url": "/export_formats/.ignore/others.kml",
+            "label": "Други / Others",
+            "icon": "quiz"
+        }
+    ]
+}
