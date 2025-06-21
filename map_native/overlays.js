@@ -1,4 +1,3 @@
-
 fetch('overlays.json')
 .then(response => response.json())
 .then(data => {
@@ -16,38 +15,40 @@ const mapOverlayFilesToggled = data;
     const overlayLayers = {};
     const overlayToggleDiv = document.getElementById('overlay-toggle-buttons');
 
-    secondaryOverlays.forEach(({url, label, icon}) => {
-    const overlay = createStyledOverlay(url);
-    overlayLayers[url] = overlay;
-
-    const btn = document.createElement('button');
-    btn.title = label;
-    btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-    btn.style.margin = '0 4px';
-    btn.style.padding = '4px 4px';
-    btn.style.fontSize = '14px';
-    btn.style.cursor = 'pointer';
-    btn.style.border = 'none';
-    btn.style.background = '#08103b';
-    btn.style.color = '#08103b';
-    btn.style.borderRadius = '4px';
-    btn.dataset.active = 'false';
-
-    btn.onclick = function() {
-        if (btn.dataset.active === 'false') {
-        overlay.addTo(map);
-        btn.style.background = '#0074D9';
-        btn.style.color = '#fff';
-        btn.dataset.active = 'true';
-        } else {
-        map.removeLayer(overlay);
-        btn.style.background = '#08103b';
-        btn.style.color = '#08103b';
-        btn.dataset.active = 'false';
+    secondaryOverlays.forEach(({url, label, icon, disabled}) => {
+        const overlay = createStyledOverlay(url);
+        overlayLayers[url] = overlay;
+        
+        if (!disabled) {
+            const btn = document.createElement('button');
+            btn.title = label;
+            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+            btn.style.margin = '0 4px';
+            btn.style.padding = '4px 4px';
+            btn.style.fontSize = '14px';
+            btn.style.cursor = 'pointer';
+            btn.style.border = 'none';
+            btn.style.background = '#08103b';
+            btn.style.color = '#08103b';
+            btn.style.borderRadius = '4px';
+            btn.dataset.active = 'false';
+    
+            btn.onclick = function() {
+                if (btn.dataset.active === 'false') {
+                    overlay.addTo(map);
+                    btn.style.background = '#0074D9';
+                    btn.style.color = '#fff';
+                    btn.dataset.active = 'true';
+                } else {
+                    map.removeLayer(overlay);
+                    btn.style.background = '#08103b';
+                    btn.style.color = '#08103b';
+                    btn.dataset.active = 'false';
+                }
+            };
+    
+            overlayToggleDiv.appendChild(btn); // <-- Move this inside the if block
         }
-    };
-
-    overlayToggleDiv.appendChild(btn);
     });
 });
 
@@ -91,6 +92,7 @@ const iconMapping = {
     '1718': 'tram',
     '1716': 'train',
     '1703': 'water_bottle',
+    '959': 'car_crash',
 };
 
 // Default to 'question_mark' if no match is found
