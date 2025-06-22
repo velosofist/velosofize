@@ -1,10 +1,17 @@
 fetch('overlays.json')
-.then(response => response.json())
-.then(data => {
-const primaryOverlays = data.primary;
-primaryOverlays.forEach(({url}) => {
-    createStyledOverlay(url).addTo(map);
-});
+  .then(response => response.json())
+  .then(data => {
+    data.primary.forEach(layer => {
+    if (layer.disabled === false) {
+        // Add normally
+        createStyledOverlay(layer.url).addTo(map);
+    } else if (layer.disabled === "conditional") {
+        // Add your custom logic here
+        if (currentBaseLayer=='cyclosm') {
+        createStyledOverlay(layer.url).addTo(map);
+        }
+    }
+    });
 });
 
 fetch('overlays.json')
@@ -92,6 +99,7 @@ const iconMapping = {
     '1716': 'train',
     '1703': 'water_bottle',
     '959': 'car_crash',
+    '1532': 'directions_bus',
 };
 
 // Default to 'question_mark' if no match is found

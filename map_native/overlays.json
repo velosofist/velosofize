@@ -1,13 +1,19 @@
 {
     "primary": [
         {
-            "url": "../export_formats/velosofize_export.kml",
+            "url": "../export_formats/velosofize_export_separated/velosofize_export_others.kml",
             "label": "",
             "icon": "",
             "disabled": false
         }
     ],
     "secondary": [
+        {
+            "url": "../export_formats/velosofize_export_separated/velosofize_export_bikelanes.kml",
+            "label": "Велоалеи / Bike lanes",
+            "icon": "bike_lane",
+            "disabled": false
+        },
         {
             "url": "../export_formats/misc_layers/transport.kml",
             "label": "Транспорт / Transport",
@@ -35,7 +41,7 @@
         {
             "url": "../export_formats/chernapista_condensed/chernapista_condensed.kml",
             "label": "",
-            "icon": "car_crash",
+            "icon": "warning",
             "disabled": false
         }
     ]
