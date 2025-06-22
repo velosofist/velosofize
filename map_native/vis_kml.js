@@ -10,7 +10,12 @@ document.getElementById('legend-overlay').style.display = 'flex';
 document.getElementById('close-legend').onclick = function() {
 document.getElementById('legend-overlay').style.display = 'none';
 };
-// Optional: close overlay when clicking outside the modal
+document.getElementById('switch-language-legend').onclick = function() {
+  const iframe = document.getElementById('legend-iframe');
+  iframe.src = iframe.src.endsWith('cyclosm_legend.html')
+    ? './cyclosm_legend_en.html'
+    : './cyclosm_legend.html';
+};
 document.getElementById('legend-overlay').onclick = function(e) {
 if (e.target === this) this.style.display = 'none';
 };

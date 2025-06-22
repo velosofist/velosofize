@@ -10,8 +10,7 @@ primaryOverlays.forEach(({url}) => {
 fetch('overlays.json')
 .then(response => response.json())
 .then(data => {
-const secondaryOverlays = data.secondary;
-const mapOverlayFilesToggled = data;
+    const secondaryOverlays = data.secondary;
     const overlayLayers = {};
     const overlayToggleDiv = document.getElementById('overlay-toggle-buttons');
 
