@@ -1,7 +1,7 @@
 {
     "primary": [
         {
-            "url": "/export_formats/velosofize_export.kml",
+            "url": "../export_formats/velosofize_export.kml",
             "label": "",
             "icon": "",
             "disabled": false
@@ -9,31 +9,31 @@
     ],
     "secondary": [
         {
-            "url": "/export_formats/misc_layers/transport.kml",
+            "url": "../export_formats/misc_layers/transport.kml",
             "label": "Транспорт / Transport",
             "icon": "train",
             "disabled": false
         },
         {
-            "url": "/export_formats/misc_layers/crossings.kml",
+            "url": "../export_formats/misc_layers/crossings.kml",
             "label": "Кръстовища / Crossings",
             "icon": "directions_walk",
             "disabled": false
         },
         {
-            "url": "/export_formats/misc_layers/slow_zones.kml",
+            "url": "../export_formats/misc_layers/slow_zones.kml",
             "label": "Бавни зони / Slow zones",
             "icon": "30fps",
             "disabled": true
         },
         {
-            "url": "/export_formats/misc_layers/others.kml",
+            "url": "../export_formats/misc_layers/others.kml",
             "label": "Други / Others",
             "icon": "quiz",
             "disabled": false
         },
         {
-            "url": "/export_formats/chernapista_condensed/chernapista_condensed.kml",
+            "url": "../export_formats/chernapista_condensed/chernapista_condensed.kml",
             "label": "",
             "icon": "car_crash",
             "disabled": false
