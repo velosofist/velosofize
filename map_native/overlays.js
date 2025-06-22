@@ -100,6 +100,7 @@ const iconMapping = {
     '1703': 'water_bottle',
     '959': 'car_crash',
     '1532': 'directions_bus',
+    '1634': 'landscape',
 };
 
 // Default to 'question_mark' if no match is found

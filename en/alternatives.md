@@ -9,7 +9,7 @@ title: Alternatives
   - [Sofenhagen](#sofenhagen)
   - [Велоеволюция (velobg.org)](#велоеволюция-velobgorg)
     - [Interactive map](#interactive-map)
-  - [Zerowastesofia watermap](#zerowastesofia-watermap)
+  - [Map "Water Fountains in Bulgaria" by Zero Waste Sofia](#map-water-fountains-in-bulgaria-by-zero-waste-sofia)
     - [Interactive map](#interactive-map-1)
 - [Strava heatmap](#strava-heatmap)
 - [Komoot](#komoot)
@@ -45,7 +45,7 @@ They don't, however, seem to be actively maintaining the map currently.
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1yKOlErvOsb1zR2fou8wKUXaN9tI&ehbc=2E312F" width="500" height="400"></iframe>
 
-## [Zerowastesofia watermap](https://zerowastesofia.com/watermap/)
+## [Map "Drinking Fountains in Bulgaria" by Zero Waste Sofia](https://zerowastesofia.com/watermap/)
 
 A collaborative project to map water fountains and zero-waste friendly establishments in Bulgaria, among other content related to living sustainably.
 Apps for [Android](https://play.google.com/store/apps/details?id=com.epicmillennium.cheshmap&pli=1) and [iOS](https://apps.apple.com/bg/app/%D1%87%D0%B5%D1%88%D0%BC%D0%B8%D1%82%D0%B5-%D0%B2-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/id6741713970) are available for the watermap for Sofia and all of Bulgaria along with additional information for each pinned location.
