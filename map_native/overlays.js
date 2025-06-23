@@ -17,14 +17,15 @@ fetch('overlays.json')
 fetch('overlays.json')
 .then(response => response.json())
 .then(data => {
-    const secondaryOverlays = data.secondary;
-    const overlayLayers = {};
-    const overlayToggleDiv = document.getElementById('overlay-toggle-buttons');
+    // External overlays
+    const externalOverlays = data.external;
+    const externalToggleDiv = document.getElementById('overlay-toggle-external');
+    const externalOverlayLayers = {};
 
-    secondaryOverlays.forEach(({url, label, icon, disabled}) => {
+    externalOverlays.forEach(({url, label, icon, disabled}) => {
         const overlay = createStyledOverlay(url);
-        overlayLayers[url] = overlay;
-        
+        externalOverlayLayers[url] = overlay;
+
         if (!disabled) {
             const btn = document.createElement('button');
             btn.title = label;
@@ -36,9 +37,9 @@ fetch('overlays.json')
             btn.style.border = 'none';
             btn.style.background = '#08103b';
             btn.style.color = '#08103b';
-            btn.style.borderRadius = '4px';
+            btn.style.borderRadius = '50%';
             btn.dataset.active = 'false';
-    
+
             btn.onclick = function() {
                 if (btn.dataset.active === 'false') {
                     overlay.addTo(map);
@@ -52,12 +53,52 @@ fetch('overlays.json')
                     btn.dataset.active = 'false';
                 }
             };
-    
-            overlayToggleDiv.appendChild(btn); // <-- Move this inside the if block
+
+            externalToggleDiv.appendChild(btn);
+        }
+    });
+
+    // Secondary overlays
+    const secondaryOverlays = data.secondary;
+    const secondaryToggleDiv = document.getElementById('overlay-toggle-secondary');
+    const secondaryOverlayLayers = {};
+
+    secondaryOverlays.forEach(({url, label, icon, disabled}) => {
+        const overlay = createStyledOverlay(url);
+        secondaryOverlayLayers[url] = overlay;
+
+        if (!disabled) {
+            const btn = document.createElement('button');
+            btn.title = label;
+            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+            btn.style.margin = '0 4px';
+            btn.style.padding = '4px 4px';
+            btn.style.fontSize = '14px';
+            btn.style.cursor = 'pointer';
+            btn.style.border = 'none';
+            btn.style.background = '#08103b';
+            btn.style.color = '#08103b';
+            btn.style.borderRadius = '50%';
+            btn.dataset.active = 'false';
+
+            btn.onclick = function() {
+                if (btn.dataset.active === 'false') {
+                    overlay.addTo(map);
+                    btn.style.background = '#0074D9';
+                    btn.style.color = '#fff';
+                    btn.dataset.active = 'true';
+                } else {
+                    map.removeLayer(overlay);
+                    btn.style.background = '#08103b';
+                    btn.style.color = '#08103b';
+                    btn.dataset.active = 'false';
+                }
+            };
+
+            secondaryToggleDiv.appendChild(btn);
         }
     });
 });
-
 
 
 
@@ -138,7 +179,7 @@ return omnivore.kml(url, null, L.geoJson(null, {
     } else if (feature.geometry?.type === 'LineString') {
         featureWeight = 4;
     } else if (feature.geometry?.type === 'Polygon') {
-        featureWeight = 0;
+        featureWeight = 3;
     }
 
     return styleFromStyleUrl(styleUrl, featureWeight);
@@ -198,7 +239,7 @@ function extractLinks(text) {
 }
 
 function interactivePoints(feature, layer) {
-    if (feature.geometry?.type === 'Point') {
+    if (feature.geometry?.type === 'Point' || 'Polygon') {
         const name = feature.properties?.name || '';
         const description = feature.properties?.description || '';
         if (name && description) {

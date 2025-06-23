@@ -159,44 +159,62 @@
         </a>
     </div>
 
-    <div id="overlay-toggle-buttons"
-      style="
-        position: absolute;
-        right: 16px;
-        bottom: 150px;
-        z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        background: #000033;
-        border: 1px solid #e6e5e1;
-        border-radius: 12px;
-        padding: 8px;
-        box-sizing: border-box;
-        ">
-    </div>
+    <div style="
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+    ">
 
-    <div id="layer-switcher"
-      style="
-        position: absolute;
-        bottom: 16px;
-        right: 16px;
-        z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 1px solid #e6e5e1;
-        border-radius: 12px;
-        background: #000033;
-        padding: 10px 8px;
-        ">
-      <span style="color: #e6e5e1; font-weight: bold; margin-bottom: 6px; font-size: 16px;">
-        Основа
-      </span>
-      <button id="layer-icon-btn"
-        style="background: #000033; border: none; border-radius: 8px; padding: 0; cursor: pointer;">
-        <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" alt="CyclOSM" style="width: 60px; height: 60px;">
-      </button>
+      <div id="overlay-toggle-external"
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          background: #000033;
+          border: 1px solid #e6e5e1;
+          border-radius: 12px;
+          padding: 4px;
+          box-sizing: border-box;
+      ">
+      </div>
+
+      <div id="overlay-toggle-secondary"
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          background: #000033;
+          border: 1px solid #e6e5e1;
+          border-radius: 12px;
+          padding: 4px;
+          box-sizing: border-box;
+      ">
+      </div>
+
+      <div id="layer-switcher"
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          align-items: center;
+          border: 1px solid #e6e5e1;
+          border-radius: 12px;
+          background: #000033;
+          padding: 10px 8px;
+          ">
+        <span style="color: #e6e5e1; font-weight: bold; margin-bottom: 6px; font-size: 16px;">
+          Основа
+        </span>
+        <button id="layer-icon-btn"
+          style="background: #000033; border: none; border-radius: 8px; padding: 0; cursor: pointer;">
+          <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" alt="CyclOSM" style="width: 60px; height: 60px;">
+        </button>
+      </div>
     </div>
 
     <div id="layer-name-flash"

@@ -1,3 +1,4 @@
 notes.md
 sandbox.html
-ignore.kml
+ignore*.py
+ignore*.kml
