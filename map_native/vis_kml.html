@@ -27,6 +27,7 @@
         sans-serif; 
         background: #eee8d5;
       }
+
       #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
       #project-header {
         position: absolute;
@@ -41,7 +42,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        color: white;
+        color: #eee8d5;
         font-size: 24px;
         font-family: sans-serif;
       }
@@ -56,19 +57,20 @@
         top: 10px;
         left: 10px;
         background: #000033;
-        padding: 6px 6px;
-        border-radius: 8px;
+        padding: 8px 8px;
+        border-radius: 32px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         z-index: 1000;
         display: flex;
-        flex-direction: column; /* Change layout to vertical */
-        gap: 8px; /* Add spacing between buttons */
+        flex-direction: column;
+        gap: 8px;
       }
+      
       #link-buttons a {
         display: inline-block;
         width: 32px;
         height: 32px;
-        background: rgba(8, 12, 59, 0.9);
+        background: rgba(255, 255, 255, 0.9);
         border-radius: 50%;
         text-align: center;
         line-height: 40px;
@@ -135,8 +137,7 @@
     </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script
-      src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+    <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
 
     <div id="link-buttons">
       <a href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
@@ -154,7 +155,7 @@
       <a href="https://github.com/velosofist/velosofize/tree/main/export_formats"
         target="_blank" title="GitHub">
         <img
-          src="https://raw.githubusercontent.com/velosofist/velosofize/refs/heads/main/attachments/github-mark/github-mark-white.png"
+          src="https://raw.githubusercontent.com/velosofist/velosofize/refs/heads/main/attachments/github-mark/github-mark.png"
           alt="GitHub">
         </a>
     </div>
@@ -177,8 +178,8 @@
           gap: 4px;
           background: #000033;
           border: 1px solid #e6e5e1;
-          border-radius: 12px;
-          padding: 4px;
+          border-radius: 32px;
+          padding: 8px 4px;
           box-sizing: border-box;
       ">
       </div>
@@ -190,8 +191,8 @@
           gap: 4px;
           background: #000033;
           border: 1px solid #e6e5e1;
-          border-radius: 12px;
-          padding: 4px;
+          border-radius: 32px;
+          padding: 8px 4px;
           box-sizing: border-box;
       ">
       </div>

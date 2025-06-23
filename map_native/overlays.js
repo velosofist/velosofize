@@ -17,7 +17,6 @@ fetch('overlays.json')
 fetch('overlays.json')
 .then(response => response.json())
 .then(data => {
-    // External overlays
     const externalOverlays = data.external;
     const externalToggleDiv = document.getElementById('overlay-toggle-external');
     const externalOverlayLayers = {};
@@ -58,7 +57,6 @@ fetch('overlays.json')
         }
     });
 
-    // Secondary overlays
     const secondaryOverlays = data.secondary;
     const secondaryToggleDiv = document.getElementById('overlay-toggle-secondary');
     const secondaryOverlayLayers = {};
