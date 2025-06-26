@@ -2,7 +2,7 @@
 title: Laws and rulebooks
 ---
 
-[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/velosofize/bg/rulebooks.html) \
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/rulebooks.html) \
 A more exhaustive version of this page is available in Bulgarian.
 
 - [Laws and rulebooks](#laws-and-rulebooks)

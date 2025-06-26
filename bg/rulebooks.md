@@ -2,7 +2,7 @@
 title: Закони и правилници
 ---
 
-[**🇬🇧 For the english version click here.🇬🇧**](/velosofize/en/rulebooks.html)
+[**🇬🇧 For the english version click here.🇬🇧**](/en/rulebooks.html)
 
 **Съдържание**
 

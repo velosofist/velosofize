@@ -20,7 +20,7 @@ Reach out at <velosofize@gmail.com> if you're interested in contributing in the 
 The work in Github aims to ensure that a relatively transparent and trustworthy process to suggest and make changes to the map is followed.
 The plan is to collect suggestions for new features on the map by users from Google Forms and attached maps and to document their approval process through pull requests, where an approver needs to prove that they visited the marked locations and routes. Though this will slow down updates to the map and may seem pedantic, it aims to ensure that certain standards are applied to all newly added routes.
 
-In planning about how to organize this project beyond its central component - the [Google My Maps map](/velosofize/en/index.html) - I came across other ways to view and edit copies of the map and other projects that one can contribute to.
+In planning about how to organize this project beyond its central component - the [Google My Maps map](/en/index.html) - I came across other ways to view and edit copies of the map and other projects that one can contribute to.
 The map can be presented in text format (.kml) that can be modified with scripts.
 
 ## VSCode
