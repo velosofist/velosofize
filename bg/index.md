@@ -18,7 +18,7 @@ title: За проекта
 
 # Карта
 
-(Линк)[https://map.velosofize.com]
+[Линк](https://map.velosofize.com)
 
 ## Интерактивна карта в Gooogle Maps
 
