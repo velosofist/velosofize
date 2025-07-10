@@ -1,11 +1,8 @@
-remote_theme: "jekyll/minima@1e8a445"
-plugins:
-- jekyll-remote-theme
-minima:
-  skin: auto
-
-show_downloads: false
 title: VELOSOFIZE
-header_pages: 
-  - title: "Map"
-    url: "https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
+remote_theme: velosofist/velosofize-minima-theme
+minima:
+  skin: solarized-light
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
