@@ -1,4 +1,5 @@
-_site/
+_*/
+assets/
 Gemfile*
 notes.md
 sandbox.html
