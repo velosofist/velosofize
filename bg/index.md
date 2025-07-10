@@ -6,9 +6,6 @@ title: За проекта
 
 **Съдържание**
 
-- [Карта](#карта)
-  - [Интерактивна карта](#интерактивна-карта)
-  - [Източници](#източници)
 - [Цели на проекта](#цели-на-проекта)
   - [От и за велосипедисти](#от-и-за-велосипедисти)
   - [Безплатно и дългосрочно достъпно](#безплатно-и-дългосрочно-достъпно)
@@ -16,15 +13,15 @@ title: За проекта
   - [Удобство](#удобство)
   - [Отчетност](#отчетност)
 
-# Карта
-
-[Линк](https://map.velosofize.com)
+## [Легенда](https://map.velosofize.com/legend/bg/cyclosm_legend.html)
 
 ## Интерактивна карта в Gooogle Maps
 
 (⭐) Запази в Google Maps
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F"
+  width="100%" height="500" allowfullscreen loading="lazy">
+</iframe>
 
 ## Източници
 
@@ -32,7 +29,7 @@ title: За проекта
 - [Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia)
 - [CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm)
 - [Strava heatmap](https://www.strava.com/maps/global-heatmap?sport=Ride&style=standard&terrain=false&labels=true&poi=true&cPhotos=true&gColor=mobileblue&gOpacity=100#7.64/42.856/25.244)
-- [Trinmo.bg](https://trinmo.org/mobility/bicycle-transport)
+- [Trinmo](https://trinmo.org/mobility/bicycle-transport)
 
 # Цели на проекта
 

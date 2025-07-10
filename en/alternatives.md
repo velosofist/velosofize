@@ -9,7 +9,7 @@ title: Alternatives
   - [Sofenhagen](#sofenhagen)
   - [Велоеволюция (velobg.org)](#велоеволюция-velobgorg)
     - [Interactive map](#interactive-map)
-  - [Map "Water Fountains in Bulgaria" by Zero Waste Sofia](#map-water-fountains-in-bulgaria-by-zero-waste-sofia)
+  - [Map "Drinking Fountains in Bulgaria" by Zero Waste Sofia](#map-drinking-fountains-in-bulgaria-by-zero-waste-sofia)
     - [Interactive map](#interactive-map-1)
 - [Strava heatmap](#strava-heatmap)
 - [Komoot](#komoot)
@@ -43,7 +43,9 @@ They don't, however, seem to be actively maintaining the map currently.
 
 (⭐) Save in Google Maps
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1yKOlErvOsb1zR2fou8wKUXaN9tI&ehbc=2E312F" width="500" height="400"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1yKOlErvOsb1zR2fou8wKUXaN9tI&ehbc=2E312F"
+  width="100%" height="500" allowfullscreen loading="lazy">
+</iframe>
 
 ## [Map "Drinking Fountains in Bulgaria" by Zero Waste Sofia](https://zerowastesofia.com/watermap/)
 
@@ -54,7 +56,9 @@ Apps for [Android](https://play.google.com/store/apps/details?id=com.epicmillenn
 
 (⭐) Save in Google Maps
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1s1SiRpB38OK8MYMPQGTm1WQ3dK2XPfg&ehbc=2E312F" width="500" height="400"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1s1SiRpB38OK8MYMPQGTm1WQ3dK2XPfg&ehbc=2E312F"
+  width="100%" height="500" allowfullscreen loading="lazy">
+</iframe>
 
 # Strava heatmap
 

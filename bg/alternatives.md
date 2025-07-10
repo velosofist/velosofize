@@ -6,8 +6,11 @@ title: Алтернативи
 
 **Съдържание**
 
-- [CyclOSM](#cyclosm)
+- [OpenStreetMap](#openstreetmap)
+  - [CyclOSM](#cyclosm)
+  - [MTB Map Europe](#mtb-map-europe)
 - [Български проекти и НПО-та в сферата](#български-проекти-и-нпо-та-в-сферата)
+  - [MTB-BG](#mtb-bg)
   - [Sofenhagen](#sofenhagen)
   - [Велоеволюция (velobg.org)](#велоеволюция-velobgorg)
     - [Интеркативна карта](#интеркативна-карта)
@@ -46,7 +49,9 @@ Sofenhagen е проект разпространяващ информация, 
 
 (⭐) Запази в Google Maps
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1yKOlErvOsb1zR2fou8wKUXaN9tI&ehbc=2E312F" width="500" height="400"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1yKOlErvOsb1zR2fou8wKUXaN9tI&ehbc=2E312F"
+  width="100%" height="500" allowfullscreen loading="lazy">
+</iframe>
 
 ## [Карта "Чешмите в България" от Zero Waste Sofia](https://zerowastesofia.com/watermap/)
 

@@ -6,16 +6,6 @@ title: About the project
 
 **Table of contents:**
 
-- [Maps](#maps)
-  - [Personal edition](#personal-edition)
-    - [Google Maps (2D)](#google-maps-2d)
-    - [Interactive map](#interactive-map)
-    - [Legend](#legend)
-      - [Route Categories](#route-categories)
-      - [Location Categories](#location-categories)
-    - [Google Earth (3D)](#google-earth-3d)
-    - [Sources](#sources)
-  - [Collaborative edition (How can I contribute)](#collaborative-edition-how-can-i-contribute)
 - [What's the goal of this project?](#whats-the-goal-of-this-project)
   - [Grass-roots](#grass-roots)
   - [Free in the long-term and sustainable](#free-in-the-long-term-and-sustainable)
@@ -23,39 +13,16 @@ title: About the project
   - [User-friendly](#user-friendly)
   - [Accountable](#accountable)
 
-# Maps
-
-## Personal edition
-
-### [Google Maps (2D)](https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing)
+## [Legend](https://map.velosofize.com/legend/en/cyclosm_legend.html)
 
 ### Interactive map
 
 (⭐) Save in Google Maps
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F" width="500" height="600"></iframe>
-
-### Legend 
-
-#### Route Categories
-
-1. 🔵 Bike lanes
-1. 🔵 Bike lanes (not separated from traffic)
-1. 🟡 "Convenient" - Relatively comfortable and safe streets and shared areas *
-1. 🟠 Unpaved or difficult to traverse *
-1. 🟣 Wide or unused sidewalks * (See Section III. Art. 15 and Section XVIII. Art. 81 of the [Road traffic act](/en/rulebooks.html#road-traffic-act).)
-1. ⚪ Unexplored
-
-\* Based on subjective criteria.
-
-#### Location Categories
-
-- 🚉 Public transport 🚉
-- 🚶‍♂️🚲 Crossing points on certain major boulevards 🚲🚶‍♂️
-
-### [Google Earth (3D)](https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ)
-
-<img src="../attachments/earth_view.png" alt="Alt Text" width="500">
+<iframe 
+  src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F"
+  width="100%" height="500" allowfullscreen loading="lazy">
+</iframe>
 
 ### Sources
 
@@ -63,12 +30,7 @@ title: About the project
 - [Велоеволюция](https://velobg.org/infrastructure/bikelines-sofia)
 - [CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm)
 - [Strava heatmap](https://www.strava.com/maps/global-heatmap?sport=Ride&style=standard&terrain=false&labels=true&poi=true&cPhotos=true&gColor=mobileblue&gOpacity=100#7.64/42.856/25.244)
-
-## Collaborative edition (How can I contribute)
-
-- Contact: <velosofize@gmail.com>
-- Contribute through Github - more details will be published once enough potential contributors have shown interest. If you're interested, reach out at the email above and see the [for contributors](/en/for_contributors.html) page.
-- Also see [the alternatives](/en/alternatives.html) - other projects worth contributing to.
+- [Trinmo](https://trinmo.org/mobility/bicycle-transport)
 
 # What's the goal of this project?
 
