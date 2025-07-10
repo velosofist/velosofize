@@ -1,25 +1,16 @@
-# БДЖ - Превоз във влак
+---
+title: Railway service
+---
 
-Извадки от [Превоз на велосипеди](https://www.bdz.bg/bg/a/prevoz-na-velosipedi) в официалния уебсайт на БДЖ.
+[Transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles).
 
-> Превозът на велосипеди и е-тротинетки двуколки е разрешен: \
-> - във влаковете, в съставите на които има **вагони с отделение за превоз на велосипеди** или фургони;
-> - във всички категории пътнически влакове – на платформата на вагоните, т.е. **предверието пред санитарния възел**. При повече пътници с велосипеди (е-тротинетки), същите се разпределят по платформите на другите вагони;
-> - в електромотрисните влакове – в багажното отделение (където има такова);
-> - в дизеловите и електрическите **мотриси "Дезиро"** – в свободната им широка част **до санитарния възел**.
+## Narrow-gauge trains (Septemvri-Dobrinishte)
 
-> За превоз на велосипед или е-тротинетка двуколка, пътникът заявява на билетни каси и заплаща [сума], независимо от километричното разстояние.
-
-> При пътуване на групи с велосипеди (е-тротинетки) превозът се осъществява чрез специализиран вагон при направена предварителна заявка най-късно 7 дни преди датата на пътуване.
-
-## Теснолинейки (Септември-Добринище)
-
-Извадка от [превоз на велосипеди и ски](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata):
-> Специализираните вагони ще могат да бъдат включвани и към всички влакове по маршрута на теснолинейката след предварително заявен превоз на минимум четири велосипеда или скиорски принадлежности и не по-късно от седем дни преди датата на пътуване. Заявки за превоз се приемат на e-mail: bdz_passengers@bdz.bg или на билетните каси в гарите в страната. [Заплаща се] на билетните каси при закупуване на документите за пътуване.
+[Transportation of bicycles in the narrow-gauge (BG)](https://www.bdz.bg/bg/a/spetsialni-vagoni-za-prevoz-na-velosipedi-i-skiorski-prinadlezhnosti-shche-se-dvizhat-po-tesnolineykata)
 
 <!-- <img src="../attachments/tesnolineika_wagon.jpg" alt="Alt Text" width="500"> -->
 <img src="https://p.bdz.bg/www/o/u/outside-wagon-3996-1140x0.jpg" alt="Alt Text" width="500">
 
-Маршрут [(линк към сайта на БДЖ)](https://www.bdz.bg/bg/c/rodopska-tesnolineika)\
+Route [(from the railway service's website)](https://www.bdz.bg/bg/c/rodopska-tesnolineika)
 <!-- <img src="../attachments/tesnolineika_route.png" alt="Alt Text" width="500"> -->
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&ehbc=2E312F&ll=42.00216024216979%2C23.784364421199275&z=11" width="500" height="600"></iframe>

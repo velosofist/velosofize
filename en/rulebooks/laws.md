@@ -1,39 +1,39 @@
-# ЗДвП - Закон за движение по пътищата
+---
+title: Road traffic act
+---
 
-Източници:
+Source: Bulgarian Ministry of Foreign Affairs
 
-- [МВнР](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)
-- [АПИС](https://legislation.apis.bg/doc/11110/0)
+- [Link 1](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)
+- [Link 2](https://www.mrrb.bg/en/road-traffic-act-rules-on-the-implementation-of-the-road-traffic-act/)
 
-> По смисъла на този закон (...) **"Велосипед" е** пътно превозно средство най-малко с две колела, което се привежда в движение с мускулната сила на лицето, което го управлява, с изключение на инвалидните колички.
+> In the context of this Act (...) "Bicycle" is a vehicle on at least two wheels which is set in motion by the muscular force of the person driving it, with exception of wheelchairs.
 
-> Разд. 21, Чл. 107\
->**Пешеходец е** всеки участник в движението, който се намира на пътя извън пътно превозно средство и не извършва работа по пътя. За пешеходци се считат и лицата (...), които бутат велосипед (...)
+> Section XXI. Art. 107 \
+> Pedestrian is every participant in the traffic on the road outside a vehicle and who does not work on the road. Considered pedestrians shall also be the persons (...) who push bicycles (...);
 
->Разд. 3, чл. 15\
->Когато няма специално предназначена за тях пътна лента или алея, водачите на (...) велосипеди (...) може да използват за движение разположения отдясно по посоката на движението им пътен банкет, ако той е годен за това и ако това не пречи на другите участници в движението.
+> Section III. Art. 15 \
+> (5) When there is no specially designated for them road lane or alley the cyclists (...) can use for movement the roadside on the right of the road at the direction of the traffic if it is fit for that and if it does not create obstruction for the other participants in the traffic.
 
->Разд. 18, Чл. 79\
->За да участва в движението по пътищата (...) **всеки велосипед (...) трябва да има** изправни:
-> 1. **спирачки**;
-> 2. механичен или електронен **звънец** и да няма друг звуков сигнал;
-> 3. за велосипеда – устройство за излъчване на бяла или жълта добре различима светлина отпред и червен светлоотразител отзад; допуска се поставянето на устройство за излъчване на червена светлина отзад;
-> 4. (...)
-> 5. бели или жълти светлоотразители или светлоотразяващи елементи отстрани на колелата на велосипедите.
+> Section XVIII. Art. 79 \
+> In order to participate in the traffic on the roads open for public use every bicycle must have fit:
+> 1. brakes;
+> 2. bell and no other sound signal;
+> 3. device for white or yellow easily distinguishable light on the front and red light reflector on the back; admitted shall be the placing of a device for red light on the back;
+> 4. white or yellow light reflectors or light reflecting elements on the sides of the wheels.
 
-> Разд. 18, Чл. 80\
-> **Водачът на велосипед е длъжен**:
-> 1. да ползва светлоотразителна жилетка при управлението му извън населените места, през тъмната част на денонощието и при намалена видимост;
-> 2. да се движи възможно най-близо до дясната граница на платното за движение.
+> Section XVIII. Art. 80 \
+> Cyclists shall be obliged:
+> 1. to wear reflective waistcoats when cycling outside settlements, at nighttimes and poor visibility;
+> 2. to move as close as possible to the right border of the traffic lane.
 
-> Разд. 18, Чл. 81\
-> **На водача** на [велосипед и др.] **е забранено**:
-> 1. да се движи успоредно до друго двуколесно пътно превозно средство;
-> 2. да управлява превозното средство, без да държи кормилото с ръка, както и да освобождава педалите, с които контролира превозното средство;
-> 3. да се движи в непосредствена близост до друго пътно превозно средство или да се държи за него;
-> 4. да превозва, тегли или тласка предмети, които пречат на управлението на превозното средство или създават опасност за другите участници в движението;
-> 5. да управлява превозно средство по площите, предназначени само за пешеходци; тази забрана не се отнася за велосипедисти на възраст до 12 години.
+> Section XVIII. Art. 81 \
+> Prohibited to the driver of a two-wheel vehicle shall be:
+> 1. to drive in parallel with another two-wheel vehicle;
+> 2. to drive the vehicle without holding the wheel, as well as to release the pedals controlling the vehicle;
+> 3. to drive in the immediate vicinity of another vehicle or hold on it;
+> 4. to carry, draw or push object which hinder the driving of the vehicle and create danger for the other participants in the traffic;
+> 5. to drive the vehicle on the areas designated only for pedestrians; this prohibition does not regard cyclist of age below 12.
 
-> Разд. 18, Чл. 82.\
-> Забранено е движението на велосипедисти в група за тренировка, ако пред и зад групата няма придружители с автомобил или мотоциклет.
-> 
+> Section XVIII. Art. 82 \
+> Prohibited is the movement of cyclists in a group for training if in front and behind the group there is no automobile or motorcycle escort.
