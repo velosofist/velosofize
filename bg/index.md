@@ -15,7 +15,7 @@ title: За проекта
 
 ## [Легенда](https://map.velosofize.com/legend/bg/cyclosm_legend.html)
 
-## Интерактивна карта в Gooogle Maps
+## Интерактивна карта в Google Maps
 
 (⭐) Запази в Google Maps
 
