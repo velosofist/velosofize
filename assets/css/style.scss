@@ -1,0 +1,27 @@
+---
+---
+
+
+@font-face {
+  font-family: 'Azbuki';
+  src: url('/fonts/azbuki/Azbuki-Regular.woff2') format('woff2'),
+       url('/fonts/azbuki/Azbuki-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@import "minima/skins/{{ site.minima.skin | default: 'solarized-light' }}";
+@import "minima/initialize";
+
+body {
+  font-family: 'Azbuki', serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-shadow: 0 0 0.5px black;
+  letter-spacing: 0.05em;
+}
+
+a {
+  color: #306dad;
+  text-decoration: underline;
+}
