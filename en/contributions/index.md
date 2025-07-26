@@ -6,9 +6,17 @@ title: How can I contribute?
 
 See [this page](blog/)
 
-## Routes in the map (map.velosofize.com)
+## Map (map.velosofize.com)
+
+### Routes
 
 See [this form](https://forms.gle/aDKQuRDcbVQXFw8t7) to contribute with routes in and around major cities in Bulgaria. Bike lanes would be more useful when submitted to OpenStreetMap. A section for them is included below.
+
+### Code
+
+Feel free to suggest any changes to the codebase on [GitHub](https://github.com/velosofist/velosofize-map). Issues with potential topics for research or direct contributions are also available to help you in choosing how to help!
+
+I started this project with no knowledge of web development or GIS and have been learning JS ad-hoc for whatever was needed for a feature, so any improvements in maintainability, UI/UX or security would be much appreciated. Keep in mind that the codebase is a work-in-progress and partially vibe-coded.
 
 ## Other content on the site
 
