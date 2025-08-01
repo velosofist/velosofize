@@ -30,7 +30,7 @@ title: За проекта
 - [CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm)
 - [Strava heatmap](https://www.strava.com/maps/global-heatmap?sport=Ride&style=standard&terrain=false&labels=true&poi=true&cPhotos=true&gColor=mobileblue&gOpacity=100#7.64/42.856/25.244)
 - [Trinmo](https://trinmo.org/mobility/bicycle-transport)
--[Геопортал Благоевград](https://gis.blagoevrad.bg)
+- [Геопортал Благоевград](https://gis.blagoevgrad.bg)
 
 # Цели на проекта
 
