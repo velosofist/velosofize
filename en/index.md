@@ -31,7 +31,7 @@ title: About the project
 - [CyclOSM](https://www.cyclosm.org/#map=8/42.604/25.620/cyclosm)
 - [Strava heatmap](https://www.strava.com/maps/global-heatmap?sport=Ride&style=standard&terrain=false&labels=true&poi=true&cPhotos=true&gColor=mobileblue&gOpacity=100#7.64/42.856/25.244)
 - [Trinmo](https://trinmo.org/mobility/bicycle-transport)
-- [Municipality of Blagoevgrad GIS platform](https://gis.blagoevrad.bg)
+- [Municipality of Blagoevgrad GIS platform](https://gis.blagoevgrad.bg)
 
 # What's the goal of this project?
 
