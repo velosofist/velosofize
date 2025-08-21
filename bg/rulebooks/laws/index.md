@@ -2,6 +2,8 @@
 title: ЗДвП - Закон за движение по пътищата
 ---
 
+[**🇬🇧 For the english version click here.🇬🇧**](/en/rulebooks/laws/)
+
 Източници:
 
 - [МВнР](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)

@@ -2,10 +2,9 @@
 title: Laws and rulebooks
 ---
 
-[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/rulebooks/) \
-A more exhaustive version of this page is available in Bulgarian.
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/rulebooks/)
 
-- [Road traffic act](laws.html)
-- [Subway](transport_sofia.html)
-- [Railway service](train.html)
+- [Road traffic act](laws/index.html)
+- [Subway](transport_sofia/index.html)
+- [Railway service](train/index.html)
   - Narrow gauge trains (Septemvri - Dobrinishte)

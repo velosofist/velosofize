@@ -2,6 +2,8 @@
 title: Railway service
 ---
 
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/rulebooks/train/)
+
 [Transportation of bicycles](https://www.bdz.bg/en/a/transportation-of-bicycles).
 
 ## Narrow-gauge trains (Septemvri-Dobrinishte)

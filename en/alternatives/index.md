@@ -2,7 +2,7 @@
 title: Alternatives
 ---
 
-[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/alternatives.html)
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/alternatives/)
 
 - [CyclOSM](#cyclosm)
 - [Bulgarian mapping and cycling-related NGOs and projects](#bulgarian-mapping-and-cycling-related-ngos-and-projects)

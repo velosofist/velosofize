@@ -2,6 +2,8 @@
 title: Road traffic act
 ---
 
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/rulebooks/laws/)
+
 Source: Bulgarian Ministry of Foreign Affairs
 
 - [Link 1](https://www.mfa.bg/upload/649/09-ZDvP-bg-en.pdf)

@@ -1,6 +1,7 @@
 ---
 title: Subway
 ---
+[**🇧🇬 За версия на български натиснете тук. 🇧🇬**](/bg/rulebooks/transport_sofia/)
 
 [Excerpt from the Ordinance regarding the Rules and Regulations for using the mass public transport on the territory of Sofia Municipality](https://www.metropolitan.bg/en/information-for-citizens/rules-and-regulations)
 

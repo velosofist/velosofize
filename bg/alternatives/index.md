@@ -2,7 +2,7 @@
 title: Алтернативи
 ---
 
-[**🇬🇧 For the english version click here.🇬🇧**](/en/alternatives.html)
+[**🇬🇧 For the english version click here.🇬🇧**](/en/alternatives/)
 
 **Съдържание**
 
